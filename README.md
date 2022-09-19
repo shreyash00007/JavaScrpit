@@ -1,1 +1,2 @@
 # JavaScrpit
+Some JavaScript concepts
