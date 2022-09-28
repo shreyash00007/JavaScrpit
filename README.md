@@ -1,2 +1,2 @@
 # JavaScrpit
-Some JavaScript concepts
+Some JavaScript concepts to understand the language syntax.
