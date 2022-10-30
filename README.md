@@ -5,3 +5,4 @@ Index.html
 app.js
 time.html
 numbers.html
+strings.html
