@@ -6,3 +6,4 @@ app.js
 time.html
 numbers.html
 strings.html
+output.html
