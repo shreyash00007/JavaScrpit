@@ -8,3 +8,4 @@ numbers.html
 strings.html
 output.html
 text_change.html
+operatirs.html
