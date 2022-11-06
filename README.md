@@ -12,3 +12,4 @@ operatirs.html
 newp.html
 const.html
 Objects.html
+events.html
