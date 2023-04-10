@@ -1,6 +1,6 @@
 # JavaScrpit
 Some JavaScript concepts to understand the language syntax of JavaScript and to revise langauge.
-### Let begin -
+## Let begin -
 #### Index.html
 #### app.js
 #### time.html
