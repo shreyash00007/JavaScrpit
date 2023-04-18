@@ -3,7 +3,7 @@ Some JavaScript concepts to understand the language syntax of JavaScript and to 
 ## Let begin -
 #### Index.html [visit](https://github.com/shreyash00007/JavaScrpit/blob/main/index.html)
 #### app.js [visit](https://github.com/shreyash00007/JavaScrpit/blob/main/app.js)
-#### time.html
+#### time.html [vist](https://github.com/shreyash00007/JavaScrpit/blob/main/time.html)
 #### numbers.html
 #### strings.html
 #### output.html
