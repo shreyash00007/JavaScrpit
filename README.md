@@ -9,8 +9,8 @@ Some JavaScript concepts to understand the language syntax of JavaScript and to 
 #### output.html []()
 #### text_change.html []()
 #### operatirs.html []()
-#### newp.html
-#### const.html
-#### Objects.html
-#### events.html
-#### script.js
+#### newp.html []()
+#### const.html []()
+#### Objects.html []()
+#### events.html []()
+#### script.js[]()
