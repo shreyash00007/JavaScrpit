@@ -12,7 +12,7 @@ let name = 'shreyash';
 // Cannot start with  a number(1onje)
 // Cannot contain a space or hyphen (-)
 // They are Case-sensitive
-//
+// They follow camel case notation first letter small and other straring word in capital eg : - firstName
 
 //let firtName = 'shreyash' , lastName = 'Dhanawade'; // is not abest pratice
 
@@ -38,7 +38,7 @@ console.log(pi);
 
 // Primitives / Value Types & Reference Types
 
-// Primitives Data types
+// ----------------- Primitives Data types
 
 // String
 // Number
@@ -68,7 +68,7 @@ console.log(typeof (isApproved));
 console.log(typeof (selectedColor));
 
 
-//  Reference Types
+//  -------------- Reference Types
 
 // Object
 // Array
@@ -76,7 +76,7 @@ console.log(typeof (selectedColor));
 
 // what is object is like object in real life like a person who as name, age, addres, height, weight, country etc.
 
-// Objects in JavaScript
+// ---------------- Objects in JavaScript
 
 // let name = 'shreyash';
 // let age = '22';
@@ -97,7 +97,7 @@ person['name'] = 'Marry';
 
 console.log(person);
 
-// Arrays
+// --------------- Arrays
 
 let selectedColors = ['red', 'blue']; // array litral
 
@@ -112,7 +112,7 @@ console.log(typeof (selectedColors));
 
 // So we can say that array is object in JavaScript
 
-// Functions
+// --------------Functions
 
 // Function is a set of statements that performs a tast of calculates the value
 
@@ -125,7 +125,7 @@ function greet(yourName, endName) { // yourName is parameter
 
 greet('harsh', 'dhanwade'); // harsh argument
 
-// Types of functions
+// -------------- Types of functions
 
 // Calculating a value
 
