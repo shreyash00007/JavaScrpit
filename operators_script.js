@@ -52,4 +52,18 @@ x += 3; // a better way to write
 x *= 4; // we can use all of the above arthematic operators in assignment operators
 // console.log(x);
 
-// ---------Comparison Operators 
+// ---------Comparison Operators
+
+// we use the these operators to compare values of variables
+
+// Relational operators
+
+// console.log(x > 0); // gives a boolean value greater than
+// console.log(x >= 0); // Greater than equal too
+// console.log(x < 0); // less than 
+// console.log(x <= 0); // Greater than
+
+// Equality operators
+
+console.log(x === 1);
+console.log(x !== 1);
