@@ -60,10 +60,39 @@ x *= 4; // we can use all of the above arthematic operators in assignment operat
 
 // console.log(x > 0); // gives a boolean value greater than
 // console.log(x >= 0); // Greater than equal too
-// console.log(x < 0); // less than 
+// console.log(x < 0); // less than
 // console.log(x <= 0); // Greater than
 
 // Equality operators
 
-console.log(x === 1);
-console.log(x !== 1);
+// Strict Equatilty (type + value)
+
+// console.log(1 === 1);
+// console.log('1' === 1);
+
+// lose Equality (Value are equal)
+// console.log(x !== 1);
+
+// console.log(1 == 1);
+// console.log('1' == 1);
+// console.log('1' == '1');
+// console.log(true == 1);
+
+
+// Ternary Operators
+
+// If a customer has more than 100 points,
+// they are 'gold' customer, otherwise,
+// thery are 'silver' customer.
+
+// let points = 90;
+
+// let type = points > 100 ? 'gold' : 'silver';
+
+// console.log(type);
+
+
+// Logical And (&&)
+// Returns TRUE if both operand are TRUE
+
+console.log(true && true);
