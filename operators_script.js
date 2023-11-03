@@ -79,7 +79,7 @@ x *= 4; // we can use all of the above arthematic operators in assignment operat
 // console.log(true == 1);
 
 
-// Ternary Operators
+// -------------------Ternary Operators
 
 // If a customer has more than 100 points,
 // they are 'gold' customer, otherwise,
@@ -91,8 +91,38 @@ x *= 4; // we can use all of the above arthematic operators in assignment operat
 
 // console.log(type);
 
+//----------------- Logical Operators
 
 // Logical And (&&)
 // Returns TRUE if both operand are TRUE
 
-console.log(true && true);
+// console.log(true && true); //true
+// console.log(true && false); //false
+
+// let hightIncome = true;
+
+// let goodCreditScore = true;
+
+// let eligibleForLoan = hightIncome && goodCreditScore;
+
+// console.log(eligibleForLoan);
+
+// Logical OR (||)
+//Returns TRUE if one of the oeprands is TRUE
+
+// let hightIncome = false;
+
+// let goodCreditScore = false;
+
+// let eligibleForLoan = hightIncome || goodCreditScore;
+
+// console.log('Eligible', eligibleForLoan);
+
+// Not (!)
+
+// let applicationRefused = !eligibleForLoan;
+
+// console.log('Application Refused', applicationRefused);
+
+
+// -------------Logical Operators with Non booleans
