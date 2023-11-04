@@ -79,7 +79,7 @@ x *= 4; // we can use all of the above arthematic operators in assignment operat
 // console.log(true == 1);
 
 
-// -------------------Ternary Operators
+// -------------------- Ternary Operators
 
 // If a customer has more than 100 points,
 // they are 'gold' customer, otherwise,
@@ -91,7 +91,7 @@ x *= 4; // we can use all of the above arthematic operators in assignment operat
 
 // console.log(type);
 
-//----------------- Logical Operators
+//------------------- Logical Operators
 
 // Logical And (&&)
 // Returns TRUE if both operand are TRUE
