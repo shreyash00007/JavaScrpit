@@ -1,7 +1,8 @@
+// ----------------------- Basic's of JavaScript
 // This a comment
 // console.log('Hello world shreyash');
 
-// Variables in JavaScript
+// ----------- Variables in JavaScript
 
 let name = 'shreyash'; 
 
@@ -14,7 +15,7 @@ let name = 'shreyash';
 // They are Case-sensitive
 // They follow camel case notation first letter small and other straring word in capital eg : - firstName
 
-//let firtName = 'shreyash' , lastName = 'Dhanawade'; // is not abest pratice
+//let firtName = 'shreyash' , lastName = 'Dhanawade'; // is not a good pratice
 
 // Always declare a new variable at new line
 let firtName = 'shreyash';
@@ -84,7 +85,7 @@ console.log(typeof (selectedColor));
 
 let person = {
     name: 'shreyash',
-    age: 30
+    age: 22
 };
 
 // Dot Notation is used reassign the value in a object
@@ -93,7 +94,7 @@ person.name = 'Jhon'; // it is easy to use
 
 // Bracket Notaion
 
-person['name'] = 'Marry';
+person['name'] = 'Marry'; // it is not easy to use 
 
 console.log(person);
 
@@ -114,7 +115,7 @@ console.log(typeof (selectedColors));
 
 // --------------Functions
 
-// Function is a set of statements that performs a tast of calculates the value
+// Function is a set of statements that performs a task and calculates the value
 
 // Perfoming a task 
 
@@ -123,7 +124,7 @@ function greet(yourName, endName) { // yourName is parameter
 }
 // don't need to semicoln to end of a function
 
-greet('harsh', 'dhanwade'); // harsh argument
+greet('harsh', 'dhanwade'); // harsh dhanawade is argument
 
 // -------------- Types of functions
 
