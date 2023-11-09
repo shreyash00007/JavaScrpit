@@ -50,3 +50,22 @@ let role;
 // else if (role === 'moderator') console.log('Moderator');
 // else console.log('Unknown User');
 
+// -------------------- Loops
+
+// Types of loops in Javascrpt
+
+// For
+// While
+// Do...While
+// For...in
+// For...of
+
+// ----------- For loop
+
+for (let i = 1; i <= 5; i++){
+    console.log('hello shreyash', i); // 5 times 
+}
+
+for (let i = 1; i <= 5; i++){
+    if (i % 2 !== 0) console.log(i); // odd no 
+}
