@@ -62,10 +62,26 @@ let role;
 
 // ----------- For loop
 
-for (let i = 1; i <= 5; i++){
-    console.log('hello shreyash', i); // 5 times 
-}
+// for (let i = 1; i <= 5; i++){
+//     console.log('hello shreyash', i); // 5 times 
+// }
 
-for (let i = 1; i <= 5; i++){
-    if (i % 2 !== 0) console.log(i); // odd no 
-}
+// for (let i = 1; i <= 5; i++){
+//     if (i % 2 !== 0) console.log(i); // odd no 
+// }
+
+// ------------ While loop
+
+// let i = 0;
+// while (i <= 5) {
+//     if (i % 2 !== 0) console.log(i);
+//     i++;
+// }
+
+// ------------ Do while loop
+
+let i = 0;
+do {
+    if (i % 2 !== 0) console.log(i);
+    i++;
+} while (i <= 5);
