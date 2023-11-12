@@ -63,11 +63,11 @@ let role;
 // ----------- For loop
 
 // for (let i = 1; i <= 5; i++){
-//     console.log('hello shreyash', i); // 5 times 
+//     console.log('hello shreyash', i); // 5 times
 // }
 
 // for (let i = 1; i <= 5; i++){
-//     if (i % 2 !== 0) console.log(i); // odd no 
+//     if (i % 2 !== 0) console.log(i); // odd no
 // }
 
 // ------------ While loop
@@ -85,3 +85,18 @@ let role;
 //     if (i % 2 !== 0) console.log(i);
 //     i++;
 // } while (i <= 5);
+
+// Infinite Loops
+
+// for (let i = 0; i < 5;){
+//     console.log(i);
+// }  // This is a typical example of infinite when you don't give the i++ increment conditon
+
+// while (true) {
+    
+// }
+
+// let x = 0;
+// do {
+//     // x++;
+// } while (x < 5);
