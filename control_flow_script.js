@@ -100,3 +100,38 @@ let role;
 // do {
 //     // x++;
 // } while (x < 5);
+
+// ---------- For in loops
+
+// const person = {
+//     name: 'Mosh',
+//     age: 30
+// };
+
+// for (let key in person ) // For in loop is use to itrate properties of object in Js
+//     console.log(key, person[key]);
+
+// const colors = ['red', 'green', 'blue'];
+
+// for (let index in colors) // it can be aslo used in arrays
+//     console.log(index, colors[index]);
+
+// ----------- For off loops (inctroduce in es6)
+
+// const colors = ['red', 'green', 'blue'];
+
+// for (let color of colors) // It is used to itrate over the properies of array
+//     console.log(color)
+
+// -------------- Break and Continue
+
+// let i = 0;
+// while (i <= 10) {
+//     // if (i === 5) break; // with the break jump out of the loop
+//     if (i % 2 === 0) {
+//         i++;
+//         continue; // with the continue we jump to the next itreation
+//     }
+//     console.log(i);
+//     i++
+// }
