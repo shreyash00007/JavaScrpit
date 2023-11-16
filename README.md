@@ -8,4 +8,4 @@ Fundamentals of JavaScirpt --
 
 [Control Flow](./control_flow_script.js)
 
-[Exercise](./exercise_script.js)
+[Exercise Js](./exercise_script.js)

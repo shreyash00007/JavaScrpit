@@ -193,7 +193,7 @@ let b = 'blue';
 
 // let c = a;  // my solution
 // a = b;
-// c = b;
+// c = b; // mistake assigned c to b it should be b to c
 
 let c = a;  // my solution
 a = b;

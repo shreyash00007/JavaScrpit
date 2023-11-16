@@ -11,4 +11,6 @@ function maximum(a, b) {
     }
 }
 
-maximum(1,'f');
+maximum(1, 'f');
+
+// 2) 
