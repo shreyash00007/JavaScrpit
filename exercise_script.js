@@ -44,4 +44,46 @@ function isLandScaped(width, height) {
     return (width > height); // same as above it will retun a bollean value casue it is using compraison operators 
 }
 
-console.log(isLandScaped(800, 600));
+// console.log(isLandScaped(800, 600));
+
+// 3) FizzBuzz
+// Divisible by 3 => fizz
+// Divisible by 5 => buzz
+// Divisible by both 3 and 5 => fizzbuzz
+// Not divisible by 3 or 5 => input
+
+
+// --- my soluition
+
+
+// function fizzBuzz(input) {
+//     if (input % 3 === 0) {
+//         console.log('Fizz');
+//     } else if (input % 5 === 0) {
+//         console.log('Buzz');
+//     } else if (input % 3 === 0 && input % 5 === 0) {
+//         console.log('FizzBuzz');
+//     } else {
+//         console.log('Not a number')
+//     }
+// }
+
+// ---- M Solution
+const output = fizzBuzz(5);
+console.log(output);
+
+function fizzBuzz() {
+    if (typeof input !== 'number')
+        return NaN;
+
+    if ((input % 3 === 0) && (input % 5 === 0))
+        return 'FizzBuzz';
+
+    if (input % 3 === 0)
+        return 'Fizz';
+
+    if (input % 5 === 0)
+        return 'Buzz';
+
+    return input;
+}
