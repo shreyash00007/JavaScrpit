@@ -1,4 +1,4 @@
-// 1) Write a function that takes two numbers and returns
+// ----------------------- 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
 // My Solution ----
@@ -23,7 +23,7 @@ function max(a, b) {
     return (a > b) ? a : b;
 }
 
-// 2) Write a function which will tell if a image is
+// ------------------- 2) Write a function which will tell if a image is
 // Landscape of not
 
 function isLandScape(width, height) {
@@ -46,7 +46,7 @@ function isLandScaped(width, height) {
 
 // console.log(isLandScaped(800, 600));
 
-// 3) FizzBuzz
+// ----------------  3) FizzBuzz
 // Divisible by 3 => fizz
 // Divisible by 5 => buzz
 // Divisible by both 3 and 5 => fizzbuzz
@@ -69,10 +69,12 @@ function isLandScaped(width, height) {
 // }
 
 // ---- M Solution
-const output = fizzBuzz(5);
-console.log(output);
 
-function fizzBuzz() {
+// const output = fizzBuzz(false);
+// console.log(output);
+
+function fizzBuzz(input) {
+    
     if (typeof input !== 'number')
         return NaN;
 
@@ -86,4 +88,36 @@ function fizzBuzz() {
         return 'Buzz';
 
     return input;
+}
+
+// 4) CheckSpeed where the speed limit is of 70kmph
+// Speed Limit = 70
+// drive over 5km  -> 1 point
+// Use Math.floor function for caluation
+// If driver get 12 points -> suspended
+
+// const check = checkSpeed(70);
+// console.log(check);
+// --- My solution
+// function checkSpeed(speed) {
+//     if (speed >= 70) {
+//         return "Ok";
+//     }
+// }
+
+// m solution -----
+checkSpeed(187);
+function checkSpeed(speed) {
+    const speedLimit = 70;
+    const kmPerPoint = 5;
+
+    if (speed < speedLimit + kmPerPoint) {
+        console.log('ok');
+        return;
+    }
+        let points = Math.floor((speed - speedLimit) / kmPerPoint);
+        if (points >= 12)
+            console.log('License suspended');
+        else
+            console.log('Points', points);
 }
