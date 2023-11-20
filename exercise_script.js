@@ -106,18 +106,46 @@ function fizzBuzz(input) {
 // }
 
 // m solution -----
-checkSpeed(187);
-function checkSpeed(speed) {
-    const speedLimit = 70;
-    const kmPerPoint = 5;
 
-    if (speed < speedLimit + kmPerPoint) {
-        console.log('ok');
-        return;
-    }
-        let points = Math.floor((speed - speedLimit) / kmPerPoint);
-        if (points >= 12)
-            console.log('License suspended');
-        else
-            console.log('Points', points);
+// checkSpeed(187);
+// function checkSpeed(speed) {
+//     const speedLimit = 70;
+//     const kmPerPoint = 5;
+
+//     if (speed < speedLimit + kmPerPoint) {
+//         console.log('ok');
+//         return;
+//     }
+//         let points = Math.floor((speed - speedLimit) / kmPerPoint);
+//         if (points >= 12)
+//             console.log('License suspended');
+//         else
+//             console.log('Points', points);
+// }
+
+// -------------- 5) Even and Odd numbers
+// It should take a parameter as limit and show number either even or odd
+
+// console.log(showNumbers(1));
+
+// My solution ----
+
+// function showNumbers(limit) {
+//     if (limit % 2 === 0)
+//         return 'Even';
+//     else
+//         return 'Odd'
+// }
+
+// M Solution
+
+showNumbers(19);
+
+function showNumbers(limit) {
+    for (let i = 0; i <= limit; i++){
+        // if (limit % 2 === 0) console.log(i, 'Even');
+        // else console.log(i, "Odd");
+        const message = (i % 2 === 0) ? 'Even' : 'Odd';
+        console.log(i, message);
+        }
 }
