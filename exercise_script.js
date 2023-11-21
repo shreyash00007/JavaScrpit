@@ -90,7 +90,7 @@ function fizzBuzz(input) {
     return input;
 }
 
-// 4) CheckSpeed where the speed limit is of 70kmph
+// ---------- 4) CheckSpeed where the speed limit is of 70kmph
 // Speed Limit = 70
 // drive over 5km  -> 1 point
 // Use Math.floor function for caluation
@@ -139,7 +139,7 @@ function fizzBuzz(input) {
 
 // M Solution
 
-showNumbers(19);
+// showNumbers(19);
 
 function showNumbers(limit) {
     for (let i = 0; i <= limit; i++){
@@ -148,4 +148,53 @@ function showNumbers(limit) {
         const message = (i % 2 === 0) ? 'Even' : 'Odd';
         console.log(i, message);
         }
+}
+
+// ---------------- 5) contTruthy which takes and arrary and returs and tuthy values
+// tursy and falsey elements
+// eg - const name = 'shreyash'; // is a truthy value
+// eg - const name = ''; // is a falsy value
+
+// Falsy values in JavaScript
+
+// undefined
+// null
+// ''
+// false
+// 0
+// NaN
+// this one is new for me so no solution from my side
+
+// m ----- solution
+
+const array = [0, null, undefined, 1,  2, 3];
+
+// console.log(countTruthy(array));
+
+function countTruthy(array) {
+    let count = 0;
+    for (let value of array)
+        if (value)
+            count++;
+        return count;
+}
+
+// ---------------- 6) String Properties
+// write a fuction that will show all the properties of a object are string
+
+const movie = {
+    title: 'a',
+    releaseyear: 2018,
+    rating: 4.5,
+    director: 'b'
+};
+
+showProperties(movie);
+
+function showProperties(obj) {
+    for (let key in obj){
+      if (typeof obj[key] === 'string')
+        console.log(key, obj[key]);
+
+    }
 }
