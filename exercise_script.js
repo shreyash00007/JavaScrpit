@@ -182,19 +182,22 @@ function countTruthy(array) {
 // ---------------- 6) String Properties
 // write a fuction that will show all the properties of a object are string
 
-const movie = {
-    title: 'a',
-    releaseyear: 2018,
-    rating: 4.5,
-    director: 'b'
-};
+// const movie = {
+//     title: 'a',
+//     releaseyear: 2018,
+//     rating: 4.5,
+//     director: 'b'
+// };
 
-showProperties(movie);
+// showProperties(movie);
 
-function showProperties(obj) {
-    for (let key in obj){
-      if (typeof obj[key] === 'string')
-        console.log(key, obj[key]);
+// function showProperties(obj) {
+//     for (let key in obj){
+//       if (typeof obj[key] === 'string')
+//         console.log(key, obj[key]);
 
-    }
-}
+//     }
+// }
+
+
+// -----------------7) 
