@@ -1,6 +1,6 @@
 # JavaScrpit
 
-Fundamentals of JavaScirpt --
+Fundamentals of JavaScirpt -
 
 [Basic Syantx](./basic_script.js)
 
