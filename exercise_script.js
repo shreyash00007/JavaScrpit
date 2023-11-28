@@ -200,4 +200,51 @@ function countTruthy(array) {
 // }
 
 
-// -----------------7) 
+// ----------------- 7) Sum of multiple of 3 and 5
+
+// console.log(sum(9));
+
+// Multiples of 3: 3, 6, 9
+// Mulitples of 5: 5, 10
+
+function sum(limit) {
+    let sum = 0;
+
+    for (let i = 0; i <= limit; i++)
+        if (i % 3 === 0 || i % 5 === 0)
+            sum += i;
+    
+    return sum;
+}
+
+// ----------------- 8) Grade
+// calulae of grade of student
+
+// --- Single responsibility principle a 
+// functions are small and focus on one thing
+const marks = [80, 80, 50];
+
+// 0-59: F
+// 60-69: D
+// 70-79: C
+// 80-89: B
+// 90-100: A
+
+console.log(calculateGrade(array));
+
+function calculateGrade(marks) {
+    const average = calculateAverage(marks)
+    if (average < 60) return 'F';
+    if (average < 70) return 'D';
+    if (average < 80) return 'C';
+    if (average < 90) return 'B';
+    return 'A';
+
+}
+
+function calculateAverage(array) {
+    let sum = 0;
+    for (let value in array)
+        sum += value;
+    return sum / array.length;
+}
