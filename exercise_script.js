@@ -220,7 +220,7 @@ function sum(limit) {
 // ----------------- 8) Grade
 // calulae of grade of student
 
-// --- Single responsibility principle a 
+// --- IMP--- Single responsibility principle a 
 // functions are small and focus on one thing
 const marks = [80, 80, 50];
 
@@ -230,7 +230,7 @@ const marks = [80, 80, 50];
 // 80-89: B
 // 90-100: A
 
-console.log(calculateGrade(array));
+// console.log(calculateGrade(array));
 
 function calculateGrade(marks) {
     const average = calculateAverage(marks)
@@ -247,4 +247,69 @@ function calculateAverage(array) {
     for (let value in array)
         sum += value;
     return sum / array.length;
+}
+
+// ------------------------9) showStars a very popular question in begineers
+//  here give input in a number and get output in stars
+// input :- 3
+// Ouptput :-
+// *
+// **
+// ***
+
+// showStars(5);
+
+function showStars(rows) {
+    for (let row = 1; row <= rows; row++){
+        let pattern = '';
+        for (let i = 0; i < row; i++)
+            pattern += '*';
+
+        console.log(pattern);
+    }
+}
+
+// ------------------------10) showPrime wher you give a num and you will get prime numbers
+// There are two type of number here,
+// Composite
+// 12 = 1, 2, 3, 4, 6, 12
+// Can be devided evenly by its factors
+// where as prime numbers are
+// 11 = 1, 11,
+// 12 = 1, 12
+// Prime numbers are whose factors are only 1 and itself
+
+// -------- imp always declare a variable name that has some
+//value or menaing for easy to understand and clean coding 
+
+// first solution
+showPrime(20);
+// function showPrime(limit) {
+//     for (let number = 2; number <= limit; number++){
+
+//         let isPrime = true;
+//         for (let factor = 2; factor < number; factor++){
+//             if (number % factor === 0) {
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+//         if (isPrime) console.log(number);
+//     }
+// }
+
+// Responsibility principle and clean code
+// second solution
+// Nested loops are hard to understand
+
+function showPrime(limit) {
+    for (let number = 2; number <= limit; number++)
+        if (isPrime(number)) console.log(number);
+}
+
+function isPrime(number) {
+        for (let factor = 2; factor < number; factor++)
+            if (number % factor === 0) 
+            return false;
+    return true;
 }
