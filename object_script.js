@@ -58,7 +58,7 @@ function Circle(radius) {
     }
 }
 
-const circle = new Circle(1); // the new keyword creates a empty object
+// const circle = new Circle(1); // the new keyword creates a empty object
 // const x = {}; empty object
 
 // Difference between factory function and constructor fuction
@@ -68,4 +68,34 @@ const circle = new Circle(1); // the new keyword creates a empty object
 // In constructor we use new operator and instead of returning and object
 // we use this. key word also in nameing convention we use pascal naming convention
 
-console.log(circle,circle.draw());
+// console.log(circle,circle.draw());
+
+
+//  ------------ Objects are Dyanamic
+
+// eg
+
+const circle = {
+    radius: 1
+};
+
+//circle = {}; // will through erro assign to const var
+
+circle.color = 'red'; // add properties to obj
+circle.draw = function(){}
+delete circle.color;
+
+// console.log(circle);
+
+// -------------- Constructor Property
+
+let x = {value : 10}; //every obj has a constructor property
+
+// new String(); //'', "", ``
+// new Boolean(); // true, false
+// new Number(); // 1, 2, 3, ...
+
+// let x = new Object();
+// console.log(x);
+
+// ------------ Functions are Objects in JavaScript
