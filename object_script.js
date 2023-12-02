@@ -99,3 +99,4 @@ let x = {value : 10}; //every obj has a constructor property
 // console.log(x);
 
 // ------------ Functions are Objects in JavaScript
+// Functions can used as objects in Js
