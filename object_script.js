@@ -51,12 +51,12 @@ const circle2 = createCircle(3);
 // which has reference to the object that is executing 
 // this piece of code
 
-function Circle(radius) {
-    this.radius = radius;
-    this.draw = function () {
-        console.log('draw');
-    }
-}
+// function Circle(radius) {
+//     this.radius = radius;
+//     this.draw = function () {
+//         console.log('draw');
+//     }
+// }
 
 // const circle = new Circle(1); // the new keyword creates a empty object
 // const x = {}; empty object
@@ -75,15 +75,15 @@ function Circle(radius) {
 
 // eg
 
-const circle = {
-    radius: 1
-};
+// const circle = {
+//     radius: 1
+// };
 
 //circle = {}; // will through erro assign to const var
 
-circle.color = 'red'; // add properties to obj
-circle.draw = function(){}
-delete circle.color;
+// circle.color = 'red'; // add properties to obj
+// circle.draw = function(){}
+// delete circle.color;
 
 // console.log(circle);
 
@@ -100,3 +100,28 @@ let x = {value : 10}; //every obj has a constructor property
 
 // ------------ Functions are Objects in JavaScript
 // Functions can used as objects in Js
+
+function Circle(radius) {
+    this.radius = radius;
+    this.draw = function () {
+        console.log('draw');
+    }
+}
+// Circle.name, Circle.length, Circle(1),
+// console.log(Circle.constructor);
+
+// const Circle1 = new Function('radius', `
+//     this.radius = radius;
+//     this.draw = function () {
+//         console.log('draw');
+//     }`);
+
+// const another = new Circle1(1)
+
+// console.log(another);
+
+Circle.call({}, 1);
+Circle.apply({}, [1, 2, 3]);
+
+const another = new Circle(1);
+console.log(another)
