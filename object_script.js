@@ -124,4 +124,41 @@ Circle.call({}, 1);
 Circle.apply({}, [1, 2, 3]);
 
 const another = new Circle(1);
-console.log(another)
+// console.log(another)
+
+// ----------------- Value vs Reference Types
+// Value Tupe (premitives)
+// Number
+// String
+// Boolean
+// Symbol
+// undefined
+// null
+
+// Reference Types
+// Object
+// Function
+// Array
+
+// let a = 10; 
+
+let a = { value: 10 }; 
+let b = a;
+
+a.value = 20;
+
+// console.log(a, b);
+
+// Conclusion -----
+
+// Primitives are copied by their value
+// Object are copied by their refernce
+
+// let number = 10; // primetives 
+let obj = { value: 10 }; // object
+
+function increase(obj) {
+    obj.value++;
+}
+increase(obj);
+console.log(obj);
