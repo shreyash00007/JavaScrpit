@@ -161,4 +161,8 @@ function increase(obj) {
     obj.value++;
 }
 increase(obj);
-console.log(obj);
+// console.log(obj);
+
+// ------------- Enumerating Properties of a Object
+
+
