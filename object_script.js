@@ -164,5 +164,4 @@ increase(obj);
 // console.log(obj);
 
 // ------------- Enumerating Properties of a Object
-
-
+// Properties of objects 
