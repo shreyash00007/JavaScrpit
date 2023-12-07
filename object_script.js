@@ -2,17 +2,17 @@
 // Objects are collection of key value pairs
 // Object-Oriented Programming (OOP)
 // Object litral syntax V
-const circleE = { 
-    radius: 1,
-    location: {
-        x: 1,
-        y: 1
-    },
-    isVisble: true,
-    draw: function () {
-        console.log('draw');
-    }
-};
+// const circleE = { 
+//     radius: 1,
+//     location: {
+//         x: 1,
+//         y: 1
+//     },
+//     isVisble: true,
+//     draw: function () {
+//         console.log('draw');
+//     }
+// };
 
 // circle.draw();
 
@@ -36,10 +36,10 @@ function createCircle(radius) {
     };
 }
 
-const circle1 = createCircle(1);
+// const circle1 = createCircle(1);
 // console.log(circle1, circle1.draw());
 
-const circle2 = createCircle(3);
+// const circle2 = createCircle(3);
 // console.log(circle2, circle2.draw())
 
 
@@ -89,7 +89,7 @@ const circle2 = createCircle(3);
 
 // -------------- Constructor Property
 
-let x = {value : 10}; //every obj has a constructor property
+// let x = {value : 10}; //every obj has a constructor property
 
 // new String(); //'', "", ``
 // new Boolean(); // true, false
