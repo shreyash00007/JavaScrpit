@@ -9,3 +9,5 @@ Fundamentals of JavaScirpt -
 [Control Flow](./control_flow_script.js)
 
 [Exercises Js](./exercise_script.js)
+
+[Objects JS](./object_script.js)
