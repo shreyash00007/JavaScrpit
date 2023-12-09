@@ -123,7 +123,7 @@ function Circle(radius) {
 Circle.call({}, 1);
 Circle.apply({}, [1, 2, 3]);
 
-const another = new Circle(1);
+// const another = new Circle(1);
 // console.log(another)
 
 // ----------------- Value vs Reference Types
@@ -164,4 +164,136 @@ increase(obj);
 // console.log(obj);
 
 // ------------- Enumerating Properties of a Object
-// Properties of objects 
+// Properties of objects
+
+// const circle = {
+//     radius: 1,
+//     draw() {
+//         console.log('draw');
+//     }
+// };
+
+// for (let key in circle)
+    // console.log(key, circle[key]);
+
+// for (let key of Object.keys(circle))
+    // console.log(key);
+
+// for (let entry of Object.entries(circle))
+    // console.log(entry);
+
+// if ('radius' in circle) console.log('yes');
+
+// ----------------Cloning an Object
+// we can also create copies of objects in JavaScript
+
+// const circle = {
+//     radius: 1,
+//     draw() {
+//         console.log('draw');
+//     }
+// }
+
+// const another = {};
+// for (let key in circle)
+//     another[key] = circle[key]; // old way
+
+// const another = Object.assign({
+//     color: 'yelow'// new property to an object
+// }, circle);
+
+// const another = { ...circle };
+
+// console.log(another);
+
+// -------------- Garbage Collection in JavaScript
+// in low level languages we need to allocate memory to o a objects like c, C++
+// In JavaScript we don't have this concept
+// we can ealiy create new obj the momery is automatically to allocated to the object
+// and also, deallocate it, In JavaScript we have Garbage collector in JavaScript
+
+// let circle = {}
+
+// -------------- Built in Objects in JavaScript
+// ------------ Math Object
+// Math is a built-in object that has properties and methods
+// for mathematical constants and functions. Not a function object
+
+// -----Math random
+// function getRandomArbitary(min, max) {
+//     return Math.random() * (max - min) + min;
+// }
+// console.log(getRandomArbitary(0, 10));
+
+// console.log(Math.random());
+
+
+// Math.round
+
+// console.log(Math.round(8.26));
+
+// ---------------- String Object
+
+// String primitive
+// const message = 'This is my \'first message';
+// console.log(message.length);
+
+// String Object
+// const another = new String('hi');
+// console.log(typeof (message));
+// console.log(typeof (another));
+
+// console.log(message.length);
+// console.log(message[0]);
+// console.log(message[1]);
+// console.log(message.includes('my'));
+// console.log(message.includes('not'));
+// console.log(message.startsWith('This'));
+// console.log(message.startsWith('this'));
+// console.log(message.endsWith('e'));
+// console.log(message.endsWith('this'));
+// console.log(message.indexOf('is'));
+// console.log(message.replace('first', 'second'));
+// console.log(message.toUpperCase());
+// console.log(message.toLowerCase());
+// console.log(message.trimLeft);
+
+// console.log(message);
+// console.log(message.split(' '));
+
+// ------------- Template litrals
+
+// Stirng are declared using, '', ""
+
+// const message =
+//     'This is my \n' +
+//     '\'first \'message'; // old and ineffcient way
+
+// use this one instead called template litreal ``
+
+// const message =
+// `This is my
+// 'first' message`;
+
+// // this good for email messages
+// const name = 'harsh';
+// const another =
+// `Hi, ${ name }
+
+// Thank you for joining my mailisng list ${2*5}.
+
+// Regards,
+// Shreyash`;
+
+// console.log(another);
+
+// -------------- Date
+
+const now = new Date();
+const date1 = new Date('May 11 2018 9:00');
+const date2 = new Date(2018, 4, 11, 9);
+
+// now.setFullYear(2017);
+console.log(now.toTimeString());
+console.log(date1);
+console.log(date2);
