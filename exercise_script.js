@@ -283,7 +283,7 @@ function showStars(rows) {
 //value or menaing for easy to understand and clean coding 
 
 // first solution
-showPrime(20);
+// showPrime(20);
 // function showPrime(limit) {
 //     for (let number = 2; number <= limit; number++){
 
@@ -302,18 +302,103 @@ showPrime(20);
 // second solution
 // Nested loops are hard to understand
 
-function showPrime(limit) {
-    for (let number = 2; number <= limit; number++)
-        if (isPrime(number)) console.log(number);
-}
+// function showPrime(limit) {
+//     for (let number = 2; number <= limit; number++)
+//         if (isPrime(number)) console.log(number);
+// }
 
-function isPrime(number) {
-        for (let factor = 2; factor < number; factor++)
-            if (number % factor === 0) 
-            return false;
-    return true;
-}
+// function isPrime(number) {
+//         for (let factor = 2; factor < number; factor++)
+//             if (number % factor === 0) 
+//             return false;
+//     return true;
+// }
 
 // ----------------- Object exercise
 // ----------- address object
-// Problem statement ---
+// 1) Problem statement --- show address from a object
+// Street
+// City
+// ZipCode
+// showAddress(address)
+
+// const address = {
+//     street: 'Tailk road ',
+//     city: 'Pune',
+//     zipcode: '410000'
+// };
+
+function showAddress(address) {
+    for (let key in address)
+      console.log(key, address[key]);
+}
+// showAddress(address);
+
+// 2) Factory and Constructor functions in objects
+// intialzied and adress object using first a factory function
+//  constructor function
+
+
+// const address = {
+//     street: 'Tailk road ',
+//     city: 'Pune',
+//     zipcode: '410000'
+// };
+
+
+// let address = createAddress('a', 'b', 'c');
+
+// console.log(address);
+
+// Factory function
+// function createAddress(street, city, zipcode) {
+//     return {
+//         street,
+//         city,
+//         zipcode
+//     };
+// }
+
+// let location = new CreateAddress('a', 'c', 'd');
+// console.log(location);
+
+// Constructor Function
+// function CreateAddress(street, city, zipcode) {
+//     this.street = street,
+//         this.city = city,
+//         this.zipcode = zipcode
+// };
+
+// ---------------- Object equality
+// Create to constructor functions and compare them
+// they are same, equal or not
+
+let address1 = new Address('a', 'b', 'd');
+let address2 = new Address('a', 'b', 'd');
+
+// Constructor Function
+
+function Address(street, city, zipcode) {
+    this.street = street;
+    this.city = city;
+    this.zipcode = zipcode;
+};
+
+// console.log(address1);
+// console.log(address1);
+
+function areEqual(address1, address2) {
+    // if (address1 === address2)
+    //     console.log('they are equal');
+    // else
+    //     console.log('not equal') // the objects 
+    return address1.street === address2.street &&
+        address1.city === address2.city &&
+        address1.zipcode === address2.zipcode;
+ }
+function areSame(address1, address2) {
+    return address1 === address2;
+ }
+
+console.log(areEqual(address1, address2));
+console.log(areSame(address1, address2));
