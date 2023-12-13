@@ -314,7 +314,7 @@ function showStars(rows) {
 //     return true;
 // }
 
-// ----------------- Object exercise
+// -------------------- Object exercise -----------------------
 // ----------- address object
 // 1) Problem statement --- show address from a object
 // Street
@@ -334,7 +334,7 @@ function showAddress(address) {
 }
 // showAddress(address);
 
-// 2) Factory and Constructor functions in objects
+// 2) ----------------- Factory and Constructor functions in objects
 // intialzied and adress object using first a factory function
 //  constructor function
 
@@ -370,7 +370,7 @@ function showAddress(address) {
 // };
 
 // ---------------- Object equality
-// Create to constructor functions and compare them
+// 3) Create to constructor functions and compare them
 // they are same, equal or not
 
 let address1 = new Address('a', 'b', 'd');
@@ -400,5 +400,8 @@ function areSame(address1, address2) {
     return address1 === address2;
  }
 
-console.log(areEqual(address1, address2));
-console.log(areSame(address1, address2));
+// console.log(areEqual(address1, address2));
+// console.log(areSame(address1, address2));
+
+// -------------- 
+// 4) 
