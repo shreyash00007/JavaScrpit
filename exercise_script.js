@@ -403,5 +403,64 @@ function areSame(address1, address2) {
 // console.log(areEqual(address1, address2));
 // console.log(areSame(address1, address2));
 
-// -------------- 
-// 4) 
+// -------------- Blog Post
+// 4) Create a BLoh Post object
+// title
+// body
+// author
+// views
+// comments (author, body)
+// isLive
+
+// let post = {
+//     title: 'How to be the best version of your self',
+//     body: 'Lorem ipsum dolor sit amet consectetur.',
+//     author: 'fernandez',
+//     views: 12,
+//     comment: [{ author: 'a', body: 'c' },
+//     { author: 'a', body: 'c' }],
+//     isLive: true
+// };
+
+// console.log(post);
+
+// --------------- Constructor function
+// 5) constructor function post
+
+let postData = {
+    title: 'How to be the best version of your self',
+    body: 'Lorem ipsum dolor sit amet consectetur.',
+    author: 'fernandez',
+    views: 12,
+    comment: [{ author: 'a', body: 'c' },
+    { author: 'a', body: 'c' }],
+    isLive: true
+};
+
+
+function ConstructorPost(title, body, author){
+    this.title = title;
+    this.body = body;
+    this.author = author;
+    this.views = 0;
+    this.comment = [];
+    this.isLive = false;
+};
+let post = new ConstructorPost('a','b','c');
+// console.log(post);
+
+// ---------------------Price range object
+// 6) Create a Price range object which you generally see in a
+// ecommerce store
+
+let priceRanges = [
+    {lable: '$', tooltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10},
+    {lable: '$$', tooltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20},
+    {lable: '$$$', tooltip: 'Expensive', minPerPerson: 21, maxPerPerson: 50},
+];
+
+let restaurants = [
+    { averagePerPerson: 5 }
+];
+
+console.log(priceRanges);
