@@ -109,10 +109,61 @@ while (xnumber.length > 0) // not a reliable
 
 // ------------- Combine and splice Array
 
+// const first = [1, 2, 3];
+// const second = [4, 5, 6];
+// const third = [{ vlaue: 10 }];
+
+// third[0].vlaue = 14;
+
+// const combined = first.concat(third);
+
+// const slice = combined.slice(2);
+
+// console.log(combined);
+// console.log(slice);
+
+// -------------- The Spread Operator
+
 const first = [1, 2, 3];
 const second = [4, 5, 6];
 
-const combined = first.concat(second);
+// Spread Operator (...)
 
-console.log(combined)
+const combined = [...first, 'a', ...second, 'b'];
 
+const copy = [...combined];
+
+// console.log(copy);
+
+// ----------------- Iterating an Array
+
+const bnumber = [1, 2, 3];
+
+// For of loop
+// for (let number of bnumber)
+//     console.log(number);
+
+// For Each loop
+// bnumber.forEach(function (number) {
+//     console.log(number);
+// });
+
+// Optimize it using arrow function
+// bnumber.forEach((index,number) => console.log(index,number));
+
+// ----------------- Joining Arrays
+
+const cnumbers = [1, 2, 3];
+const joined = cnumbers.join(',');
+
+console.log(cnumbers);
+console.log(joined);
+
+const message = 'This is my first message';
+const parts = message.split(' ');
+
+const jon = parts.join('-');
+
+console.log(message);
+console.log(parts);
+console.log(jon);
