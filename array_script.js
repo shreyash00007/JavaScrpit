@@ -38,17 +38,17 @@ const newNumbers = [1, 2, 3, 1, 4];
 
 // -------------- Finding Elements in array Reference types
 
-const courses = [
+const coursesx = [
     {id: 1, name: 'a'},
     {id: 2, name: 'b'},
 ];
 
 // console.log(courses.includes({ id: 1, name: 'a' }));
 
-const course = courses.find(function (course) {
+const course = coursesx.find(function (course) {
     return course.name === 'a';
 });
-const tutorial = courses.findIndex(function (tutorial) {
+const tutorial = coursesx.findIndex(function (tutorial) {
     return tutorial.name === 'a';
 });
 
@@ -59,7 +59,7 @@ const tutorial = courses.findIndex(function (tutorial) {
 // whenever you want a pass a function callback function or as an argument to
 // a difference method we can use arow function
 
-const material = courses.findIndex((material)=> material.name === 'b');
+const material = coursesx.findIndex((material)=> material.name === 'b');
 
 // console.log(material);
 
@@ -156,14 +156,45 @@ const bnumber = [1, 2, 3];
 const cnumbers = [1, 2, 3];
 const joined = cnumbers.join(',');
 
-console.log(cnumbers);
-console.log(joined);
+// console.log(cnumbers);
+// console.log(joined);
 
 const message = 'This is my first message';
 const parts = message.split(' ');
 
 const jon = parts.join('-');
 
-console.log(message);
-console.log(parts);
-console.log(jon);
+// console.log(message);
+// console.log(parts);
+// console.log(jon);
+
+// ----------------- Sorting Arrays
+
+const snumber = [2, 1, 4, 5];
+
+// console.log(snumber);
+
+const sort = snumber.sort();
+
+const reverse = snumber.reverse();
+
+// console.log(sort);
+// console.log(reverse);
+
+
+const courses = [
+    { id: 1, name: 'Node.js' },
+    { id: 2, name: 'JavaScript' }
+];
+
+console.log(courses)
+
+courses.sort((a, b) => {
+    const nameA = a.name.toUpperCase();
+    const nameB = b.name.toUpperCase();
+    if (nameA < nameB) return -1;
+    if (nameA > nameB) return 1;
+    return 0;
+});
+
+console.log(courses);
