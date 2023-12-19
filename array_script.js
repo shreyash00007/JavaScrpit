@@ -187,7 +187,7 @@ const courses = [
     { id: 2, name: 'JavaScript' }
 ];
 
-console.log(courses)
+// console.log(courses)
 
 courses.sort((a, b) => {
     const nameA = a.name.toUpperCase();
@@ -197,4 +197,9 @@ courses.sort((a, b) => {
     return 0;
 });
 
-console.log(courses);
+// console.log(courses);
+
+//------------------------------ Testing the Elementns in array
+
+const tnumbers = [1, 2, 3];
+
