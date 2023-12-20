@@ -203,3 +203,4 @@ courses.sort((a, b) => {
 
 const tnumbers = [1, 2, 3];
 
+console.log(tnumbers);
