@@ -201,6 +201,17 @@ courses.sort((a, b) => {
 
 //------------------------------ Testing the Elementns in array
 
-const tnumbers = [1, 2, 3];
+const tnumbers = [1, 2, -3];
 
-console.log(tnumbers);
+// every() checks every element 
+// some() checks only one element
+
+const allPositive = tnumbers.every(function (vlaue) {
+    return vlaue >= 0; 
+});
+const allOnePositive = tnumbers.some(function (vlaue) {
+    return vlaue >= 0; 
+});
+
+console.log(allPositive);
+console.log(allOnePositive);
