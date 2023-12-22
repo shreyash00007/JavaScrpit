@@ -213,5 +213,21 @@ const allOnePositive = tnumbers.some(function (vlaue) {
     return vlaue >= 0; 
 });
 
-console.log(allPositive);
-console.log(allOnePositive);
+// console.log(allPositive);
+// console.log(allOnePositive);
+
+// ------------------- Filtering an Array
+
+const fnumbers = [1, -1, 2, 3];
+
+console.log(fnumbers);
+
+// With traditional function
+// const filtered = fnumbers.filter(function (value) {
+//     return value >= 0;
+// });
+
+// with arrow functions 
+const filtered = fnumbers.filter( n => n >= 0);
+
+console.log(filtered);
