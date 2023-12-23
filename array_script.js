@@ -220,7 +220,7 @@ const allOnePositive = tnumbers.some(function (vlaue) {
 
 const fnumbers = [1, -1, 2, 3];
 
-console.log(fnumbers);
+// console.log(fnumbers);
 
 // With traditional function
 // const filtered = fnumbers.filter(function (value) {
@@ -230,4 +230,22 @@ console.log(fnumbers);
 // with arrow functions 
 const filtered = fnumbers.filter( n => n >= 0);
 
-console.log(filtered);
+// console.log(filtered);
+
+
+// ------------------- Mapping Arrays
+
+const mnumbers = [1, -1, 2, 3];
+
+// const items = mnumbers.map(n => '<li>' + n + '</li>');
+
+// const html = '<ul>' + items.join('') + '</ul>';
+
+
+const items = mnumbers
+    .filter(n => n >= 0)
+    .map(n => ({ value: n })) // chain of methods
+    .filter(obj => obj.value > 1)
+    .map(obj => obj.value);
+
+console.log(items);
