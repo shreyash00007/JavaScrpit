@@ -248,4 +248,38 @@ const items = mnumbers
     .filter(obj => obj.value > 1)
     .map(obj => obj.value);
 
-console.log(items);
+// console.log(items);
+
+
+// -------------------- Reducing Array
+
+const rnumbers = [1, -1, 2, 3];
+
+console.log(rnumbers);
+
+let sum = 0;
+
+for (let r of rnumbers)
+    sum += r;
+
+console.log(sum);
+
+// a = 0, c = 1 => a = 1
+// a = 1, c = -1 => a = 0
+// a = 0, c = 2 => a = 2
+// a = 2, c = 3 => a = 5
+
+// a = 1, c = -1 => a = 0
+// a = 0, c = 2 => a = 2
+// a = 2, c = 3 => a = 5
+
+// const rum = rnumbers.reduce((accumulator, currentValue) => {
+//     return accumulator + currentValue; 
+// }, 0);
+
+
+const rum = rnumbers.reduce(
+    (accumulator, currentValue) => accumulator + currentValue 
+);
+
+console.log(rum);  
