@@ -265,7 +265,7 @@ function showStars(rows) {
         for (let i = 0; i < row; i++)
             pattern += '*';
 
-        console.log(pattern);
+        // console.log(pattern);
     }
 }
 
@@ -463,4 +463,17 @@ let restaurants = [
     { averagePerPerson: 5 }
 ];
 
-console.log(priceRanges);
+// console.log(priceRanges);
+
+// --------------------- Arrays from Range ---------------------
+
+const numbers = arrayFromRange(1, 4);
+
+console.log(numbers);
+
+function arrayFromRange(min, max) {
+    const output = [];
+    for (let i = min; i <= max; i++)
+        output.push(i);
+    return output;
+}
