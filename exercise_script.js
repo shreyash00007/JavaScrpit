@@ -465,7 +465,9 @@ let restaurants = [
 
 // console.log(priceRanges);
 
-// --------------------- Arrays from Range ---------------------
+// --------------------- Arrays ---------------------
+
+// Exercise 1 Array from range
 
 const numbers = arrayFromRange(1, 4);
 
