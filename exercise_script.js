@@ -468,7 +468,7 @@ let restaurants = [
 // --------------------- Arrays ---------------------
 
 // Exercise 1 Array from range
-
+// happy n y
 const numbers = arrayFromRange(1, 4);
 
 console.log(numbers);
