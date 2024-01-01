@@ -468,7 +468,7 @@ let restaurants = [
 // --------------------- Arrays ---------------------
 
 // Exercise 1 Array from range
-// happy n y
+
 const numbers = arrayFromRange(1, 4);
 
 console.log(numbers);
@@ -478,4 +478,18 @@ function arrayFromRange(min, max) {
     for (let i = min; i <= max; i++)
         output.push(i);
     return output;
+}
+
+// Exeercise 2 Includes
+
+const inumbers = [1, 2, 3, 4, 5, 6];
+
+// console.log(inumbers.includes(1)); //predefine method create one like this
+console.log(includes(inumbers, 1));
+
+function includes(array, searchElement) {
+    for (let element of array)
+        if (element === searchElement)
+            return true;
+    return false;
 }
