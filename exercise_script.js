@@ -471,7 +471,7 @@ let restaurants = [
 
 const numbers = arrayFromRange(1, 4);
 
-console.log(numbers);
+// console.log(numbers);
 
 function arrayFromRange(min, max) {
     const output = [];
@@ -485,11 +485,29 @@ function arrayFromRange(min, max) {
 const inumbers = [1, 2, 3, 4, 5, 6];
 
 // console.log(inumbers.includes(1)); //predefine method create one like this
-console.log(includes(inumbers, 1));
+// console.log(includes(inumbers, 1));
 
 function includes(array, searchElement) {
     for (let element of array)
         if (element === searchElement)
             return true;
     return false;
+}
+
+// Exercise 3 Except
+
+// Create a function that except a value from an array
+
+const enumbers = [1, 2, 3, 4, 5];
+
+const output = expect(enumbers, [1]);
+
+console.log(output);
+
+function expect(array, exculded) {
+const output = [];
+    for (let element of array)
+        if (!exculded.includes(element))
+            output.push(element);
+    return output;
 }
