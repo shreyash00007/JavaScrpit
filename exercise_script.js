@@ -502,12 +502,32 @@ const enumbers = [1, 2, 3, 4, 5];
 
 const output = expect(enumbers, [1]);
 
-console.log(output);
+// console.log(output);
 
 function expect(array, exculded) {
 const output = [];
     for (let element of array)
         if (!exculded.includes(element))
             output.push(element);
+    return output;
+}
+
+// Exercise 4 Moving element
+
+const mnumbers = [1, 2, 3, 4, 5];
+
+const moveData = move(mnumbers, 0, 0);
+
+console.log(moveData)
+
+function move(array, index, offset) {
+    const position = index + offset;
+    if (position >= array.length || position < 0) {
+        console.error('Invalid offest.');
+        return;
+    }
+    const output = [...array];
+    const element = output.splice(index, 1)[0];
+    output.splice(position, 0, element);
     return output;
 }
