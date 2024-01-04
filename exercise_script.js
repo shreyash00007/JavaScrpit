@@ -518,7 +518,7 @@ const mnumbers = [1, 2, 3, 4, 5];
 
 const moveData = move(mnumbers, 0, 0);
 
-console.log(moveData)
+// console.log(moveData);
 
 function move(array, index, offset) {
     const position = index + offset;
@@ -530,4 +530,21 @@ function move(array, index, offset) {
     const element = output.splice(index, 1)[0];
     output.splice(position, 0, element);
     return output;
+}
+
+// Exercise 5 Count Ourrences
+
+
+const cnumbers = [1, 2, 3, 4, 5, 6];
+
+const count = countOccurrences(numbers, 1);
+
+console.log(count);
+
+function countOccurrences(arrary, searchElement) {
+    return arrary.reduce((accumulator, current) => {
+        const occurence = (current === searchElement) ? 1 : 0;
+        console.log(accumulator, current, searchElement);
+        return accumulator + occurence;
+    }, 0);
 }
