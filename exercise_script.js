@@ -537,9 +537,9 @@ function move(array, index, offset) {
 
 const cnumbers = [1, 2, 3, 4, 5, 6];
 
-const count = countOccurrences(numbers, 1);
+// const count = countOccurrences(cnumbers, 1);
 
-console.log(count);
+// console.log(count);
 
 function countOccurrences(arrary, searchElement) {
     return arrary.reduce((accumulator, current) => {
@@ -547,4 +547,30 @@ function countOccurrences(arrary, searchElement) {
         console.log(accumulator, current, searchElement);
         return accumulator + occurence;
     }, 0);
+}
+
+// Exercise 6 Get Max
+
+const xnumbers = [1, 2, 3, 4];
+
+const maxi = getMax(xnumbers);
+
+console.log(maxi);
+
+function getMax(array) {
+    if (array.length === 0) return undefined;
+
+    // let max = array[0];
+    // for (let i = 1; i < array.length; i++)
+    //     if (array[i] > max)
+    //         max = array[i];
+    // return max; // simple method
+
+    // array.reduce((a,b) => {
+    //     // if (current > accumulator) return current;
+    //     // return accumulator; // old 
+    //     return (b > a) ? b : a;
+    // });
+
+   return array.reduce((a, b) => (a > b)? a: b);
 }
