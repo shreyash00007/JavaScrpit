@@ -555,7 +555,7 @@ const xnumbers = [1, 2, 3, 4];
 
 const maxi = getMax(xnumbers);
 
-console.log(maxi);
+// console.log(maxi);
 
 function getMax(array) {
     if (array.length === 0) return undefined;
@@ -574,3 +574,34 @@ function getMax(array) {
 
    return array.reduce((a, b) => (a > b)? a: b);
 }
+
+
+// Exercise no 7 Movies
+
+// All the Movies in 2018 with rating > 4
+// Sort them by thier rating 
+// Descending order 
+// Pick their title 
+
+const movies = [
+    {title: 'a', year: 2018, rating: 4.5},
+    {title: 'b', year: 2018, rating: 4.3},
+    {title: 'c', year: 2018, rating: 3},
+    {title: 'd', year: 2018, rating: 4.5},
+];
+
+// const moviesOutput = sortMovies(obj);
+
+// console.log(moviesOutput);
+
+// function sortMovies(obj) {
+    
+// }
+
+const titles = movies 
+    .filter(m => m.year === 2018 && m.rating >= 4)
+    .sort((a, b) => a.rating - b.rating)
+    .reverse()
+    .map(m => m.title)
+   
+console.log(titles);
