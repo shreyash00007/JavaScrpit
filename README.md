@@ -13,3 +13,5 @@ Fundamentals of JavaScirpt -
 [Objects JS](./object_script.js)
 
 [Array JS](./array_script.js)
+
+[Functions Js](./functions_script.js)
