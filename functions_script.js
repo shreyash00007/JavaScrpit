@@ -48,10 +48,31 @@ const cooks = function cook() {
     console.log('cook');
 }
 
-cat(); // it will work
+// cat(); // it will work
 // Hosting is a process of moving function declartion to top of the file 
 // which hapeens in automatically in javascript.
 
 function cat() {
     console.log('cat');
 }
+
+// --------------- Arguments -------------------
+
+function sum(a, b) {
+    console.log(arguments); // will give of object arrcuments
+    return a + b;
+}
+
+// console.log(sum());
+// console.log(sum(1));
+// console.log(sum(1,1));
+// console.log(sum(1,2,3,4));
+
+function adds() {
+    let total = 0;
+    for (let value of arguments)
+        total += value;
+    return total;
+}
+
+console.log(adds(1, 2, 3, 4, 5, 6, 7));
