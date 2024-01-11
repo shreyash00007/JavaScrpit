@@ -75,4 +75,82 @@ function adds() {
     return total;
 }
 
-console.log(adds(1, 2, 3, 4, 5, 6, 7));
+// console.log(adds(1, 2, 3, 4, 5, 6, 7));
+
+
+// ------------------- The Rest Operator ------------------
+
+// function rest(...args) {
+//     console.log(args);
+//}
+
+function rest(discount, ...prices) {
+    
+    const total = prices.reduce((a, b) => a + b);
+    return total * (1 - discount);
+}
+
+// console.log(rest(0.1, 20, 30));
+
+// ----------------- Default Parameters ---------------------
+
+function interest(princilpal, rate = 3.5, years= 5) {
+    // rate = rate || 3.5;
+    // years = years || 5; // old way
+    return princilpal * rate / 100 * years;
+}
+// console.log(interest(10000,5));
+
+
+// ---------------- Getters and Setters ---------------------------
+
+// const person = {
+//     firstName: 'shreyash',
+//     lastName: 'Dhanawade',
+//     get fullName() {
+//         return `${ person.firstName } ${ person.lastName }`;
+//     },
+//     set fullName(value) {
+//         const parts = value.split(' ');
+//         this.firstName = parts[0];
+//         this.lastName = parts[1];
+//     }
+// };
+
+// console.log(`${person.firstName} ${person.lastName}`)  // old way
+
+
+// Getters => access properties
+// setters => change (mutate) them
+
+// person.fullName = 'pinki ponki';
+
+// console.log(person.fullName);
+
+
+// ----------------------- Try and Catch -----------------------------
+
+// Error handling in JavaScript
+
+// const person = {
+//     firstName: 'shreyash',
+//     lastName: 'Dhanawade',
+//     set fullName(value) {
+//         if (typeof value !== 'string')
+//             throw new Error('value is not a string');
+//         const parts = value.split(' ');
+//         if (parts.length !== 2)
+//             throw new Error('Enter a first and lasntname');
+//         this.firstName = parts[0];
+//         this.lastName = parts[1];
+//     }
+// };
+
+// try{
+// person.fullName = "";
+// }
+
+// catch (e) {
+//     alert(e);
+// }
+// console.log(person.fullName);
