@@ -40,7 +40,7 @@ let play = function boy() {
 //----------------------- Hoisting --------------------------
 
 // consolSe.log(x); // will throw error due to x is not defined 
-let x = 1;
+let xw = 1;
 
 // cooks(); // will throw a error cooks is not defined
 
@@ -154,3 +154,125 @@ function interest(princilpal, rate = 3.5, years= 5) {
 //     alert(e);
 // }
 // console.log(person.fullName);
+// ---------------------- Local vs Global Scope -------------------------
+
+function start(){
+    const message = 'hi';
+}
+
+// if (true) {
+//     const another = 'bye';
+// }
+
+// for (let i = 0; i < 5; i++){
+//     console.log(i);
+// }
+
+// console.log(start());
+
+// console.log(message);
+
+function stop() {
+    const message = 'bye'; // local scope 
+    const color = 'blue';  // you reassing them as local > global
+    console.log(color); // you can call global elements 
+}
+
+const color = 'red'; // global scope
+// console.log(color);
+
+// stop();
+
+// --------------------------- Let vs Var ---------------------------
+
+let x = 0;
+var y = 0;
+
+// var => function-scoped
+// ES6 (ES2015): let, const => blocked-scoped
+
+function num() {
+    // for (let i = 0; i <= 5; i++){
+    //     console.log(i);
+    // }
+    // console.log(i); // i is declared as let so it will throw error
+    for (var i = 0; i <= 5; i++){
+        console.log(i);
+    }
+    console.log(i); // i is declared as ver so it will not an throw error
+    // this is the reason we should not use var 
+}
+
+// num();
+
+
+// Avoid using the var key word
+
+
+
+
+// -------------------------- The This keyword -----------------------------
+
+// This refferce The object that is executing the current function
+
+// method -> obj
+// function -> global (window, global in node )
+
+// For Objects
+const video = {
+    title: 'a',
+    play() {
+        console.log(this); // here the this key word refers the data inside this entire object
+    }
+};
+
+video.stop = function() {
+    console.log(this);
+}
+// video.stop();
+
+// For regular Functions
+
+function Video(title) {
+    this.title = title;
+    console.log(this);
+}
+// const v = new Video('a'); // {}
+
+const bideo = {
+    title: 'a',
+    tags: ['a', 'b', 'c'],
+    showTags() {
+        this.tags.forEach(function (tag) {
+            console.log(this.title, tag);
+        }, this);
+    }
+};
+
+// bideo.showTags();
+
+// -------------------------- Changing this -------------------------
+
+const gideo = {
+    title: 'a',
+    tags: ['a', 'b', 'c'],
+    showTags() {
+        const self = this;
+        this.tags.forEach(tag => {
+            console.log(this.title, tag);
+        });
+    }
+};
+
+gideo.showTags();
+
+
+function heyVideo() {
+    console.log(this);
+}
+
+// heyVideo.call({ name: 'shreyash' }, 1, 2);
+// heyVideo.apply({ name: 'shreyash' }, [1, 2]);
+// heyVideo.bind({ name: 'shreyash' })();
+
+// heyVideo();
