@@ -264,7 +264,7 @@ const gideo = {
     }
 };
 
-gideo.showTags();
+// gideo.showTags();
 
 
 function heyVideo() {
