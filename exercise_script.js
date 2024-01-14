@@ -621,10 +621,43 @@ const titles = movies
 
 // console.log(addSum(1,2,3,4))
 
-console.log(sumAdd([1, 2, 3, 4, 5]));
+// console.log(sumAdd([1, 2, 3, 4, 5]));
 
 function sumAdd(...items) {
     if (items.length === 1 && Array.isArray(items[0]))
         items = [...items[0]];
     return items.reduce((a, b) => a + b);
+}
+
+// Exercise 2 circle object
+
+const circle = {
+    radius: 2,
+    get area() {
+        return Math.PI * this.radius * this.radius;
+    }
+}
+
+circle.radius = 4; // can reconfigure the value
+
+// console.log(circle.area);
+
+// Exercise 3 ErrorHandling
+
+try{
+const bnumbers = [1, 2, 3, 4, 5];
+const count = countOccurencess(9, 1);
+console.log(count);
+}
+catch (e){
+    console.log(e.message);
+}
+function countOccurencess(array, searchElement) {
+    if (!Array.isArray(array))
+        throw new Error('Invalid array.');
+
+    return array.reduce((accumulator, current) => {
+        const occurence = (current === searchElement) ? 1 : 0;
+        return accumulator + occurence;
+    }, 0);
 }
