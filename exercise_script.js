@@ -644,20 +644,22 @@ circle.radius = 4; // can reconfigure the value
 
 // Exercise 3 ErrorHandling
 
-try{
-const bnumbers = [1, 2, 3, 4, 5];
-const count = countOccurencess(9, 1);
-console.log(count);
-}
-catch (e){
-    console.log(e.message);
-}
-function countOccurencess(array, searchElement) {
-    if (!Array.isArray(array))
-        throw new Error('Invalid array.');
+// try{
+// const bnumbers = [1, 2, 3, 4, 5];
+// const count = countOccurencess(9, 1);
+// console.log(count);
+// }
+// catch (e){
+//     console.log(e.message);
+// }
+// function countOccurencess(array, searchElement) {
+//     if (!Array.isArray(array))
+//         throw new Error('Invalid array.');
 
-    return array.reduce((accumulator, current) => {
-        const occurence = (current === searchElement) ? 1 : 0;
-        return accumulator + occurence;
-    }, 0);
-}
+//     return array.reduce((accumulator, current) => {
+//         const occurence = (current === searchElement) ? 1 : 0;
+//         return accumulator + occurence;
+//     }, 0);
+// }
+
+// ------------------------ Fundamentals of JavaScript End ---------------------------------
