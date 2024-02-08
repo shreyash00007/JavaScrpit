@@ -16,7 +16,7 @@ Fundamentals of JavaScirpt -
 
 [Functions Js](./functions_script.js)
 
-Advanced JavaScript -
+Advanced of JavaScript -
 
 [OOP JS](./Advanced_JavaScript/oop.js)
 
