@@ -20,4 +20,4 @@ Advanced of JavaScript -
 
 [OOP JS](./Advanced_JavaScript/oop.js)
 
-[Advance Exercises Js]()
+[Advanced Exercises Js]()
