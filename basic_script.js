@@ -1,4 +1,4 @@
-// ----------------------- Basic's of JavaScript
+// ----------------------- This is the Basic's of JavaScript
 // This a comment
 // console.log('Hello world shreyash');
 
