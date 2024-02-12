@@ -83,7 +83,7 @@ const middle = nextNumbers.splice(2, 1);
 // console.log(nextNumbers);
 
 
-// --------------------- Emptying an Array --------
+// --------------------- Emptying an Array ---------------------------
 // and array with const will not be removed
 
 let xnumber = [1, 2, 3, 4];
@@ -107,7 +107,7 @@ while (xnumber.length > 0) // not a reliable
 // console.log(ynumber);
 
 
-// ------------- Combine and splice Array
+// ------------- Combine and splice Array ---------------------
 
 // const first = [1, 2, 3];
 // const second = [4, 5, 6];
@@ -135,7 +135,7 @@ const copy = [...combined];
 
 // console.log(copy);
 
-// ----------------- Iterating an Array
+// ----------------- Iterating an Array -------------------------------
 
 const bnumber = [1, 2, 3];
 
@@ -151,7 +151,7 @@ const bnumber = [1, 2, 3];
 // Optimize it using arrow function
 // bnumber.forEach((index,number) => console.log(index,number));
 
-// ----------------- Joining Arrays
+// ----------------- Joining Arrays -------------------------
 
 const cnumbers = [1, 2, 3];
 const joined = cnumbers.join(',');
@@ -199,7 +199,7 @@ courses.sort((a, b) => {
 
 // console.log(courses);
 
-//------------------------------ Testing the Elementns in array
+//----------------------------- Testing the Elements in array
 
 const tnumbers = [1, 2, -3];
 
