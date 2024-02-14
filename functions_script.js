@@ -102,7 +102,7 @@ function interest(princilpal, rate = 3.5, years= 5) {
 // console.log(interest(10000,5));
 
 
-// ---------------- Getters and Setters ---------------------------
+// -------------------------- Getters and Setters ---------------------------
 
 // const person = {
 //     firstName: 'shreyash',
@@ -214,7 +214,6 @@ function num() {
 // -------------------------- The This keyword -----------------------------
 
 // This refferce The object that is executing the current function
-
 // method -> obj
 // function -> global (window, global in node )
 
