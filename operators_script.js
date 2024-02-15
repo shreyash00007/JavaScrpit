@@ -1,4 +1,4 @@
-//  -------------------------------  Operators in JavaScript 
+//  -------------------------------  Operators in JavaScript ------------------------------------------ 
 // In JavaScript we have different kinds of operators,
 // Operators are used to assign values, compare values, perform arithmetic operations ..
 // We use operators along with our variables and constants to create expressions
@@ -12,7 +12,7 @@
 // Logical
 // Bitwise
 
-// ----------- Artihmetic Operators
+// --------------------------- Artihmetic Operators ---------------------------------
 
 // Aritimetic operators are used for calulations, like we do in Mathematics
 
@@ -37,7 +37,7 @@
 // console.log(--y); // if we apply the operator first it will show the value : eg 20 - 1 = 19
 // console.log(y);
 
-// -------------------Assignment Operators
+// ------------------- Assignment Operators ---------------------------------
 
 // Assignment operators are use the assign the value of a variable
 
@@ -52,7 +52,7 @@
 // x *= 4; // we can use all of the above arthematic operators in assignment operators
 // console.log(x);
 
-// ---------Comparison Operators
+// --------- Comparison Operators
 
 // we use the these operators to compare values of variables
 
