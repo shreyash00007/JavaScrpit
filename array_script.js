@@ -27,7 +27,7 @@ numbers.splice(3, 0, 'a', 'b');
 
 const newNumbers = [1, 2, 3, 1, 4];
 
-// Index of array gives the index of item availble in the array
+// Index of array gives the index of item available in the array
 
 // console.log(newNumbers.indexOf(1, 2));
 // console.log(newNumbers.indexOf(1, ));
@@ -56,15 +56,15 @@ const tutorial = coursesx.findIndex(function (tutorial) {
 // console.log(tutorial);
 
 // --------------- Arrow function
-// whenever you want a pass a function callback function or as an argument to
-// a difference method we can use arow function
+// whenever you want to pass a function callback function or as an argument to
+// a difference method we can use arrow function
 
 const material = coursesx.findIndex((material)=> material.name === 'b');
 
 // console.log(material);
 
 
-// ------------------- Removing elements form an Array
+// ------------------- Removing elements from an Array
 
 const nextNumbers = [1, 2, 3, 4,5,6];
 
