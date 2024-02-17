@@ -8,7 +8,7 @@ function walk() {
 
 // walk();
 
-// Anonymous Function Experession
+// Anonymous Function Expressions
 let run = function () {
     console.log('run');
 };
