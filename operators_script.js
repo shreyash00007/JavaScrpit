@@ -2,7 +2,7 @@
 // In JavaScript we have different kinds of operators,
 // Operators are used to assign values, compare values, perform arithmetic operations ..
 // We use operators along with our variables and constants to create expressions
-// And with these expresion we can implement logic and Alogrithms
+// And with these expressions we can implement logic and Alogrithms
 
 // Types of operators in JavaScript
 
@@ -14,7 +14,7 @@
 
 // --------------------------- Artihmetic Operators ---------------------------------
 
-// Aritimetic operators are used for calulations, like we do in Mathematics
+// Arithmetic operators are used for calculations like we do in Mathematics
 
 // let x = 10;
 // let y = 20;
@@ -39,22 +39,22 @@
 
 // ------------------- Assignment Operators ---------------------------------
 
-// Assignment operators are use the assign the value of a variable
+// Assignment operators are use to assign the value of a variable
 
 // x++;
 // x = x + 1;
 // console.log(x);
 
-// but If we want to add diffrent no
+// but If we want to add different no
 
 // x = x + 3;
 // x += 3; // a better way to write
-// x *= 4; // we can use all of the above arthematic operators in assignment operators
+// x *= 4; // we can use all of the above arithmetic operators in assignment operators
 // console.log(x);
 
 // --------- Comparison Operators
 
-// we use the these operators to compare values of variables
+//We use the these operators to compare the values of variables
 
 // Relational operators
 
