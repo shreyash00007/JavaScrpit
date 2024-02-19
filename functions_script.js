@@ -49,7 +49,7 @@ const cooks = function cook() {
 }
 
 // cat(); // it will work
-// Hosting is a process of moving function declartion to top of the file 
+// Hosting is a process of moving function declaration to top of the file 
 // which hapeens in automatically in javascript.
 
 function cat() {
@@ -206,14 +206,14 @@ function num() {
 // num();
 
 
-// Avoid using the var key word
+// Avoid using the var keyword
 
 
 
 
 // -------------------------- The This keyword -----------------------------
 
-// This refferce The object that is executing the current function
+// This reference The object that is executing the current function
 // method -> obj
 // function -> global (window, global in node )
 
@@ -221,7 +221,7 @@ function num() {
 const video = {
     title: 'a',
     play() {
-        console.log(this); // here the this key word refers the data inside this entire object
+        console.log(this); // here the this keyword refers the data inside this entire object
     }
 };
 
