@@ -24,7 +24,7 @@ function max(a, b) {
     return (a > b) ? a : b;
 }
 
-// ------------------- 2) Write a function which will tell if a image is
+// ------------------- 2) Write a function that will tell if an image is
 // Landscape of not
 
 function isLandScape(width, height) {
@@ -42,7 +42,7 @@ function isLandScape(width, height) {
 
 function isLandScaped(width, height) {
     // return (width > height) ? true : false; // it not optimal 
-    return (width > height); // same as above it will retun a bollean value casue it is using compraison operators 
+    return (width > height); // same as above it will return a boolean value because it is using comparison operators 
 }
 
 // console.log(isLandScaped(800, 600));
