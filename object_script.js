@@ -25,7 +25,7 @@
 // A function doesn't need any object and is independent,
 // while the method is a function, which is linked with any object.
 
-// Factory functions are the functions which produced Object's
+// Factory functions are the functions which produce Object's
 
 function createCircle(radius) {
     return {
@@ -61,12 +61,12 @@ function createCircle(radius) {
 // const circle = new Circle(1); // the new keyword creates a empty object
 // const x = {}; empty object
 
-// Difference between factory function and constructor fuction
-// In factory function create a object and pass argument
+// Difference between factory function and constructor function
+// In the factory function create a object and pass argument
 // with factory function we simply call a function and return a new object
 
 // In constructor we use new operator and instead of returning and object
-// we use this. key word also in nameing convention we use pascal naming convention
+// we use this. key word also in naming convention we use Pascal naming convention
 
 // console.log(circle,circle.draw());
 
@@ -127,7 +127,7 @@ Circle.apply({}, [1, 2, 3]);
 // console.log(another)
 
 // ----------------- Value vs Reference Types
-// Value Tupe (premitives)
+// Value Type (primitives)
 // Number
 // String
 // Boolean
