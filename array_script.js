@@ -10,24 +10,24 @@
 
 const numbers = [3, 4];
 
-// add new elemnt 
+// add new element 
 
 numbers.push(5, 6);
 
-// adding element to towars right
+// adding element to towards the right
 
 numbers.unshift(1, 2);
 
-// adding elements in middle
+//Adding elements in the middle
 
 numbers.splice(3, 0, 'a', 'b');
 // console.log(numbers);
 
-// -------------- Finding Elements in array Primivites types
+// -------------- Finding Elements in array Primitives types
 
 const newNumbers = [1, 2, 3, 1, 4];
 
-// Index of array gives the index of item available in the array
+// Index of array gives the index of items available in the array
 
 // console.log(newNumbers.indexOf(1, 2));
 // console.log(newNumbers.indexOf(1, ));
