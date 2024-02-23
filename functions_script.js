@@ -42,7 +42,7 @@ let play = function boy() {
 // consolSe.log(x); // will throw error due to x is not defined 
 let xw = 1;
 
-// cooks(); // will throw a error cooks is not defined
+// cooks(); // will throw an error cooks is not defined
 
 const cooks = function cook() {
     console.log('cook');
@@ -50,7 +50,7 @@ const cooks = function cook() {
 
 // cat(); // it will work
 // Hosting is a process of moving function declaration to top of the file 
-// which hapeens in automatically in javascript.
+// which happens in automatically in javascript.
 
 function cat() {
     console.log('cat');
