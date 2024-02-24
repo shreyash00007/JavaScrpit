@@ -1,6 +1,6 @@
 //  -------------------------------  Operators in JavaScript ------------------------------------------ 
 // In JavaScript we have different kinds of operators,
-// Operators are used to assign values, compare values, perform arithmetic operations ..
+// Operators are used to assign values, compare values, and perform arithmetic operations ..
 // We use operators along with our variables and constants to create expressions
 // And with these expressions we can implement logic and Alogrithms
 
@@ -34,12 +34,12 @@
 // ---------Decrement operator (--) by -1
 
 // console.log(y--);
-// console.log(--y); // if we apply the operator first it will show the value : eg 20 - 1 = 19
+// console.log(--y); //If we apply the operator first it will show the value: eg 20 - 1 = 19
 // console.log(y);
 
 // ------------------- Assignment Operators ---------------------------------
 
-// Assignment operators are use to assign the value of a variable
+// Assignment operators are used to assign the value of a variable
 
 // x++;
 // x = x + 1;
@@ -54,7 +54,7 @@
 
 // --------- Comparison Operators
 
-//We use the these operators to compare the values of variables
+//We use these operators to compare the values of variables
 
 // Relational operators
 
@@ -70,7 +70,7 @@
 // console.log(1 === 1);
 // console.log('1' === 1);
 
-// lose Equality (Value are equal)
+// lose Equality (Values are equal)
 // console.log(x !== 1);
 
 // console.log(1 == 1);
