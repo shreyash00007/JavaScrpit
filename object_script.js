@@ -1,7 +1,7 @@
-// -------------------- Intorduction to Objects
-// Objects are collection of key value pairs
+// -------------------- Introduction to Objects
+// Objects are a collection of key-value pairs
 // Object-Oriented Programming (OOP)
-// Object litral syntax V
+// Object literal syntax V
 // const circleE = { 
 //     radius: 1,
 //     location: {
@@ -45,7 +45,7 @@ function createCircle(radius) {
 
 // ------------ Constructor Function
 // Camel Notation : oneTwoThreeFour
-// Pascal Notaton : OneTwoThreeFour
+// Pascal Notation : OneTwoThreeFour
 
 // this is key word in JavaScript
 // which has reference to the object that is executing 
