@@ -49,7 +49,7 @@ const cooks = function cook() {
 }
 
 // cat(); // it will work
-// Hosting is a process of moving function declaration to top of the file 
+// Hosting is a process of moving function declaration to the top of the file 
 // which happens in automatically in javascript.
 
 function cat() {
