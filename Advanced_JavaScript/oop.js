@@ -1,10 +1,10 @@
 // ---------------------------- Object Oriented Programming --------------------------------
-// what is OOP?
-// A programming paradigm centered around objects rather than functtions.
-// It's a style of programming whichi center around objects.
+//What is OOP?
+// A programming paradigm centered around objects rather than functions.
+// It's a style of programming which centers around objects.
 // Languages -- C#, Java, Ruby, Python, & JavaScript
 // Before oops we had procedural programming that divided a program into functions
-// but as the programs grows ups chose and create spagehti code inter dependenci
+// but as the programs grow ups chose and create spaghetti code inter dependencies
 
 
 // ------------ Four pillars of oops ------------------
