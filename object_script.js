@@ -62,10 +62,10 @@ function createCircle(radius) {
 // const x = {}; empty object
 
 // Difference between factory function and constructor function
-// In the factory function create a object and pass argument
-// with factory function we simply call a function and return a new object
+// In the factory function create a object and pass an argument
+// With the factory function we simply call a function and return a new object
 
-// In constructor we use new operator and instead of returning and object
+// In the constructor we use new operator and instead of returning and object
 // we use this. key word also in naming convention we use Pascal naming convention
 
 // console.log(circle,circle.draw());
@@ -152,7 +152,7 @@ a.value = 20;
 // Conclusion -----
 
 // Primitives are copied by their value
-// Object are copied by their refernce
+// Object are copied by their reference
 
 // let number = 10; // primetives 
 let obj = { value: 10 }; // object
