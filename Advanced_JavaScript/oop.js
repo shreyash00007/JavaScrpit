@@ -4,7 +4,7 @@
 // It's a style of programming which centers around objects.
 // Languages -- C#, Java, Ruby, Python, & JavaScript
 // Before oops we had procedural programming that divided a program into functions
-// but as the programs grow ups chose and create spaghetti code inter dependencies
+// but as the programs grow ups choose and create spaghetti code interdependencies
 
 
 // ------------ Four pillars of oops ------------------
