@@ -2,7 +2,7 @@
 // In JavaScript we have different kinds of operators,
 // Operators are used to assign values, compare values, and perform arithmetic operations...
 // We use operators along with our variables and constants to create expressions
-// And with these expressions we can implement logic and Alogrithms
+// And with these expressions we can implement logic and algorithms
 
 // Types of operators in JavaScript
 
@@ -14,7 +14,7 @@
 
 // --------------------------- Artihmetic Operators ---------------------------------
 
-// Arithmetic operators are used for calculations like we do in Mathematics
+// Arithmetic operators are used for calculations as we do in Mathematics
 
 // let x = 10;
 // let y = 20;
@@ -82,8 +82,8 @@
 // -------------------- Ternary Operators
 
 // If a customer has more than 100 points,
-// they are 'gold' customer, otherwise,
-// thery are 'silver' customer.
+// They are 'gold' customer, otherwise,
+// They are 'silver' customer.
 
 // let points = 90;
 
