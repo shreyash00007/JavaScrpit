@@ -94,8 +94,8 @@ function fizzBuzz(input) {
 // ---------- 4) CheckSpeed where the speed limit is of 70kmph
 // Speed Limit = 70
 // drive over 5km  -> 1 point
-// Use Math.floor function for caluation
-// If driver get 12 points -> suspended
+// Use Math.floor function for calculation
+// If the driver get 12 points -> suspended
 
 // const check = checkSpeed(70);
 // console.log(check);
@@ -125,7 +125,7 @@ function fizzBuzz(input) {
 // }
 
 // -------------- 5) Even and Odd numbers
-// It should take a parameter as limit and show number either even or odd
+// It should take a parameter as a limit and show a number that is either even or odd
 
 // console.log(showNumbers(1));
 
@@ -181,7 +181,7 @@ function countTruthy(array) {
 }
 
 // ---------------- 6) String Properties
-// write a fuction that will show all the properties of a object are string
+// Write a function that will show all the properties of a object are string
 
 // const movie = {
 //     title: 'a',
