@@ -52,7 +52,7 @@ let role;
 
 // -------------------- Loops
 
-// Types of loops in Javascrpt
+// Types of loops in Javascript
 
 // For
 // While
@@ -90,7 +90,7 @@ let role;
 
 // for (let i = 0; i < 5;){
 //     console.log(i);
-// }  // This is a typical example of infinite when you don't give the i++ increment conditon
+// }  // This is a typical example of infinite when you don't give the i++ increment condition
 
 // while (true) {
     
