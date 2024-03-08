@@ -14,7 +14,7 @@ const numbers = [3, 4];
 
 numbers.push(5, 6);
 
-// adding element to towards the right
+// Adding element to towards the right
 
 numbers.unshift(1, 2);
 
@@ -57,7 +57,7 @@ const tutorial = coursesx.findIndex(function (tutorial) {
 
 // --------------- Arrow function
 // whenever you want to pass a function callback function or as an argument to
-// a difference method we can use arrow function
+// a difference method we can use an arrow function
 
 const material = coursesx.findIndex((material)=> material.name === 'b');
 
