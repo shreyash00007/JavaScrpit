@@ -47,10 +47,10 @@ console.log(pi);
 // undefined
 // null
 
-let names = 'shreyash'; // String litral (a fancy way to say a string)
+let names = 'shreyash'; // String literal (a fancy way to say a string)
 names = 3; 
 let age = 22; // Number litral (decimal and floats comes it to number)
-let isApproved = false; // boolean litreal (true or false)
+let isApproved = false; // boolean literal (true or false)
 let nextName = undefined; // undefined is value
 let selectedColor = null; // null is a object 
 
@@ -58,7 +58,7 @@ let selectedColor = null; // null is a object
  
 console.log(typeof (names));
 
-//  JavaScript is a Dynamically type language where the Datatype of the varaible can be declared at the runtime.
+//  JavaScript is a Dynamically typed language where the Datatype of the variable can be declared at the runtime.
 
 // undefined as actually a value also a data type in JavaScript
 
