@@ -10,7 +10,7 @@
 
 const numbers = [3, 4];
 
-// add new element 
+// add a new element 
 
 numbers.push(5, 6);
 
@@ -199,7 +199,7 @@ courses.sort((a, b) => {
 
 // console.log(courses);
 
-//----------------------------- Testing the Elements in array
+//----------------------------- Testing the Elements in the array
 
 const tnumbers = [1, 2, -3];
 
