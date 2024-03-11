@@ -91,7 +91,7 @@ function fizzBuzz(input) {
     return input;
 }
 
-// ---------- 4) CheckSpeed where the speed limit is of 70kmph
+// ---------- 4) CheckSpeed where the speed limit is 70kmph
 // Speed Limit = 70
 // drive over 5km  -> 1 point
 // Use Math.floor function for calculation
@@ -219,7 +219,7 @@ function sum(limit) {
 }
 
 // ----------------- 8) Grade
-// calulae of grade of student
+// calculate of the grade of the student
 
 // --- IMP--- Single responsibility principle a 
 // functions are small and focus on one thing
