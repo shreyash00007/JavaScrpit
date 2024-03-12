@@ -195,7 +195,7 @@ function num() {
     // for (let i = 0; i <= 5; i++){
     //     console.log(i);
     // }
-    // console.log(i); // i is declared as let so it will throw error
+    // console.log(i); // i is declared as let so it will throw an error
     for (var i = 0; i <= 5; i++){
         console.log(i);
     }
@@ -221,7 +221,7 @@ function num() {
 const video = {
     title: 'a',
     play() {
-        console.log(this); // here the this keyword refers the data inside this entire object
+        console.log(this); // here the this keyword refers to the data inside this entire object
     }
 };
 
