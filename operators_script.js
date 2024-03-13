@@ -108,7 +108,7 @@
 // console.log(eligibleForLoan);
 
 // Logical OR (||)
-//Returns TRUE if one of the oeprands is TRUE
+//Returns TRUE if one of the operands is TRUE
 
 // let hightIncome = false;
 
@@ -134,7 +134,7 @@
 // ''
 // NaN Not a (number)
 
-// Anyting that is not Falsy -> Truthy
+// Anything that is not Falsy -> Truthy
 
 // console.log(false || true);
 // console.log(false || 'shreyash');
