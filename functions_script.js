@@ -50,7 +50,7 @@ const cooks = function cook() {
 
 // cat(); // it will work
 // Hosting is a process of moving function declaration to the top of the file 
-// which happens in automatically in javascript.
+// which happens automatically in javascript.
 
 function cat() {
     console.log('cat');
@@ -189,7 +189,7 @@ let x = 0;
 var y = 0;
 
 // var => function-scoped
-// ES6 (ES2015): let, const => blocked-scoped
+// ES6 (ES2015): let, const => blocked - scoped
 
 function num() {
     // for (let i = 0; i <= 5; i++){
