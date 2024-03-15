@@ -67,7 +67,7 @@ let role;
 // }
 
 // for (let i = 1; i <= 5; i++){
-//     if (i % 2 !== 0) console.log(i); // odd no
+//     if (i % 2 !== 0) console.log(i); // odd number
 // }
 
 // ------------ While loop
@@ -108,12 +108,12 @@ let role;
 //     age: 30
 // };
 
-// for (let key in person ) // For in loop is use to itrate properties of object in Js
+// for (let key in person ) // For in loop is use to iterate properties of the object in Js
 //     console.log(key, person[key]);
 
 // const colors = ['red', 'green', 'blue'];
 
-// for (let index in colors) // it can be aslo used in arrays
+// for (let index in colors) // it can be also used in arrays
 //     console.log(index, colors[index]);
 
 // ----------- For off loops (inctroduce in es6)
