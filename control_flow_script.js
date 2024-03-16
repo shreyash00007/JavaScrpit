@@ -116,11 +116,11 @@ let role;
 // for (let index in colors) // it can be also used in arrays
 //     console.log(index, colors[index]);
 
-// ----------- For off loops (inctroduce in es6)
+// ----------- For off loops (introduced in es6)
 
 // const colors = ['red', 'green', 'blue'];
 
-// for (let color of colors) // It is used to itrate over the properies of array
+// for (let color of colors) // It is used to iterate over the properties of the array
 //     console.log(color)
 
 // -------------- Break and Continue
