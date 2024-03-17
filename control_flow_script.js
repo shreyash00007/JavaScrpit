@@ -113,7 +113,7 @@ let role;
 
 // const colors = ['red', 'green', 'blue'];
 
-// for (let index in colors) // it can be also used in arrays
+// for (let index in colors) //It can be also used in arrays
 //     console.log(index, colors[index]);
 
 // ----------- For off loops (introduced in es6)
@@ -130,7 +130,7 @@ let role;
 //     // if (i === 5) break; // with the break jump out of the loop
 //     if (i % 2 === 0) {
 //         i++;
-//         continue; // with the continue we jump to the next itreation
+//         continue; // with the continue we jump to the next iteration
 //     }
 //     console.log(i);
 //     i++
