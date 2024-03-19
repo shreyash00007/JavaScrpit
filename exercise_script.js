@@ -95,7 +95,7 @@ function fizzBuzz(input) {
 // Speed Limit = 70
 // drive over 5km  -> 1 point
 // Use Math.floor function for calculation
-// If the driver get 12 points -> suspended
+// If the driver gets 12 points -> suspended
 
 // const check = checkSpeed(70);
 // console.log(check);
@@ -151,7 +151,7 @@ function showNumbers(limit) {
         }
 }
 
-// ---------------- 5) contTruthy which takes and arrary and returs and tuthy values
+// ---------------- 5) contTruthy which takes and array and returns and tuthy values
 // tursy and falsey elements
 // eg - const name = 'shreyash'; // is a truthy value
 // eg - const name = ''; // is a falsy value
