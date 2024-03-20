@@ -45,7 +45,7 @@ function createCircle(radius) {
 
 // ------------ Constructor Function
 // Camel Notation : oneTwoThreeFour
-// Pascal Notation : OneTwoThreeFour
+// Pascal Notation: OneTwoThreeFour
 
 // this is key word in JavaScript
 // which has reference to the object that is executing 
@@ -65,8 +65,8 @@ function createCircle(radius) {
 // In the factory function create a object and pass an argument
 // With the factory function we simply call a function and return a new object
 
-// In the constructor we use new operator and instead of returning and object
-// we use this. key word also in naming convention we use Pascal naming convention
+// In the constructor we use new operator and instead of returning an object
+// We use this. key word also in naming convention we use Pascal naming convention
 
 // console.log(circle,circle.draw());
 
@@ -152,7 +152,7 @@ a.value = 20;
 // Conclusion -----
 
 // Primitives are copied by their value
-// Object are copied by their reference
+// Objects are copied by their reference
 
 // let number = 10; // primetives 
 let obj = { value: 10 }; // object
@@ -210,7 +210,7 @@ increase(obj);
 // in low level languages we need to allocate memory to o a objects like c, C++
 // In JavaScript we don't have this concept
 // we can ealiy create new obj the momery is automatically to allocated to the object
-// and also, deallocate it, In JavaScript we have Garbage collector in JavaScript
+// and also, deallocate it, In JavaScript we have a Garbage collector in JavaScript
 
 // let circle = {}
 
