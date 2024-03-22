@@ -87,14 +87,14 @@
 
 // let points = 90;
 
-// let type = points > 100 ? 'gold' : 'silver';
+// let type = points > 100 ? 'gold': 'silver';
 
 // console.log(type);
 
 //------------------- Logical Operators
 
 // Logical And (&&)
-// Returns TRUE if both operand are TRUE
+// Returns TRUE if both operands are TRUE
 
 // console.log(true && true); //true
 // console.log(true && false); //false
@@ -177,16 +177,16 @@
 // let message =
 //     (myPermisson & readPermission) ? 'yes' : 'no';
 
-// console.log(message); // yes, but if we remove the readPermission we get no
+// console.log(message); // yes, but if we remove the read permission we get no
 
 // ----------------- Operators Precedence
 
 // let x = 2 + 3 * 4;  // here  multiplications has more precedence than addition
-// let x = (2 + 3) * 4;  // if you use barckets you can make that expression first to excute
+// let x = (2 + 3) * 4;  // if you use brackets you can make that expression first to execute
 
 // console.log(x);
 
-// excrsie - Swapping variables 
+// exercise - Swapping variables 
 
 let a = 'red';
 let b = 'blue';
