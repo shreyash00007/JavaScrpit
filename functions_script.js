@@ -37,7 +37,7 @@ let play = function boy() {
 // }
 // obj.print();
 
-//----------------------- Hoisting --------------------------
+//----------------------- Hoisting in JavaScript --------------------------
 
 // consolSe.log(x); // will throw error due to x is not defined 
 let xw = 1;
@@ -50,7 +50,7 @@ const cooks = function cook() {
 
 // cat(); // it will work
 // Hosting is a process of moving function declaration to the top of the file 
-// which happens automatically in javascript.
+// Which happens automatically in javascript.
 
 function cat() {
     console.log('cat');
