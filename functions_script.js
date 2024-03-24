@@ -50,7 +50,7 @@ const cooks = function cook() {
 
 // cat(); // it will work
 // Hosting is a process of moving function declaration to the top of the file 
-// Which happens automatically in javascript.
+// Which happens automatically in javascript
 
 function cat() {
     console.log('cat');
@@ -130,7 +130,7 @@ function interest(princilpal, rate = 3.5, years= 5) {
 
 // ----------------------- Try and Catch -----------------------------
 
-// Error handling in JavaScript
+// --------------- Error handling in JavaScript ---------------
 
 // const person = {
 //     firstName: 'shreyash',
