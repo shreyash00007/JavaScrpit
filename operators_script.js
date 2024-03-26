@@ -45,7 +45,7 @@
 // x = x + 1;
 // console.log(x);
 
-// but If we want to add different no
+// but If we want to add different number
 
 // x = x + 3;
 // x += 3; // a better way to write
@@ -79,7 +79,7 @@
 // console.log(true == 1);
 
 
-// -------------------- Ternary Operators
+// -------------------- Ternary Operators -------------------
 
 // If a customer has more than 100 points,
 // They are 'gold' customer, otherwise,
@@ -91,7 +91,7 @@
 
 // console.log(type);
 
-//------------------- Logical Operators
+//------------------- Logical Operators ---------------------
 
 // Logical And (&&)
 // Returns TRUE if both operands are TRUE
