@@ -233,7 +233,7 @@ const filtered = fnumbers.filter( n => n >= 0);
 // console.log(filtered);
 
 
-// ------------------- Mapping Arrays
+// ------------------- Mapping Arrays --------------------
 
 const mnumbers = [1, -1, 2, 3];
 
@@ -251,7 +251,7 @@ const items = mnumbers
 // console.log(items);
 
 
-// -------------------- Reducing Array
+// -------------------- Reducing Array ---------------------
 
 const rnumbers = [1, -1, 2, 3];
 
