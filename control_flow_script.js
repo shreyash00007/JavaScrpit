@@ -1,9 +1,9 @@
 //------------------ Control flow JavaScript
 
 // Hour Greeting
-// If hour is between 6am and 12pm: Good morning!
+// If the hour is between 6am and 12pm: Good morning!
 // If it is between 12pm and 6pm: Good afternoon!
-// Otherwise: Good evening!
+// Otherwise: Good evening!!
 
 // ------------ If else
 
@@ -123,7 +123,7 @@ let role;
 // for (let color of colors) // It is used to iterate over the properties of the array
 //     console.log(color)
 
-// -------------- Break and Continue
+// -------------- Break and Continue ----------------------
 
 // let i = 0;
 // while (i <= 10) {
