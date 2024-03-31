@@ -52,7 +52,7 @@
 // x *= 4; // we can use all of the above arithmetic operators in assignment operators
 // console.log(x);
 
-// --------- Comparison Operators
+// --------- Comparison Operators ------------------
 
 // We use these operators to compare the values of variables
 
@@ -125,7 +125,7 @@
 // console.log('Application Refused', applicationRefused);
 
 
-// -------------Logical Operators with Non booleans
+// ------------- Logical Operators with Non booleans
 
 // Falsy (false)
 // undefined
