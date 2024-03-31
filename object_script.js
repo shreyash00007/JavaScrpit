@@ -1,4 +1,4 @@
-// -------------------- Introduction to Objects
+// -------------------- Introduction to Objects -----------------------
 // Objects are a collection of key-value pairs
 // Object-Oriented Programming (OOP)
 // Object literal syntax V
@@ -199,7 +199,7 @@ increase(obj);
 //     another[key] = circle[key]; // old way
 
 // const another = Object.assign({
-//     color: 'yelow'// new property to an object
+//     color: 'yellow'// new property to an object
 // }, circle);
 
 // const another = { ...circle };
@@ -214,7 +214,7 @@ increase(obj);
 
 // let circle = {}
 
-// -------------- Built in Objects in JavaScript
+// -------------- Built-in Objects in JavaScript
 // ------------ Math Object
 // Math is a built-in object that has properties and methods
 // for mathematical constants and functions. Not a function object
