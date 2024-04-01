@@ -55,7 +55,7 @@ const tutorial = coursesx.findIndex(function (tutorial) {
 // console.log(course);
 // console.log(tutorial);
 
-// --------------- Arrow function
+// --------------- Arrow function ------------------
 // whenever you want to pass a function callback function or as an argument to
 // a difference method we can use an arrow function
 
@@ -199,7 +199,7 @@ courses.sort((a, b) => {
 
 // console.log(courses);
 
-//----------------------------- Testing the Elements in the array
+//----------------------------- Testing the Elements in the array ------------------------------
 
 const tnumbers = [1, 2, -3];
 
