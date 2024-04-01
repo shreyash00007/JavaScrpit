@@ -6,7 +6,7 @@
 // Splitting arrays
 // Combining arrays
 
-// -------------- Adding new elements to Array
+// -------------- Adding new element to Array -----------------------
 
 const numbers = [3, 4];
 
