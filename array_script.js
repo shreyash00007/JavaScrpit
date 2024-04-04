@@ -168,7 +168,7 @@ const jon = parts.join('-');
 // console.log(parts);
 // console.log(jon);
 
-// ----------------- Sorting Arrays
+// ----------------- Sorting Arrays --------------------
 
 const snumber = [2, 1, 4, 5];
 
@@ -216,7 +216,7 @@ const allOnePositive = tnumbers.some(function (vlaue) {
 // console.log(allPositive);
 // console.log(allOnePositive);
 
-// ------------------- Filtering an Array
+// ------------------- Filtering an Array -----------------------------
 
 const fnumbers = [1, -1, 2, 3];
 
