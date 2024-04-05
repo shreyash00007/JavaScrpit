@@ -17,5 +17,48 @@
 
 // ----------------- Objects -------------------
 
+// An object in in javaScript is essential a collections of key value pairs 
+
+const cirlce = {
+    radius: 1,   // example of key value 
+    location: {
+        x: 1,
+        y: 2
+    },
+    draw: function () {
+        console.log('draw');
+    }
+};
+
+// cirlce.draw();
+
+//------------ Factories ------------
+
+// ---------------- Factory function ---------------
+
+function createCirle(radius) {
+    return {
+        radius,
+        draw: function () {
+            console.log("draw");
+        }
+    }
+}
+
+const circle = createCirle(1);
+// console.log(cirlce);
 
 
+// ---------------- Constructor Function -------------------
+
+// this keyword is the to set properties of the object
+
+function Circle(radius) {
+    // console.log('this', this)
+    this.radius = radius;
+    this.draw = function () {
+        console.log("draw");
+    }
+}
+
+// const another = new Circle(1);
