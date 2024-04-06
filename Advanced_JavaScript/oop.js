@@ -32,8 +32,10 @@ const cirlce = {
 
 // cirlce.draw();
 
-//------------ Factories ------------
-
+//------------- Factories ------------
+// Two types of object based function's in javaScript
+// Factory Function
+// constructor Function
 // ---------------- Factory function ---------------
 
 function createCirle(radius) {
@@ -62,3 +64,13 @@ function Circle(radius) {
 }
 
 // const another = new Circle(1);
+
+
+// ---------- cosntructor Property -------------
+
+// let x = {};
+// console.log(x);
+
+new String(); // '',"",``
+new Boolean(); // true, false
+new Number(); // 1, 2, 3, ....
