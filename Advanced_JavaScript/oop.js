@@ -17,6 +17,7 @@
 
 // ----------------- Objects -------------------
 
+// Basics of objects
 // An object in in javaScript is essential a collections of key value pairs 
 
 const cirlce = {
