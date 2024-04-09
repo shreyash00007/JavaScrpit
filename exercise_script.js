@@ -664,3 +664,31 @@ circle.radius = 4; // can reconfigure the value
 // }
 
 // ------------------------ Fundamentals of JavaScript End ---------------------------------
+
+//
+
+// const array = [10, 10, 20, 20, 30];
+
+// function repeatNumber(array) {
+//     for (let i = 0; i < array; i++){
+//         if (array[i] === array[i + 1]) {
+//             console.log(array[i]);
+//         }
+//     }
+// }
+// // repeatNumber();
+
+// Solution
+
+// const array = [10, 20, 30, 20, 10];
+
+// function findRepeatedElements(array) {
+//   for (let i = 0; i < array.length; i++)
+//     for (let j = i + 1; j < array.length; j++)
+//       if (array[i] === array[j]) {
+//         console.log(array[i]);
+//         break;
+//       }
+// }
+
+// findRepeatedElements(array); // Output: 10, 20

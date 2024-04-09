@@ -48,7 +48,7 @@ function createCirle(radius) {
     }
 }
 
-const circle = createCirle(1);
+const circles = createCirle(1);
 // console.log(cirlce);
 
 
@@ -64,14 +64,37 @@ function Circle(radius) {
     }
 }
 
-const another = new Circle(1);
+// const another = new Circle(1);
 
 
 // ---------- cosntructor Property -------------
 
 // let x = {};
-console.log(x);
+// console.log(x);
 
 new String(); // '',"",``
 new Boolean(); // true, false
 new Number(); // 1, 2, 3, ....
+
+// Functions are objects in javascript
+
+// in broweser console
+
+// console.log(Circle.name);
+// console.log(Circle.length);
+// console.log(Circle.constructor);
+
+// const Circle1 = new Function('radius', `
+// this.radius = radius;
+//     this.draw = function () {
+//         console.log("draw");
+//     }`
+// );
+
+Circle.call({}, 1);
+// Circle.apply({}, 1, 2, 3);
+
+const another = new Circle(1);
+// const circle = new Circle1(1);
+
+console.log(another);
