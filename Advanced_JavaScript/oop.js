@@ -76,7 +76,7 @@ new String(); // '',"",``
 new Boolean(); // true, false
 new Number(); // 1, 2, 3, ....
 
-// Functions are objects in javascript
+// ------------------ Functions are objects in javascript
 
 // in broweser console
 
@@ -98,3 +98,22 @@ new Number(); // 1, 2, 3, ....
 // const circle = new Circle1(1);
 
 // console.log(another);
+
+// ---------------------- Value vs Refernce Types in JavaScript
+
+//  --- Value types
+
+// Number
+// String
+// Boolean
+// Symbol
+// undefined
+// null
+
+// ---- Reference Types
+
+// Object
+// Function
+// Array
+
+ 
