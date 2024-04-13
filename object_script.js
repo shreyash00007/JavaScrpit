@@ -61,11 +61,11 @@ function createCircle(radius) {
 // const circle = new Circle(1); // the new keyword creates a empty object
 // const x = {}; empty object
 
-// Difference between factory function and constructor function
-// In the factory function create an object and pass an argument
-// With the factory function we simply call a function and return a new object
+// Difference between Factory function and Constructor function
+// In the Factory function create an object and pass an argument
+// With the Factory function we simply call a function and return a new object
 
-// In the constructor we use new operator and instead of returning an object
+// In the constructor we use " new " operator and instead of returning an object
 // We use this. keyword also in naming convention we use Pascal naming convention
 
 // console.log(circle,circle.draw());
