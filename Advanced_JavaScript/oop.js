@@ -116,4 +116,12 @@ new Number(); // 1, 2, 3, ....
 // Function
 // Array
 
+// let a = 10; 
+
+let a = { value: 10 }; 
+let b = a;
+
+a.value = 20;
+
+console.log(a);
  
