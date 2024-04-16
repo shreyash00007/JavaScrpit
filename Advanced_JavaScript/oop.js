@@ -125,3 +125,9 @@ a.value = 20;
 
 console.log(a);
  
+console.log(a, b);
+
+// Conclusion -----
+
+// Primitives are copied by their value
+// Objects are copied by their reference
