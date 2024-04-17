@@ -124,10 +124,19 @@ let b = a;
 a.value = 20;
 
 console.log(a);
- 
-console.log(a, b);
+//  
+// console.log(a, b);
 
 // Conclusion -----
 
 // Primitives are copied by their value
 // Objects are copied by their reference
+
+// let number = 10; // primetives 
+let obj = { value: 10 }; // object
+
+function increase(obj) {
+    obj.value++;
+}
+increase(obj);
+// console.log(obj);
