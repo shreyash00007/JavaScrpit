@@ -139,3 +139,16 @@ console.log(number);
 // a better way to wirte this is
 
 console.log(square(2));
+
+// ---------------- ns stuff
+
+var n = 2;
+function square(num) {
+    var ans = num * num;
+    return ans;
+}
+
+var square1 = square(n);
+console.log(square1);
+var square2 = square(3);
+console.log(square2);

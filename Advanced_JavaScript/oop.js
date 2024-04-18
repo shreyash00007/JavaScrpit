@@ -123,7 +123,7 @@ let b = a;
 
 a.value = 20;
 
-console.log(a);
+// console.log(a);
 //  
 // console.log(a, b);
 
@@ -140,3 +140,4 @@ function increase(obj) {
 }
 increase(obj);
 // console.log(obj);
+
