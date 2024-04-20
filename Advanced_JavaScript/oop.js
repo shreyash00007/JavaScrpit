@@ -116,29 +116,64 @@ new Number(); // 1, 2, 3, ....
 // Function
 // Array
 
-// let a = 10; 
 
-let a = { value: 10 }; 
-let b = a;
+let x = { value: 10 };
+let y = x;
 
-a.value = 20;
+x.value = 20;
 
-// console.log(a);
-//  
-// console.log(a, b);
-
-// Conclusion -----
+// console.log(x);
+// console.log(y);
 
 // Primitives are copied by their value
-// Objects are copied by their reference
 
-// let number = 10; // primetives 
-let obj = { value: 10 }; // object
+let numberx = 10;
 
-function increase(obj) {
+function increase(numberx) {
+    numberx++;
+}
+
+increase(numberx); 
+// console.log(numberx);
+
+// Objects are copied by thier reference
+
+let obj = { value: 10 };
+
+function addUp(obj) {
     obj.value++;
 }
-increase(obj);
+addUp(obj); 
 // console.log(obj);
 
-// Ns
+// --------------------------- Adding or Remvoing Properties
+
+//  adding or removing properties is very important for example
+// if you had any function where in you need to add or remove stuff or any imp data
+// this can help a lot
+
+function Circlex(radius) {
+    this.radius = radius;
+    this.draw = function () {
+        console.log('draw');
+    }
+}
+
+// adding property
+const circle = new Circle(10);
+
+circle.location = { s: 1 };
+
+// removing property
+// delete circle['location'];
+delete circle.location;
+
+const propertyName = " center location ";
+
+circle.propertyName = { x: 2 };
+
+// console.log(circle);
+
+
+//  ----------------------- Enumerating Properties
+
