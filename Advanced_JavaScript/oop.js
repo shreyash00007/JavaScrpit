@@ -182,4 +182,11 @@ circle.propertyName = { x: 2 };
 
 
 //  ----------------------- Enumerating Properties
+// Properties of objects
 
+// const circle = {
+//     radius: 1,
+//     draw() {
+//         console.log('draw');
+//     }
+// };
