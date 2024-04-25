@@ -136,7 +136,7 @@ function increase(numberx) {
     numberx++;
 }
 
-increase(numberx); 
+increase(numberx);
 // console.log(numberx);
 
 // Objects are copied by thier reference
@@ -146,7 +146,7 @@ let obj = { value: 10 };
 function addUp(obj) {
     obj.value++;
 }
-addUp(obj); 
+addUp(obj);
 // console.log(obj);
 
 // --------------------------- Adding or Remvoing Properties
@@ -190,3 +190,14 @@ circle.propertyName = { x: 2 };
 //         console.log('draw');
 //     }
 // };
+
+// for (let key in circle)
+// console.log(key, circle[key]);
+
+// for (let key of Object.keys(circle))
+// console.log(key);
+
+// for (let entry of Object.entries(circle))
+// console.log(entry);
+
+// if ('radius' in circle) console.log('yes');
