@@ -201,3 +201,13 @@ circle.propertyName = { x: 2 };
 // console.log(entry);
 
 // if ('radius' in circle) console.log('yes');
+
+// ----------------Cloning an Object
+// we can also create copies of objects in JavaScript
+
+// const circle = {
+//     radius: 1,
+//     draw() {
+//         console.log('draw');
+//     }
+// }
