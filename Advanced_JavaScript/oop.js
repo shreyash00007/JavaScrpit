@@ -211,3 +211,15 @@ circle.propertyName = { x: 2 };
 //         console.log('draw');
 //     }
 // }
+
+// const another = {};
+// for (let key in circle)
+//     another[key] = circle[key]; // old way
+
+// const another = Object.assign({
+//     color: 'yellow'// new property to an object
+// }, circle);
+
+// const another = { ...circle };
+
+// console.log(another);
