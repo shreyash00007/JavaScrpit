@@ -223,3 +223,16 @@ circle.propertyName = { x: 2 };
 // const another = { ...circle };
 
 // console.log(another);
+
+// -------------- Garbage Collection in JavaScript
+// in low level languages we need to allocate memory to o objects like c, C++
+// In JavaScript we don't have this concept
+// we can easily create new obj the memory is automatically allocated to the object
+// and also, deallocate it, In JavaScript we have a Garbage collector in JavaScript
+
+// let circle = {}
+
+// -------------- Built-in Objects in JavaScript
+// ------------ Math Object
+// Math is a built-in object that has properties and methods
+// for mathematical constants and functions. Not a function object
