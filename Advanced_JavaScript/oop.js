@@ -236,3 +236,11 @@ circle.propertyName = { x: 2 };
 // ------------ Math Object
 // Math is a built-in object that has properties and methods
 // for mathematical constants and functions. Not a function object
+
+// -----Math random
+// function getRandomArbitary(min, max) {
+//     return Math.random() * (max - min) + min;
+// }
+// console.log(getRandomArbitary(0, 10));
+
+// console.log(Math.random());
