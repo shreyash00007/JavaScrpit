@@ -244,3 +244,7 @@ circle.propertyName = { x: 2 };
 // console.log(getRandomArbitary(0, 10));
 
 // console.log(Math.random());
+
+// Math.round
+
+// console.log(Math.round(8.26));
