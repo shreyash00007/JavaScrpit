@@ -248,3 +248,9 @@ circle.propertyName = { x: 2 };
 // Math.round
 
 // console.log(Math.round(8.26));
+
+// ---------------- String Object
+
+// String primitive
+// const message = 'This is my \'first message';
+// console.log(message.length);
