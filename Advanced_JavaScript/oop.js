@@ -261,3 +261,4 @@ circle.propertyName = { x: 2 };
 // const another = new String('hi');
 // console.log(typeof (message));
 // console.log(typeof (another));
+
