@@ -254,3 +254,10 @@ circle.propertyName = { x: 2 };
 // String primitive
 // const message = 'This is my \'first message';
 // console.log(message.length);
+
+// ---------------- String Objects 
+
+// String Object
+// const another = new String('hi');
+// console.log(typeof (message));
+// console.log(typeof (another));
