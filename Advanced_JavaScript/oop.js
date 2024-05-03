@@ -255,10 +255,25 @@ circle.propertyName = { x: 2 };
 // const message = 'This is my \'first message';
 // console.log(message.length);
 
-// ---------------- String Objects 
+// ---------------- String Objects
 
 // String Object
 // const another = new String('hi');
 // console.log(typeof (message));
 // console.log(typeof (another));
 
+
+// console.log(message.length);
+// console.log(message[0]);
+// console.log(message[1]);
+// console.log(message.includes('my'));
+// console.log(message.includes('not'));
+// console.log(message.startsWith('This'));
+// console.log(message.startsWith('this'));
+// console.log(message.endsWith('e'));
+// console.log(message.endsWith('this'));
+// console.log(message.indexOf('is'));
+// console.log(message.replace('first', 'second'));
+// console.log(message.toUpperCase());
+// console.log(message.toLowerCase());
+// console.log(message.trimLeft);
