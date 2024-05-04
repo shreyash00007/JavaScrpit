@@ -277,3 +277,6 @@ circle.propertyName = { x: 2 };
 // console.log(message.toUpperCase());
 // console.log(message.toLowerCase());
 // console.log(message.trimLeft);
+
+// console.log(message);
+// console.log(message.split(' '));
