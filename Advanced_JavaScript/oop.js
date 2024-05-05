@@ -280,3 +280,11 @@ circle.propertyName = { x: 2 };
 
 // console.log(message);
 // console.log(message.split(' '));
+
+// ------------- Template litrals
+
+// Stirng are declared using, '', ""
+
+// const message =
+//     'This is my \n' +
+//     '\'first \'message'; // old and ineffcient way
