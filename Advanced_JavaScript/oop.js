@@ -288,3 +288,9 @@ circle.propertyName = { x: 2 };
 // const message =
 //     'This is my \n' +
 //     '\'first \'message'; // old and ineffcient way
+
+// use this one instead called template litreal ``
+
+// const message =
+// `This is my
+// 'first' message`;
