@@ -294,3 +294,8 @@ circle.propertyName = { x: 2 };
 // const message =
 // `This is my
 // 'first' message`;
+
+// // this good for email messages
+// const name = 'harsh';
+// const another =
+// `Hi, ${ name }
