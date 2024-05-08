@@ -299,3 +299,8 @@ circle.propertyName = { x: 2 };
 // const name = 'harsh';
 // const another =
 // `Hi, ${ name }
+
+// Thank you for joining my mailisng list ${2*5}.
+
+// Regards,
+// Shreyash`
