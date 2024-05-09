@@ -304,3 +304,5 @@ circle.propertyName = { x: 2 };
 
 // Regards,
 // Shreyash`
+
+// console.log(another);
