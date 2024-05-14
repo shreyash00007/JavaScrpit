@@ -317,3 +317,4 @@ const date2 = new Date(2018, 4, 11, 9);
 console.log(now.toTimeString());
 console.log(date1);
 console.log(date2);
+console.log(date3);
