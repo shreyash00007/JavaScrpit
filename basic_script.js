@@ -1,8 +1,8 @@
-// ----------------------- This is the basics of JavaScript
+// ----------------------- This is the basics of JavaScript --------------------
 // This a comment
 // console.log('Hello world shreyash');
 
-// ----------- Variables in JavaScript
+// ----------- Variables in JavaScript ----------
 
 let name = 'shreyash'; 
 
