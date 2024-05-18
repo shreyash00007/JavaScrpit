@@ -13,7 +13,8 @@ let name = 'shreyash';
 // Cannot start with  a number(1onje)
 // Cannot contain a space or hyphen (-)
 // They are Case-sensitive
-// They follow camel case notation first letter small and other starting words in capital eg: - firstName
+// They follow camel case 
+// notation first letter small and other starting words in capital eg: - firstName
 
 //let firtName = 'shreyash' , lastName = 'Dhanawade'; // is not a good pratice
 
