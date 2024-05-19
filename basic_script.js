@@ -59,7 +59,8 @@ let selectedColor = null; // null is a object
  
 console.log(typeof (names));
 
-//  JavaScript is a Dynamically typed language where the Datatype of the variable can be declared at the runtime.
+//  JavaScript is a Dynamically typed language 
+//  where the Datatype of the variable can be declared at the runtime.
 
 // undefined as actually a value also a data type in JavaScript
 
