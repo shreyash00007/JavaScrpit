@@ -40,7 +40,7 @@ console.log(pi);
 
 // Primitives / Value Types & Reference Types
 
-// ----------------- Primitives Data types
+// ----------------- Primitives Data types --------–--------
 
 // String
 // Number
