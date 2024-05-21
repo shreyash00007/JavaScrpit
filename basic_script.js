@@ -14,7 +14,8 @@ let name = 'shreyash';
 // Cannot contain a space or hyphen (-)
 // They are Case-sensitive
 // They follow camel case 
-// notation first letter small and other starting words in capital eg: - firstName
+// notation first letter small and other 
+// starting words in capital eg: - firstName
 
 //let firtName = 'shreyash' , lastName = 'Dhanawade'; // is not a good pratice
 
