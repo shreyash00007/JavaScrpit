@@ -180,142 +180,24 @@ circle.propertyName = { x: 2 };
 
 // console.log(circle);
 
+// -------------------- Enumerating Properties
 
-//  ----------------------- Enumerating Properties
-// Properties of objects
+function Car(petrol) {
+        this.petrol = petrol;
+        this.speed = function () {
+            console.log("run run...")
+        }
+}
 
-// const circle = {
-//     radius: 1,
-//     draw() {
-//         console.log('draw');
-//     }
-// };
+const car = new Car(10);
 
-// for (let key in circle)
-// console.log(key, circle[key]);
+for (let key in car) {
+    if (typeof car[key] !== "function")
+        console.log(key, car[key]);
+}
 
-// for (let key of Object.keys(circle))
-// console.log(key);
+const keys = Object.keys(car);
+console.log(keys);
 
-// for (let entry of Object.entries(circle))
-// console.log(entry);
-
-// if ('radius' in circle) console.log('yes');
-
-// ----------------Cloning an Object
-// we can also create copies of objects in JavaScript
-
-// const circle = {
-//     radius: 1,
-//     draw() {
-//         console.log('draw');
-//     }
-// }
-
-// const another = {};
-// for (let key in circle)
-//     another[key] = circle[key]; // old way
-
-// const another = Object.assign({
-//     color: 'yellow'// new property to an object
-// }, circle);
-
-// const another = { ...circle };
-
-// console.log(another);
-
-// -------------- Garbage Collection in JavaScript
-// in low level languages we need to allocate memory to o objects like c, C++
-// In JavaScript we don't have this concept
-// we can easily create new obj the memory is automatically allocated to the object
-// and also, deallocate it, In JavaScript we have a Garbage collector in JavaScript
-
-// let circle = {}
-
-// -------------- Built-in Objects in JavaScript
-// ------------ Math Object
-// Math is a built-in object that has properties and methods
-// for mathematical constants and functions. Not a function object
-
-// -----Math random
-// function getRandomArbitary(min, max) {
-//     return Math.random() * (max - min) + min;
-// }
-// console.log(getRandomArbitary(0, 10));
-
-// console.log(Math.random());
-
-// Math.round
-
-// console.log(Math.round(8.26));
-
-// ---------------- String Object
-
-// String primitive
-// const message = 'This is my \'first message';
-// console.log(message.length);
-
-// ---------------- String Objects
-
-// String Object
-// const another = new String('hi');
-// console.log(typeof (message));
-// console.log(typeof (another));
-
-
-// console.log(message.length);
-// console.log(message[0]);
-// console.log(message[1]);
-// console.log(message.includes('my'));
-// console.log(message.includes('not'));
-// console.log(message.startsWith('This'));
-// console.log(message.startsWith('this'));
-// console.log(message.endsWith('e'));
-// console.log(message.endsWith('this'));
-// console.log(message.indexOf('is'));
-// console.log(message.replace('first', 'second'));
-// console.log(message.toUpperCase());
-// console.log(message.toLowerCase());
-// console.log(message.trimLeft);
-
-// console.log(message);
-// console.log(message.split(' '));
-
-// ------------- Template litrals
-
-// Stirng are declared using, '', ""
-
-// const message =
-//     'This is my \n' +
-//     '\'first \'message'; // old and ineffcient way
-
-// use this one instead called template litreal ``
-
-// const message =
-// `This is my
-// 'first' message`;
-
-// // this good for email messages
-// const name = 'harsh';
-// const another =
-// `Hi, ${ name }
-
-// Thank you for joining my mailisng list ${2*5}.
-
-// Regards,
-// Shreyash`
-
-// console.log(another);
-
-// -------------- Date
-
-const now = new Date();
-const date1 = new Date('May 11 2018 9:00');
-const date2 = new Date(2018, 4, 11, 9);
-
-// now.setFullYear(2017);
-// new year
-console.log(now.toTimeString());
-console.log(date1);
-console.log(date2);
-console.log(date3);
+    if ("speed" in car)
+    console.log('Car has speed.');
