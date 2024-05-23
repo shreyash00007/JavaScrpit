@@ -191,13 +191,34 @@ function Car(petrol) {
 
 const car = new Car(10);
 
-for (let key in car) {
-    if (typeof car[key] !== "function")
-        console.log(key, car[key]);
-}
+// for (let key in car) {
+//     if (typeof car[key] !== "function")
+//         console.log(key, car[key]);
+// }
 
 const keys = Object.keys(car);
-console.log(keys);
+// console.log(keys);
 
-    if ("speed" in car)
-    console.log('Car has speed.');
+    // if ("speed" in car)
+    // console.log('Car has speed.');
+
+// ------------------------------- Abstraction
+
+function Pokemon(pika) {
+    this.pika = pika;
+    
+    this.defaultLocation = { x: 0, y: 0 }
+
+    this.computeOptimumLocation = function (facotor) {
+        //
+    }
+
+    this.rock = function () {
+        this.computeOptimumLocation();
+        console.log("fire");
+    }
+}
+
+const pokemon = new Pokemon(10);
+// pokemon.computeOptimumLocation(0.1);
+pokemon.rock();
