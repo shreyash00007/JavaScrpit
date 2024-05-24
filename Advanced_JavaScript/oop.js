@@ -221,4 +221,22 @@ function Pokemon(pika) {
 
 const pokemon = new Pokemon(10);
 // pokemon.computeOptimumLocation(0.1);
-pokemon.rock();
+// pokemon.rock();
+
+// ----------------------------- Private Properties and Methods
+
+// Closeure ----- having a function inside a function
+
+function Dosa(tava) {
+    let sambar = "Sambar";
+    this.tava = tava;
+    this.masalaDosa = function () {
+        let x, y;
+        console.log("Masale Darrr..");
+    };
+
+}
+
+const dosa = new Dosa(50);
+dosa.masalaDosa();
+// dosa.y();
