@@ -238,5 +238,26 @@ function Dosa(tava) {
 }
 
 const dosa = new Dosa(50);
-dosa.masalaDosa();
-// dosa.y();
+// dosa.masalaDosa();
+
+// Getters and Setters
+
+function Doit(task) {
+    this.task = task;
+    let defaultLocation = { x: 0, y: 0 };
+
+    this.getDefaultLocation = function () {
+        return defaultLocation;
+    }
+    this.point = function () {
+        console.log("Do it...");
+    }
+    Object.defineProperty(this, 'defaultLocation', {
+        get: function () {
+            return defaultLocation;
+       } 
+    });
+}
+
+const doit = new Doit(100);
+doit.point();
