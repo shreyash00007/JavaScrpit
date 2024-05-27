@@ -261,4 +261,4 @@ function Doit(task) {
 
 const doit = new Doit(100);
 // doit.point();
-// restart
+
