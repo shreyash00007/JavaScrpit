@@ -14,7 +14,16 @@ function Stopwatch() {
 
         startTime = new Date();
     };
-    this.end = function () {
+    this.stop = function () {
+        if (!running)
+            throw new Error('Stopwatch is not started.');
+
+        running = false;
+
+        endTime = new Date();
+
+        const seconds = (endTime.getTime() - startTime.getTime()) / 1000;
+        duration += seconds;
 
     };
     this.reset = function () {
