@@ -7,4 +7,6 @@
 
 let x = {};
 console.log(x);
+
 // Here x is a prototypical object it has some inheriant properities 
+// in inheritance you can inherit fucntional properties in a object
