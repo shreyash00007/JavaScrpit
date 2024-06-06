@@ -8,6 +8,7 @@
 let x = {};
 console.log(x);
 
-// Here x is a prototypical object it has some inheriant properities 
+// Here x is a prototypical object it has some inheriant properities
 // in inheritance you can inherit fucntional properties in a object
 // it is mostly used in objects and classes
+// It also one the most important pillar of Object oriented programming
