@@ -17,3 +17,19 @@ console.log(x);
 let myArray = [];
 
 console.log(myArray);
+
+// Constructor function
+
+function Circle(radius) {
+    this.radius = radius;
+
+    this.draw = function () {
+        console.log("Draw");
+    };
+}
+
+const circle = new Circle(11);
+
+console.log(circle);
+
+// Objects and array created by a given constructor will have the same prototypes.
