@@ -33,3 +33,14 @@ const circle = new Circle(11);
 console.log(circle);
 
 // Objects and array created by a given constructor will have the same prototypes.
+
+// ------------- Property Descriptors
+
+let person = { name: "shreyash" };
+
+console.log(person)
+
+for (let key in person)
+    console.log(key)
+
+Object.keys(person);
