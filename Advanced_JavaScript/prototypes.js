@@ -44,3 +44,12 @@ for (let key in person)
     console.log(key)
 
 Object.keys(person);
+
+let objectBase = Object.getPrototypeOf(person);
+
+let descriptors = Object.getOwnPropertyDescriptor(objectBase, 'toString');
+
+console.log(objectBase);
+console.log(descriptors);
+
+
