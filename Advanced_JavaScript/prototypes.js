@@ -52,4 +52,13 @@ let descriptors = Object.getOwnPropertyDescriptor(objectBase, 'toString');
 console.log(objectBase);
 console.log(descriptors);
 
+Object.defineProperty(person, 'name', {
+    writable: false,
+    enumerable: true,
+    configurable: false
+});
+
+delete person.name
+
+console.log(person);
 
