@@ -38,7 +38,7 @@ console.log(circle);
 
 let person = { name: "shreyash" };
 
-console.log(person)
+// console.log(person)
 
 for (let key in person)
     console.log(key)
@@ -49,16 +49,17 @@ let objectBase = Object.getPrototypeOf(person);
 
 let descriptors = Object.getOwnPropertyDescriptor(objectBase, 'toString');
 
-console.log(objectBase);
-console.log(descriptors);
+// console.log(objectBase);
+// console.log(descriptors);
 
 Object.defineProperty(person, 'name', {
-    writable: false,
+    writable: false,  //using boolean values
     enumerable: true,
     configurable: false
 });
 
 delete person.name
 
-console.log(person);
+// console.log(person);
+
 
