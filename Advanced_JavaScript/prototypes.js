@@ -62,4 +62,7 @@ delete person.name
 
 // console.log(person);
 
+// ----------------- Constructor prototypes -----------------
+
+Object.getPrototypeOf(myObj);
 
