@@ -64,5 +64,17 @@ delete person.name
 
 // ----------------- Constructor prototypes -----------------
 
-Object.getPrototypeOf(myObj);
+// Object.getPrototypeOf(myObj);
 
+// myObj.__proto__ (parent of myObj)
+// Constructor.prototype ()
+
+function Pokemon(pika) {
+    this.pika = pika;
+}
+
+const pokemon = new Pokemon(1);
+
+Pokemon.prototype;
+
+console.log(pokemon);
