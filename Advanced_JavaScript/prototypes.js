@@ -75,6 +75,6 @@ function Pokemon(pika) {
 
 const pokemon = new Pokemon(1);
 
-Pokemon.prototype;
+Pokemon.prototype; // prototype property 
 
 console.log(pokemon);
