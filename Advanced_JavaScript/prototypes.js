@@ -5,6 +5,7 @@
 // in inheritance you can inherit fucntional properties in a object
 // it is mostly used in objects and classes
 // It also one the most important pillar of Object oriented programming
+
 // --------------------- Prototypes and Prototypical Inheritance --------------------
 
 let x = {};
@@ -68,6 +69,8 @@ delete person.name
 
 // myObj.__proto__ (parent of myObj)
 // Constructor.prototype ()
+
+// New fuctional oject is created 
 
 function Pokemon(pika) {
     this.pika = pika;
