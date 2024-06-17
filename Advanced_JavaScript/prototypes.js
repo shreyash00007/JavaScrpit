@@ -66,7 +66,7 @@ delete person.name
 // ----------------- Constructor prototypes -----------------
 
 // Object.getPrototypeOf(myObj);
-
+// Constructor prototype 
 // myObj.__proto__ (parent of myObj)
 // Constructor.prototype ()
 
