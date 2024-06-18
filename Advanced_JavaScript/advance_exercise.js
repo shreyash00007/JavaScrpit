@@ -4,6 +4,8 @@
 
 // ----------------- Exercise Stopwatch
 
+// --------------- Function Declaration 
+
 function Stopwatch() {
     let startTime, endTime, running, duration = 0;
     this.start = function () {
@@ -13,7 +15,8 @@ function Stopwatch() {
         running = true;
 
         startTime = new Date();
-    };
+    }
+ //------- Stop Function ------
     this.stop = function () {
         if (!running)
             throw new Error('Stopwatch is not started.');
