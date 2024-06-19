@@ -2,9 +2,9 @@
 
 //---------------------------- This file is for Advanced JS in OPPs ----------------------------------------------
 
-// ----------------- Exercise Stopwatch
+// ----------------- Exercise Stopwatch -------------------
 
-// --------------- Function Declaration 
+// --------------- Function Declaration ------------------
 
 function Stopwatch() {
     let startTime, endTime, running, duration = 0;
@@ -16,7 +16,7 @@ function Stopwatch() {
 
         startTime = new Date();
     }
- //------- Stop Function ------
+ //------- Stop Function ----------
     this.stop = function () {
         if (!running)
             throw new Error('Stopwatch is not started.');
@@ -29,6 +29,7 @@ function Stopwatch() {
         duration += seconds;
 
     };
+ // --------- Reset Function ---------
     this.reset = function () {
         startTime = null;
         endTime = null;
