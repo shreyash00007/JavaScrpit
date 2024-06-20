@@ -29,7 +29,7 @@ function Stopwatch() {
         duration += seconds;
 
     };
- // --------- Reset Function ---------
+// --------- Reset Function ---------
     this.reset = function () {
         startTime = null;
         endTime = null;
@@ -37,6 +37,7 @@ function Stopwatch() {
         duration = 0;
         
     };
+// ----------- Duration -------------
     Object.defineProperty(this, 'duration', {
         
     });
