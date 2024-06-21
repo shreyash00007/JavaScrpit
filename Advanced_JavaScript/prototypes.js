@@ -35,7 +35,8 @@ console.log(circle);
 
 // Objects and array created by a given constructor will have the same prototypes.
 
-// ------------- Property Descriptors
+// ------------- Property Descriptors --------------
+// It can be used to describe the properties in a Object or array
 
 let person = { name: "shreyash" };
 
