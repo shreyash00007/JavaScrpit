@@ -76,7 +76,7 @@ delete person.name
 function Pokemon(pika) {
     this.pika = pika;
 }
-
+// Declaration of new functional object 
 const pokemon = new Pokemon(1);
 
 Pokemon.prototype; // prototype property 
