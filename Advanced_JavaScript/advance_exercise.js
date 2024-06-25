@@ -38,7 +38,7 @@ function Stopwatch() {
         duration = 0;
         
     };
-// ----------- Duration -------------
+// ----------- Duration of time -------------
     Object.defineProperty(this, 'duration', {
         
     });
