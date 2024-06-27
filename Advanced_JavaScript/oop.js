@@ -127,7 +127,8 @@ x.value = 20;
 
 // Primitives are copied by their value
 // like you can see down there numberx intial value was 10
-// after the increase function we just used the value in from of varible.
+// after the increase function we just 
+// used the value in from of varible.
 // and it got the output as 11
 
 let numberx = 10;
