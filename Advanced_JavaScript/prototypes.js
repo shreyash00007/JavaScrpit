@@ -15,7 +15,7 @@ console.log(x);
 
 // ------------------------- Multilevel Inheritance --------------------------------
 
-let myArray = [];
+let myArray = []; // empty array 
 
 console.log(myArray);
 
