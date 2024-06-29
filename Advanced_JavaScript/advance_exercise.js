@@ -17,7 +17,7 @@ function Stopwatch() {
 
         startTime = new Date();
     }
- //------- Stop Function ----------
+ //------- Stop Time Function ----------
     this.stop = function () {
         if (!running)
             throw new Error('Stopwatch is not started.');
@@ -30,7 +30,7 @@ function Stopwatch() {
         duration += seconds;
 
     };
-// --------- Reset Function ---------
+// --------- Reset Time Function ---------
     this.reset = function () {
         startTime = null;
         endTime = null;
