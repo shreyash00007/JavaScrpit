@@ -164,7 +164,8 @@ function Circlex(radius) {
 }
 
 // adding property
-// by using new keyword you create a empty object which you can add elements or remove from it
+// by using new keyword you create a empty object 
+// which you can add elements or remove from it
 // adding new data in an object is important you can use this type
 // to update of add data or function to a object
 const circle = new Circle(10);
