@@ -226,9 +226,9 @@ const pokemon = new Pokemon(10);
 // pokemon.computeOptimumLocation(0.1);
 // pokemon.rock();
 
-// ----------------------------- Private Properties and Methods
+// ------------------------- Private Properties and Methods
 
-// Closeure ----- having a function inside a function
+// Closure ----- Having a function inside a function ---------
 
 function Dosa(tava) {
     let sambar = "Sambar";
