@@ -183,7 +183,7 @@ circle.propertyName = { x: 2 };
 
 // console.log(circle);
 
-// -------------------- Enumerating Properties
+// ------------------------------ Enumerating Properties
 
 function Car(petrol) {
         this.petrol = petrol;
@@ -205,7 +205,7 @@ const keys = Object.keys(car);
     // if ("speed" in car)
     // console.log('Car has speed.');
 
-// ------------------------------- Abstraction
+// ------------------------------ Abstraction ------------------------
 
 function Pokemon(pika) {
     this.pika = pika;
