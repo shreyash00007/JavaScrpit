@@ -17,7 +17,7 @@ console.log(x);
 
 let myArray = []; // empty array 
 
-console.log(myArray);
+// console.log(myArray);
 
 // Constructor function
 
@@ -31,7 +31,7 @@ function Circle(radius) {
 
 const circle = new Circle(11);
 
-console.log(circle);
+// console.log(circle);
 
 // Objects and array created by a given constructor will have the same prototypes.
 
@@ -79,6 +79,26 @@ function Pokemon(pika) {
 // Declaration of new functional object 
 const pokemon = new Pokemon(1);
 
-Pokemon.prototype; // prototype property 
+Pokemon.prototype; // prototype property
 
-console.log(pokemon);
+// console.log(pokemon);
+
+// Prototype vs Instance Members
+
+function Dumb(people) {
+    this.people = people;
+    this.peopleArePeople = function(){
+        console.log("people are peole");
+    }
+}
+
+Dumb.prototype.draw = function () {
+    console.log("people are crazy")
+}
+
+
+const c1 = new Dumb(1);
+const c2 = new Dumb(2);
+
+console.log(c1);   
+// console.log(c2);   
