@@ -100,5 +100,5 @@ Dumb.prototype.draw = function () {
 const c1 = new Dumb(1);
 const c2 = new Dumb(2);
 
-console.log(c1);   
+console.log(c1.draw);   
 // console.log(c2);   
