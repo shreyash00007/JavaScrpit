@@ -94,12 +94,15 @@ function Dumb(people) {
 }
 
 Dumb.prototype.draw = function () {
-    console.log("people are crazy")
+    console.log("people are crazy");
 }
 
+Dumb.prototype.work = function () {
+    console.log("Work is Important");
+}
 
 const c1 = new Dumb(1);
 // const c2 = new Dumb(2);
 
 console.log(c1.draw);   
-// console.log(c2);   
+console.log(c1.work);
