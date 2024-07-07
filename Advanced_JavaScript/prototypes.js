@@ -9,7 +9,7 @@
 // --------------------- Prototypes and Prototypical Inheritance --------------------
 
 let x = {};
-console.log(x);
+// console.log(x);
 // Here x is a prototypical object it has some inheriant properities
 
 
@@ -84,7 +84,7 @@ Pokemon.prototype; // prototype property
 
 // console.log(pokemon);
 
-// Prototype vs Instance Members
+// ---------------------------- Prototype vs Instance Members
 
 function Dumb(people) {
     this.people = people;
@@ -93,6 +93,7 @@ function Dumb(people) {
     }
 }
 
+// Protype members
 Dumb.prototype.draw = function () {
     console.log("people are crazy");
 }
@@ -101,8 +102,12 @@ Dumb.prototype.work = function () {
     console.log("Work is Important");
 }
 
+Dumb.prototype.toString = function () {
+    return 'Circle with radius' + this.radius;
+}
+
 const c1 = new Dumb(1);
 // const c2 = new Dumb(2);
 
 console.log(c1.draw);   
-console.log(c1.work);
+console.log(c1.toString);
