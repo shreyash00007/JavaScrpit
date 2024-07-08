@@ -111,3 +111,7 @@ const c1 = new Dumb(1);
 
 console.log(c1.draw);   
 console.log(c1.toString);
+
+Dumb.prototype.toString = function () {
+    return 'People are Dumb' + this.people;
+}
