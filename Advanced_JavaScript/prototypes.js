@@ -112,6 +112,7 @@ const c1 = new Dumb(1);
 console.log(c1.draw);   
 console.log(c1.toString);
 
+// Returning string with variabe 
 Dumb.prototype.toString = function () {
     return 'People are Dumb' + this.people;
 }
