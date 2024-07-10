@@ -38,29 +38,29 @@ const circle = new Circle(11);
 // ------------- Property Descriptors --------------
 // It can be used to describe the properties in a Object or array
 
-let person = { name: "shreyash" };
+// let person = { name: "shreyash" };
 
 // console.log(person)
 
-for (let key in person)
-    console.log(key)
+// for (let key in person)
+    // console.log(key)
 
-Object.keys(person);
+// Object.keys(person);
 
-let objectBase = Object.getPrototypeOf(person);
+// let objectBase = Object.getPrototypeOf(person);
 
-let descriptors = Object.getOwnPropertyDescriptor(objectBase, 'toString');
+// let descriptors = Object.getOwnPropertyDescriptor(objectBase, 'toString');
 
 // console.log(objectBase);
 // console.log(descriptors);
 
-Object.defineProperty(person, 'name', {
-    writable: false,  //using boolean values
-    enumerable: true,
-    configurable: false
-});
+// Object.defineProperty(person, 'name', {
+//     writable: false,  //using boolean values
+//     enumerable: true,
+//     configurable: false
+// });
 
-delete person.name
+// delete person.name
 
 // console.log(person);
 
@@ -91,6 +91,10 @@ function Dumb(people) {
     this.peopleArePeople = function(){
         console.log("people are peole");
     }
+    this.move = function () {
+        this.draw();
+        console.log("move");
+    }
 }
 
 // Protype members
@@ -109,10 +113,38 @@ Dumb.prototype.toString = function () {
 const c1 = new Dumb(1);
 // const c2 = new Dumb(2);
 
-console.log(c1.draw);   
-console.log(c1.toString);
+// console.log(c1.draw);   
+// console.log(c1.toString);
 
 // Returning string with variabe 
 Dumb.prototype.toString = function () {
     return 'People are Dumb' + this.people;
 }
+
+// ------------------ Iterating Instance and Prototype Members
+
+function Student(learn) {
+    this.learn = learn;
+    this.pen = function(){
+        console.log("write");
+    }
+}
+
+const s1 = new Student(10);
+
+// Protoype members
+Student.prototype.scale = function () {
+    console.log('line');
+}
+// s1.scale();
+
+// Returns instance members
+// console.log(Object.keys(s1));
+
+// Returns all members (instace + prototype)
+// for (let key in s1) console.log(key);
+
+// console.log(s1.hasOwnProperty('learn'));
+
+// -------------------- Avoid Extending the Build-in Ojbects
+
