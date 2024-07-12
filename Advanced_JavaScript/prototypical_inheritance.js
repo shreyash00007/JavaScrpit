@@ -76,4 +76,4 @@ Geometry.prototype.duplicate = function () {
 const g = new triangle();
 
 // console.log(g);
-console.log(g.duplicate());
+// console.log(g.duplicate());
