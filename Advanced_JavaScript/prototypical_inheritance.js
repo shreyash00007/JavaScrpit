@@ -1,4 +1,4 @@
-// ----------- Creating Your Own Prototypical Inheritance
+// ----------- Creating Your Own Prototypical Inheritance ------
 
 function Shape(color) {
     this.color = color;
@@ -7,7 +7,7 @@ function Shape(color) {
 Shape.prototype.duplicate = function () {
     console.log('Duplicate');
 }
-// ------- Calling the Super Constructor
+// ------- Calling the Super Constructor -------------
 function Circle(radius, color) {
     // It will now work need to use call fucntion
     // Shape(color);
@@ -16,7 +16,7 @@ function Circle(radius, color) {
     this.radius = radius;
 }
 
-// -------------- Resetting the Constructor
+// -------------- Resetting the Constructor -----------
 
 // Circle.prototype.constructor = Circle;
 // new Circle.prototype.constructor() => new Circle();
@@ -27,7 +27,7 @@ Circle.prototype.draw = function () {
     console.log('draw');
 }
 
-// ---------------- Intermediate Function Inheritance
+// ---------------- Intermediate Function Inheritance ---------
 
 function extend(Child, Parent) {
     Child.prototype = Object.create(Parent.prototype);
@@ -50,7 +50,7 @@ const sq = new Square(10);
 // console.log(c);
 // console.log(sq);
 
-// ------------------ Method Overriding
+// ------------------ Method Overriding ---------
 
 function extend(Child, Parent) {
     Child.prototype = Object.create(Parent.prototype);
