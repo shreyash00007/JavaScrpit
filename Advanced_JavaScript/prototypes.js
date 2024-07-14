@@ -146,5 +146,4 @@ Student.prototype.scale = function () {
 
 // console.log(s1.hasOwnProperty('learn'));
 
-// -------------------- Avoid Extending the Build-in Ojbects
-
+// -------------------- Avoid Extending the Build-in Ojbects -----------------

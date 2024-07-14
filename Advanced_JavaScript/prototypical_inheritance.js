@@ -59,14 +59,13 @@ function extend(Child, Parent) {
 
 function Geometry() {
 }
-
 Geometry.prototype.duplicate = function () {
     console.log('duplicate');
 }
 
 function triangle() {
 }
-
+// using extend function
 extend(triangle, Geometry);
 
 Geometry.prototype.duplicate = function () {
