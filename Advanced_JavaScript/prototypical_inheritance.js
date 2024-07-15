@@ -33,7 +33,7 @@ function extend(Child, Parent) {
     Child.prototype = Object.create(Parent.prototype);
     Child.prototype.constructor = Child;
 }
-
+// Declaring two different function 
 function Square(size) {
     this.size = size;
 }
