@@ -147,3 +147,11 @@ Student.prototype.scale = function () {
 // console.log(s1.hasOwnProperty('learn'));
 
 // -------------------- Avoid Extending the Build-in Ojbects -----------------
+
+Array.prototype.shuffle = function () {
+};
+
+const array = [];
+array.shuffle();
+
+// Don't modify objects you don't own

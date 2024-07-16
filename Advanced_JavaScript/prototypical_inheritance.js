@@ -76,3 +76,21 @@ const g = new triangle();
 
 // console.log(g);
 // console.log(g.duplicate());
+
+// ------------------ Polymorphism ------------------
+
+function Hexagon() { 
+}
+extend(Hexagon, Shape);
+
+Hexagon.prototype.duplicate = function () {
+    console.log('duplicate haxagaon');
+}
+
+const shapes = [
+    new Circle(),
+    new Hexagon()
+];
+
+for (let shape of shapes)
+    shape.duplicate();
