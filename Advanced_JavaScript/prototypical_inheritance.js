@@ -86,7 +86,7 @@ extend(Hexagon, Shape);
 Hexagon.prototype.duplicate = function () {
     console.log('duplicate haxagaon');
 }
-
+// shapes array declaration
 const shapes = [
     new Circle(),
     new Hexagon()
