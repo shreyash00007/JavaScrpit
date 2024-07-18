@@ -148,6 +148,8 @@ Student.prototype.scale = function () {
 
 // -------------------- Avoid Extending the Build-in Ojbects -----------------
 
+// Always avoid extending build-in objects 
+// the prototype
 Array.prototype.shuffle = function () {
 };
 
