@@ -92,5 +92,8 @@ const shapes = [
     new Hexagon()
 ];
 
-for (let shape of shapes)
-    shape.duplicate();
+// for (let shape of shapes)
+    // shape.duplicate();
+
+// -------------------------- When to use Inheritance ------------------------
+
