@@ -94,6 +94,6 @@ const shapes = [
 
 // for (let shape of shapes)
     // shape.duplicate();
-
+// let's complete it
 // -------------------------- When to use Inheritance ------------------------
 
