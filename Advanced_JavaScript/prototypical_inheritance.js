@@ -97,3 +97,30 @@ const shapes = [
 // let's complete it
 // -------------------------- When to use Inheritance ------------------------
 
+// Avoid creating inheritance hierarchies
+// favor Composition over Inheritance
+//  use mixins to achive composition
+
+// ------------------------ Mixins --------------------------
+
+const canEat = {
+    eat: function () {
+        this.hunger--;
+        console.log('Eating');
+    }
+};
+
+const canWalk = {
+    walk: function () {
+        console.log('Walking');
+    }
+};
+
+function Person() {
+    
+}
+
+const person = Object.assign({}, canEat, canWalk);
+
+console.log(person);
+
