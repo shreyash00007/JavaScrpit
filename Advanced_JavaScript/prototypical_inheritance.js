@@ -116,11 +116,12 @@ const canWalk = {
     }
 };
 
+// Empty for contructor funtions
 function Person() {
     
 }
 
 const person = Object.assign({}, canEat, canWalk);
 
-console.log(person);
+// console.log(person);
 
