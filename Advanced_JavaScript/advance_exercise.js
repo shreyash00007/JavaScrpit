@@ -53,4 +53,17 @@ function Stopwatch() {
         running = false;
         duration = 0;
         
-    };
+};
+    
+
+// problem 2
+
+// Create to objects the first one as HtmlElement and second one as
+// HtmlSelectElement with dorp down lest
+
+const HtmlElement = {
+    click: function () {
+        console.log("f")
+    }, 
+    
+ };
