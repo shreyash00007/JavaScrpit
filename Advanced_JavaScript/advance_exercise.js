@@ -59,11 +59,16 @@ function Stopwatch() {
 // problem 2
 
 // Create to objects the first one as HtmlElement and second one as
-// HtmlSelectElement with dorp down lest
+// HtmlSelectElement with dorp down list
 
 const HtmlElement = {
     click: function () {
-        console.log("f")
-    }, 
-    
- };
+        console.log("Click");
+    },     
+};
+
+const HtmlSelectElement = {
+    select: function () {
+        console.log("select");
+  },  
+};
