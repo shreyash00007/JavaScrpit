@@ -244,7 +244,7 @@ const dosa = new Dosa(50);
 // dosa.masalaDosa();
 
 // Getters and Setters
-
+// Doit task function 
 function Doit(task) {
     this.task = task;
     let defaultLocation = { x: 0, y: 0 };
