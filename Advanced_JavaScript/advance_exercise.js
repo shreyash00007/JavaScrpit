@@ -73,5 +73,8 @@ const HtmlSelectElement = {
     },  
     dropdown: function () {
         console.log('Dropdown');
+    },
+    dropmenu: function () {
+        console.log('Dropdown_list');
     }
 };
