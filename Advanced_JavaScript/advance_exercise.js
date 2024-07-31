@@ -80,4 +80,7 @@ const HtmlSelectElement = {
     droplist: function () {
         console.log('Dropdown_list2');
     },
+    droplist: function () {
+        console.log('Dropdown_list2');
+    },
 };
