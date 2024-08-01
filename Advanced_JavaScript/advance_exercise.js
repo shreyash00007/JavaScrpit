@@ -78,3 +78,4 @@ const HtmlSelectElement = {
         console.log('Dropdown_list');
     }
 };
+// excercise 2
