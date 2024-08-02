@@ -61,21 +61,32 @@ function Stopwatch() {
 // Create to objects the first one as HtmlElement and second one as
 // HtmlSelectElement with dorp down list
 
-const HtmlElement = {
-    click: function () {
-        console.log("Click");
-    },     
+
+// solution --------- 
+
+function HtmlElement() {
+    this.click = function () {
+        console.log("Clicked");
+    }     
 };
 
-const HtmlSelectElement = {
-    select: function () {
-        console.log("select");
-    },  
-    dropdown: function () {
-        console.log('Dropdown');
-    },
-    dropmenu: function () {
-        console.log('Dropdown_list');
+HtmlElement.prototype.foucus = function () {
+    console.log('focued');
+}
+
+function HtmlSelectElement(items = []) {
+    this.itmes = items;
+    this.addItem = function (item) {
+        this.itmes.push(item);
     }
-};
-// excercise 2
+    this.removeItem = function (item) {
+        this.itmes.splice(this.items.indexOf(item), 1);
+    }
+}
+
+//  baseHtmlSelectElement
+HtmlSelectElement.prototype = new HtmlElement();
+HtmlSelectElement.prototype.constructor = HtmlSelectElement; 
+
+// const s = new HtmlSelectElement();
+// Output  ------- // console.log(s);
