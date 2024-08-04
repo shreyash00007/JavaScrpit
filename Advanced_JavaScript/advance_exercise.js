@@ -95,4 +95,11 @@ HtmlSelectElement.prototype.constructor = HtmlSelectElement;
 // Polymorphism Inheritance
 
 // Create HTML Image element that inhert from HtmlElement so it can me click focused
-// but it also, has it own render method.
+// but it also, has it own render method
+
+
+function HtmlImageElement() {
+    this.image = function () {
+        console.log('Image');
+    }
+}
