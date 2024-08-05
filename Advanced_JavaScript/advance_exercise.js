@@ -102,4 +102,7 @@ function HtmlImageElement() {
     this.image = function () {
         console.log('Image');
     }
+    this.selector = function () {
+        console.log("element sleceted");
+    }
 }
