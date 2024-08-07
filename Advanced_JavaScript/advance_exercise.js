@@ -108,4 +108,7 @@ function HtmlImageElement() {
     this.element = function () {
         console.log("elements");
     }
+    this.part = function () {
+        console.log("part");
+    }
 }
