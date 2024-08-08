@@ -111,4 +111,7 @@ function HtmlImageElement() {
     this.part = function () {
         console.log("part");
     }
+    this.whiteImage = function () {
+        console.log("white");
+    }
 }
