@@ -114,4 +114,7 @@ function HtmlImageElement() {
     this.whiteImage = function () {
         console.log("white");
     }
+    this.red = function () {
+        console.log("red");
+    }
 }
