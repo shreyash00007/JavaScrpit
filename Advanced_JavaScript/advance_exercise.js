@@ -120,4 +120,7 @@ function HtmlImageElement() {
     this.blue = function () {
         console.log("blue");
     }
+    this.green = function () {
+        console.log("green");
+    }
 }
