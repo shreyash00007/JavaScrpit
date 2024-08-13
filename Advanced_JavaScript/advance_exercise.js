@@ -126,4 +126,7 @@ function HtmlImageElement() {
     this.orange = function () {
         console.log("orange");
     }
+    this.pink = function () {
+        console.log("pink");
+    }
 }
