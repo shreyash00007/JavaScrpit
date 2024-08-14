@@ -105,28 +105,4 @@ function HtmlImageElement() {
     this.selector = function () {
         console.log("element sleceted");
     }
-    this.element = function () {
-        console.log("elements");
-    }
-    this.part = function () {
-        console.log("part");
-    }
-    this.whiteImage = function () {
-        console.log("white");
-    }
-    this.red = function () {
-        console.log("red");
-    }
-    this.blue = function () {
-        console.log("blue");
-    }
-    this.green = function () {
-        console.log("green");
-    }
-    this.orange = function () {
-        console.log("orange");
-    }
-    this.pink = function () {
-        console.log("pink");
-    }
 }
