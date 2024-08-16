@@ -100,7 +100,7 @@ HtmlSelectElement.prototype.constructor = HtmlSelectElement;
 
 function HtmlImageElement() {
     this.image = function () {
-        console.log('Image');
+        console.log("done");
     }
  
 }
