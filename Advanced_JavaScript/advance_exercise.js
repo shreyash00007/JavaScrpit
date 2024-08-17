@@ -98,9 +98,35 @@ HtmlSelectElement.prototype.constructor = HtmlSelectElement;
 // but it also, has it own render method
 
 
-function HtmlImageElement() {
-    this.image = function () {
-        console.log("done");
+function HtmlSelectElement(items =[]) {
+    this.items = items;
+
+    this.addItem = function (item) {
+        this.itmes.push(item);
     }
- 
+
+    this.removeItem = function (item) {
+        this.items.splice(this.items.indexOf(item), 1);
+    }
+
+    this.render = function () {
+        return `
+        <select>${ this.itmes.map(item => ` <option>${ item }</option>`).join('') }
+        </select>`;
+
+    }
 }
+
+HtmlElement.prototype = new HtmlElement();
+HtmlElement.prototype.constructor = HtmlSelectElement;
+
+function HtmlImageElement(src) {
+    this.src = src;
+    this.render = function () {
+        return `<img src="${ this.src }" />`; // ${x}
+        // return '<img src="'+ this.src +'" />';
+    }
+}
+
+HtmlImageElement.prototype = new HtmlElement();
+HtmlImageElement.prototype.constructor = HtmlImageElement;
