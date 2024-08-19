@@ -26,4 +26,6 @@ class Circle {
     }
 }
 const c = new Circle(1);
-console.log(c);
+// console.log(c);
+
+// ---------------------------- new stuff
