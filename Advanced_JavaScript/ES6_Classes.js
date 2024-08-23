@@ -15,17 +15,17 @@
 // console.log(cir);
 
 
-// ----------------- new way of writing it  
+// ----------------- new way of writing it
 
-class Circle {
-    constructor(radius) {
-        this.radius = radius;
-    }
-    draw() {
-        console.log('draw');
-    }
-}
-const c = new Circle(1);
+// class Circle {
+//     constructor(radius) {
+//         this.radius = radius;
+//     }
+//     draw() {
+//         console.log('draw');
+//     }
+// }
+// const c = new Circle(1);
 // console.log(c);
 
 // ------------------------ Hoisting --------------------
@@ -49,23 +49,44 @@ const c = new Circle(1);
 
 // ---------------- Static Methods -----------------
 
-class Circle {
-    constructor(radius) {
-        this.radius = radius;
-    }
+// class Circle {
+//     constructor(radius) {
+//         this.radius = radius;
+//     }
 
-    // Instance Method
+//     // Instance Method
 
-    draw() {     
-    }
+//     draw() {
+//     }
     
-    // Static Method
-    static parse(str) {
-        const radius = JSON.parse(str).radius;
-        return new Circle(radius);
+//     // Static Method
+//     static parse(str) {
+//         const radius = JSON.parse(str).radius;
+//         return new Circle(radius);
+//     }
+// }
+
+// const circle = new Circle(1);
+// Circle.parse();
+// console.log(circle);
+
+// ---------------- this keyword -------------------
+// 'use strict'; // it will show undefined
+// const Circle = function () {
+//     this.draw = function () { console.log(this); }
+// }
+// const c = new Circle();
+// // Method Call
+// const draw = c.draw;
+// // Function call
+// draw();
+
+// It will give the ouput as undefined due to the class declartion
+class Circle{
+    draw() {
+        console.log(this);
     }
 }
-
-const circle = new Circle(1);
-Circle.parse();
-console.log(circle);
+const c = new Circle();
+const draw = c.draw;
+draw();
