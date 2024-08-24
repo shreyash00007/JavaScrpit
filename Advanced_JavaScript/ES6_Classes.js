@@ -87,6 +87,9 @@ class Circle{
         console.log(this);
     }
 }
+// using new keyword for assig to different memory
 const c = new Circle();
+
 const draw = c.draw;
+
 draw();
