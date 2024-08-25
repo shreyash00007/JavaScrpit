@@ -82,14 +82,35 @@
 // draw();
 
 // It will give the ouput as undefined due to the class declartion
+// class Circle{
+//     draw() {
+//         console.log(this);
+//     }
+// }
+// // using new keyword for assig to different memory
+// const c = new Circle();
+
+// const draw = c.draw;
+
+// draw();
+
+// ---------------- Private Properties Using Symbols -----------------
+
+const _radius = Symbol();
+const _draw = Symbol();
+
 class Circle{
-    draw() {
-        console.log(this);
+    constructor(radius) {
+        // this.radius = radius;
+        // this['radius'] = radius;
+        this['_radius'] = radius;
+    }
+    [_draw]() {// draw method
+        
     }
 }
-// using new keyword for assig to different memory
-const c = new Circle();
 
-const draw = c.draw;
-
-draw();
+const c = new Circle(1);
+console.log(c._radius);
+const key = Object.getOwnPropertySymbols(c)[0];
+console.log(c[key]);
