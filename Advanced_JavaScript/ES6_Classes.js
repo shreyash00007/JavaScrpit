@@ -112,5 +112,5 @@ class Circle{
 
 const c = new Circle(1);
 console.log(c._radius);
-const key = Object.getOwnPropertySymbols(c)[0];
-console.log(c[key]);
+// const key = Object.getOwnPropertySymbols(c)[0];
+// console.log(c[key]);
