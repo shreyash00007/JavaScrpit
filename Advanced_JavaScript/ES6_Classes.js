@@ -110,7 +110,14 @@ class Circle{
     }
 }
 
+// Declaring the new method into the c variable so we can acess the objects
 const c = new Circle(1);
+// it was old way to acess but not relible
 console.log(c._radius);
-// const key = Object.getOwnPropertySymbols(c)[0];
-// console.log(c[key]);
+
+const key = Object.getOwnPropertySymbols(c)[0];
+
+console.log(c[key]);
+
+// ---------------- Private Properties Using WeakMaps -----------------
+
