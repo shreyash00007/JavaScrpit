@@ -96,28 +96,64 @@
 
 // ---------------- Private Properties Using Symbols -----------------
 
-const _radius = Symbol();
-const _draw = Symbol();
+// const _radius = Symbol();
+// const _draw = Symbol();
+
+// class Circle{
+//     constructor(radius) {
+//         // this.radius = radius;
+//         // this['radius'] = radius;
+//         this['_radius'] = radius;
+//     }
+//     [_draw]() {// draw method
+        
+//     }
+// }
+
+// Declaring the new method into the c variable so we can acess the objects
+// const c = new Circle(1);
+// // it was old way to acess but not relible
+// console.log(c._radius);
+
+// const key = Object.getOwnPropertySymbols(c)[0];
+
+// console.log(c[key]);
+
+// ---------------- Private Properties Using WeakMaps -----------------
+
+const _radius = new WeakMap();
+const _move = new WeakMap();
+const privateProps = new WeakMap();
 
 class Circle{
     constructor(radius) {
-        // this.radius = radius;
-        // this['radius'] = radius;
-        this['_radius'] = radius;
+        // this.radius = radius; // can aecess the radius 
+        _radius.set(this, radius); // can not aecess here
+        privateProps.set(this,{
+            radius: radius,
+            move: () => {
+            
+            }
+        });
+
+        _move.set(this, function () {
+           console.log('move', this) 
+        });
+    
     }
-    [_draw]() {// draw method
-        
+
+    draw() {
+        _move.get(this)();
+
+        console.log('draw');
+        // console.log(_radius.get(this))
     }
 }
 
-// Declaring the new method into the c variable so we can acess the objects
 const c = new Circle(1);
-// it was old way to acess but not relible
-console.log(c._radius);
 
-const key = Object.getOwnPropertySymbols(c)[0];
+console.log(c.draw);
 
-console.log(c[key]);
 
-// ---------------- Private Properties Using WeakMaps -----------------
+// --------------------- Getters and Setters -----------------------
 
