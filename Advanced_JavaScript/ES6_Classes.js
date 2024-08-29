@@ -121,39 +121,58 @@
 
 // ---------------- Private Properties Using WeakMaps -----------------
 
-const _radius = new WeakMap();
-const _move = new WeakMap();
-const privateProps = new WeakMap();
+// const _radius = new WeakMap();
+// const _move = new WeakMap();
+// const privateProps = new WeakMap();
 
-class Circle{
-    constructor(radius) {
-        // this.radius = radius; // can aecess the radius 
-        _radius.set(this, radius); // can not aecess here
-        privateProps.set(this,{
-            radius: radius,
-            move: () => {
+// class Circle{
+//     constructor(radius) {
+//         // this.radius = radius; // can aecess the radius 
+//         _radius.set(this, radius); // can not aecess here
+//         privateProps.set(this,{
+//             radius: radius,
+//             move: () => {
             
-            }
-        });
+//             }
+//         });
 
-        _move.set(this, function () {
-           console.log('move', this) 
-        });
+//         _move.set(this, function () {
+//            console.log('move', this) 
+//         });
     
-    }
+//     }
 
-    draw() {
-        _move.get(this)();
+//     draw() {
+//         _move.get(this)();
 
-        console.log('draw');
-        // console.log(_radius.get(this))
-    }
-}
+//         console.log('draw');
+//         // console.log(_radius.get(this))
+//     }
+// }
 
-const c = new Circle(1);
+// const c = new Circle(1);
 
-console.log(c.draw);
+// console.log(c.draw);
 
 
 // --------------------- Getters and Setters -----------------------
 
+const _radius = new WeakMap();
+
+class Circle{
+    constructor(radius) {
+        _radius.set(this, radius);
+    }
+
+    get radius() {
+        return _radius.get(this);
+    }
+
+    set radius(value) {
+        if (value <= 0) throw new Error('Invalid Radius');
+        _radius.set(this, value);
+    }
+}
+
+const c = new Circle(1);
+console.log(c.radius = -10);
