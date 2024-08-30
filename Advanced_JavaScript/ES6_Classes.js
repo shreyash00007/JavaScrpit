@@ -176,3 +176,5 @@ class Circle{
 
 const c = new Circle(1);
 console.log(c.radius = -10);
+
+// ------------------------- Inheritance ---------------------
