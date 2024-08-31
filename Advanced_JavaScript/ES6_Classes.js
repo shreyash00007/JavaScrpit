@@ -157,24 +157,47 @@
 
 // --------------------- Getters and Setters -----------------------
 
-const _radius = new WeakMap();
+// const _radius = new WeakMap();
 
-class Circle{
-    constructor(radius) {
-        _radius.set(this, radius);
+// class Circle{
+//     constructor(radius) {
+//         _radius.set(this, radius);
+//     }
+
+//     get radius() {
+//         return _radius.get(this);
+//     }
+
+//     set radius(value) {
+//         if (value <= 0) throw new Error('Invalid Radius');
+//         _radius.set(this, value);
+//     }
+// }
+
+// const c = new Circle(1);
+// console.log(c.radius = -10);
+
+// ------------------------- Inheritance ---------------------
+
+class Shape{
+    constructor(color) {
+        this.color = color;
     }
-
-    get radius() {
-        return _radius.get(this);
-    }
-
-    set radius(value) {
-        if (value <= 0) throw new Error('Invalid Radius');
-        _radius.set(this, value);
+    move() {
+        console.log('move');
     }
 }
 
-const c = new Circle(1);
-console.log(c.radius = -10);
+class Circle extends Shape{
+    constructor(color, radius) {
+        super(color);
+        this.radius = radius;
+    }
+    draw() {
+        console.log('draw');
+    }
+}
 
-// ------------------------- Inheritance ---------------------
+const c = new Circle('red', 1);
+
+console.log(c.color,c.radius);
