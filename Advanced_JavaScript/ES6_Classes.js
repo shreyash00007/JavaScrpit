@@ -127,7 +127,7 @@
 
 // class Circle{
 //     constructor(radius) {
-//         // this.radius = radius; // can aecess the radius 
+//         // this.radius = radius; // can aecess the radius
 //         _radius.set(this, radius); // can not aecess here
 //         privateProps.set(this,{
 //             radius: radius,
@@ -137,7 +137,7 @@
 //         });
 
 //         _move.set(this, function () {
-//            console.log('move', this) 
+//            console.log('move', this)
 //         });
     
 //     }
@@ -179,25 +179,45 @@
 
 // ------------------------- Inheritance ---------------------
 
+// class Shape{
+//     constructor(color) {
+//         this.color = color;
+//     }
+//     move() {
+//         console.log('move');
+//     }
+// }
+
+// class Circle extends Shape{
+//     constructor(color, radius) {
+//         super(color);
+//         this.radius = radius;
+//     }
+//     draw() {
+//         console.log('draw');
+//     }
+// }
+
+// const c = new Circle('red', 1);
+
+// console.log(c.color,c.radius);
+
+
+// ----------------------- Method Overriding ----------------------
+
 class Shape{
-    constructor(color) {
-        this.color = color;
-    }
     move() {
         console.log('move');
     }
 }
 
 class Circle extends Shape{
-    constructor(color, radius) {
-        super(color);
-        this.radius = radius;
-    }
-    draw() {
-        console.log('draw');
+    move() {
+        super.move();
+        console.log('circle move');
     }
 }
 
-const c = new Circle('red', 1);
+const c = new Circle();
 
-console.log(c.color,c.radius);
+console.log(c.move);
