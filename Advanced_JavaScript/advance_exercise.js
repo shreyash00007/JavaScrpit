@@ -130,3 +130,54 @@ function HtmlImageElement(src) {
 
 HtmlImageElement.prototype = new HtmlElement();
 HtmlImageElement.prototype.constructor = HtmlImageElement;
+
+// ------------------ ES6 classes ---------------------
+
+// --------------- Stack ------------------
+
+
+// class stack {
+
+// }
+
+// const stack = new Stack();
+
+// stack.push('a');
+// stack.push('b');
+// stack.push('c');
+// stack.count;
+// stack.pop();
+// stack.pop();
+
+// console.log(stack);
+
+
+const _items = new WeakMap();
+
+class Stack{
+    constructor() {
+        _items.set(this, []);
+    }
+    push(obj) {
+        _items.get(this).push(obj);
+    }
+    pop() {
+        const items = _items.get(this);
+
+        if (items.length === 0)
+            throw new Error('Stack is empty.');
+        return itmes.pop();
+    }
+    peek() {
+        const items = _items.get(this);
+
+        if (items.length === 0)
+            throw new Error('Stack is empty.');
+        return itmes[items.length - 1];
+    }
+
+    get count() {
+        return _items.get(this).length;
+    }
+
+}
