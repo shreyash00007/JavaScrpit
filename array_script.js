@@ -23,7 +23,7 @@ numbers.unshift(1, 2);
 numbers.splice(3, 0, 'a', 'b');
 // console.log(numbers);
 
-// -------------- Finding Elements in array Primitives types
+// -------------- Finding Elements in array Primitives types -----------
 
 const newNumbers = [1, 2, 3, 1, 4];
 
