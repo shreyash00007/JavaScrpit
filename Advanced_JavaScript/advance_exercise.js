@@ -23,7 +23,7 @@ function Stopwatch() {
         get: function () { return running; }  
     });
 }
-
+// ------- classes -------
 // ------------ Start Time Function ---------------
     Stopwatch.prototype.start = function () {
         if (this.running)
