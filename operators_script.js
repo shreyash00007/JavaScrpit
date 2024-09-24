@@ -26,12 +26,12 @@
 // console.log(x % y);
 // console.log(x ** y);
 
-// --------Increment operator (++) by +1
+// -------- Increment operator (++) by +1
 
 // console.log(x++);
 // console.log(x);
 
-// ---------Decrement operator (--) by -1
+// --------- Decrement operator (--) by -1
 
 // console.log(y--);
 // console.log(--y); //If we apply the operator first it will show the value: eg 20 - 1 = 19
@@ -52,7 +52,7 @@
 // x *= 4; // we can use all of the above arithmetic operators in assignment operators
 // console.log(x);
 
-// --------- Comparison Operators ------------------
+// -------------------- Comparison Operators ------------------
 
 // We use these operators to compare the values of variables
 
@@ -125,7 +125,7 @@
 // console.log('Application Refused', applicationRefused);
 
 
-// ------------- Logical Operators with Non booleans
+// ------------- Logical Operators with Non booleans ---------
 
 // Falsy (false)
 // undefined
@@ -150,7 +150,7 @@
 // console.log(currnetColor);
 
 
-// ------------ Bitwise Operators
+// ------------ Bitwise Operators ---------------
 
 // 1 = 0000001
 // 2 = 0000010
