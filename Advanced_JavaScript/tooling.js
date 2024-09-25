@@ -42,8 +42,8 @@
 // ---------------- ES6 Tooling -----------------
 
 // Tooling is nothing but tools for javascript browser-based applications
-//Examples like bundlers i.e Webpack and Bable
+// Examples like bundlers i.e - Webpack and Bable
 
-//A bundler takes multiple files and makes them into a single file
+// A bundler takes multiple files and makes them into a single file
 
 
