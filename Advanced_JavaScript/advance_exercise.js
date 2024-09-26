@@ -58,7 +58,7 @@ function Stopwatch() {
 
 // problem 2
 
-// Create to objects the first one as HtmlElement and second one as
+// Create to objects the first one as HtmlElement and the second one as
 // HtmlSelectElement with dorp down list
 
 
@@ -94,8 +94,8 @@ HtmlSelectElement.prototype.constructor = HtmlSelectElement;
 
 // Polymorphism Inheritance
 
-// Create HTML Image element that inhert from HtmlElement so it can me click focused
-// but it also, has it own render method
+// Create an HTML Image element that inherits from HtmlElement so it can click focused
+// but it also, has its own render method
 
 
 function HtmlSelectElement(items =[]) {
