@@ -1,7 +1,7 @@
 // ES6 Classes
 // ITs the modern version of JavaScript
 
-//  --------------------- Classic way for cosntructor
+//  --------------------- Classic way for constructor
 
 // function Circle(radius) {
 //     this.radius = radius;
@@ -81,7 +81,7 @@
 // // Function call
 // draw();
 
-// It will give the ouput as undefined due to the class declartion
+// It will give the output as undefined due to the class declaration
 // class Circle{
 //     draw() {
 //         console.log(this);
@@ -110,9 +110,9 @@
 //     }
 // }
 
-// Declaring the new method into the c variable so we can acess the objects
+// Declaring the new method into the c variable so we can access the objects
 // const c = new Circle(1);
-// // it was old way to acess but not relible
+// // it was old way to acess but not reliable
 // console.log(c._radius);
 
 // const key = Object.getOwnPropertySymbols(c)[0];
