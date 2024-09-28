@@ -18,10 +18,10 @@
 // ----------------- Objects -------------------
 
 // Basics of objects
-// An object in in javaScript is essential a collections of key value pairs 
+// An object in JavaScript is essential a collections of key-value pairs 
 
 const cirlce = {
-    radius: 1,   // example of key value 
+    radius: 1,   // example of key-value 
     location: {
         x: 1,
         y: 2
@@ -78,7 +78,7 @@ new Number(); // 1, 2, 3, ....
 
 // ------------------ Functions are objects in javascript
 
-// in broweser console
+// in browser console
 
 // console.log(Circle.name);
 // console.log(Circle.length);
@@ -126,7 +126,7 @@ x.value = 20;
 // console.log(y);
 
 // Primitives are copied by their value
-// like you can see down there numberx intial value was 10
+// like you can see down there numbers initial value was 10
 // after the increase function we just 
 // used the value in from of varible.
 // and it got the output as 11
