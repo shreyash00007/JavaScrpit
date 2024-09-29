@@ -1,10 +1,10 @@
 // -------------------- Inheritance ---------------------
 
 // Inheritance of the core concept of opp that enables an object that takes on the properties and methods
-// of another object and this makes it esay to reuse code in different parts of an application
-// in inheritance you can inherit fucntional properties in a object
-// it is mostly used in objects and classes
-// It also one the most important pillar of Object oriented programming
+// of another object and this makes it easy to reuse code in different parts of an application
+// In inheritance you can inherit functional properties in an object
+// It is mostly used in objects and classes
+// It is also one of the most important pillars of Object-oriented programming
 
 // --------------------- Prototypes and Prototypical Inheritance --------------------
 
