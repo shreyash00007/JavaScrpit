@@ -10,7 +10,7 @@
 
 let x = {};
 // console.log(x);
-// Here x is a prototypical object it has some inheriant properities
+// Here x is a prototypical object it has some inherent properties
 
 
 // ------------------------- Multilevel Inheritance --------------------------------
@@ -33,10 +33,10 @@ const circle = new Circle(11);
 
 // console.log(circle);
 
-// Objects and array created by a given constructor will have the same prototypes.
+// Objects and arrays created by a given constructor will have the same prototypes.
 
 // ------------- Property Descriptors --------------
-// It can be used to describe the properties in a Object or array
+// It can be used to describe the properties in an Object or array
 
 // let person = { name: "shreyash" };
 
@@ -146,10 +146,10 @@ Student.prototype.scale = function () {
 
 // console.log(s1.hasOwnProperty('learn'));
 
-// -------------------- Avoid Extending the Build-in Ojbects -----------------
+// -------------------- Avoid Extending the Build-in Objects -----------------
 
 // Always avoid extending build-in objects 
-// the prototype fuction 
+// the prototype function 
 Array.prototype.shuffle = function () {
 };
 
