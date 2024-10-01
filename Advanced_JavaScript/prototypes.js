@@ -36,6 +36,7 @@ const circle = new Circle(11);
 // Objects and arrays created by a given constructor will have the same prototypes.
 
 // ------------- Property Descriptors --------------
+
 // It can be used to describe the properties in an Object or array
 
 // let person = { name: "shreyash" };
@@ -84,7 +85,7 @@ Pokemon.prototype; // prototype property
 
 // console.log(pokemon);
 
-// ---------------------------- Prototype vs Instance Members
+// ----------------- Prototype vs Instance Members ---------------
 
 function Dumb(people) {
     this.people = people;
@@ -121,7 +122,7 @@ Dumb.prototype.toString = function () {
     return 'People are Dumb' + this.people;
 }
 
-// ------------------ Iterating Instance and Prototype Members
+// ----------- Iterating Instance and Prototype Members --------------
 
 function Student(learn) {
     this.learn = learn;
@@ -132,7 +133,8 @@ function Student(learn) {
 
 const s1 = new Student(10);
 
-// Protoype members
+// Prototype members
+
 Student.prototype.scale = function () {
     console.log('line');
 }
