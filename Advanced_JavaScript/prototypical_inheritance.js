@@ -9,7 +9,7 @@ Shape.prototype.duplicate = function () {
 }
 // ------- Calling the Super Constructor -------------
 function Circle(radius, color) {
-    // It will now work need to use call fucntion
+    // It will now work need to use call function
     // Shape(color);
     // Using constructor call 
     Shape.call(this, color);
@@ -99,7 +99,7 @@ const shapes = [
 
 // Avoid creating inheritance hierarchies
 // favor Composition over Inheritance
-//  use mixins to achive composition
+//  use mixins to achieve composition
 
 // ------------------------ Mixins --------------------------
 
