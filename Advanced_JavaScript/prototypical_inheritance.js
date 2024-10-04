@@ -9,7 +9,7 @@ Shape.prototype.duplicate = function () {
 }
 // ------- Calling the Super Constructor -------------
 function Circle(radius, color) {
-    // It will now work need to use call function
+    // It will now work need to use the call function
     // Shape(color);
     // Using constructor call 
     Shape.call(this, color);
@@ -116,7 +116,7 @@ const canWalk = {
     }
 };
 
-// Empty for contructor funtions
+// Empty for constructor function
 function Person() {
     
 }
