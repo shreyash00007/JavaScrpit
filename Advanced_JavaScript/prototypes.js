@@ -72,7 +72,7 @@ const circle = new Circle(11);
 // myObj.__proto__ (parent of myObj)
 // Constructor.prototype ()
 
-// New fuctional oject is created 
+// New functional object is created 
 
 function Pokemon(pika) {
     this.pika = pika;
