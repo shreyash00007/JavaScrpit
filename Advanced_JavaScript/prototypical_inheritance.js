@@ -95,11 +95,12 @@ const shapes = [
 // for (let shape of shapes)
     // shape.duplicate();
 // let's complete it
+
 // -------------------------- When to use Inheritance ------------------------
 
 // Avoid creating inheritance hierarchies
-// favor Composition over Inheritance
-//  use mixins to achieve composition
+// Favor Composition over Inheritance
+// Use mixins to achieve composition
 
 // ------------------------ Mixins --------------------------
 
