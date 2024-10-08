@@ -1,7 +1,7 @@
 // ES6 Classes
 // ITs the modern version of JavaScript
 
-//  --------------------- Classic way for constructor
+//  --------------------- Classic way for constructor ---------------------
 
 // function Circle(radius) {
 //     this.radius = radius;
@@ -15,7 +15,7 @@
 // console.log(cir);
 
 
-// ----------------- new way of writing it
+// ----------------- new way of writing it ---------------
 
 // class Circle {
 //     constructor(radius) {
@@ -112,7 +112,7 @@
 
 // Declaring the new method into the c variable so we can access the objects
 // const c = new Circle(1);
-// // it was old way to acess but not reliable
+// // it was the old way to access but not reliable
 // console.log(c._radius);
 
 // const key = Object.getOwnPropertySymbols(c)[0];
@@ -127,8 +127,8 @@
 
 // class Circle{
 //     constructor(radius) {
-//         // this.radius = radius; // can aecess the radius
-//         _radius.set(this, radius); // can not aecess here
+//         // this.radius = radius; // can access the radius
+//         _radius.set(this, radius); // can not access here
 //         privateProps.set(this,{
 //             radius: radius,
 //             move: () => {
