@@ -66,7 +66,7 @@ function createCircle(radius) {
 // With the Factory function we simply call a function and return a new object
 
 // In the constructor we use " new " operator and instead of returning an object
-// We use this. keyword also in naming convention we use Pascal naming convention
+// We use this. keyword Also in naming convention we use the Pascal naming convention
 
 // console.log(circle,circle.draw());
 
@@ -207,9 +207,9 @@ increase(obj);
 // console.log(another);
 
 // -------------- Garbage Collection in JavaScript
-// in low level languages we need to allocate memory to o objects like c, C++
+//In level languages we need to allocate memory to o objects like c, C++
 // In JavaScript we don't have this concept
-// we can easily create new obj the memory is automatically allocated to the object
+//We can easily create a new obj the memory is automatically allocated to the object
 // and also, deallocate it, In JavaScript we have a Garbage collector in JavaScript
 
 // let circle = {}
@@ -280,7 +280,7 @@ increase(obj);
 // const another =
 // `Hi, ${ name }
 
-// Thank you for joining my mailisng list ${2*5}.
+// Thank you for joining my mailing list ${2*5}.
 
 // Regards,
 // Shreyash`;
