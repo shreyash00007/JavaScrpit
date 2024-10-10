@@ -199,8 +199,8 @@ function num() {
     for (var i = 0; i <= 5; i++){
         console.log(i);
     }
-    console.log(i); // i is declared as ver so it will not an throw error
-    // this is the reason we should not use var 
+    console.log(i); // i is declared as ver so it will not throw an error
+    // This is the reason we should not use var 
 }
 
 // num();
