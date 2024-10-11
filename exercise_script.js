@@ -181,7 +181,7 @@ function countTruthy(array) {
 }
 
 // ---------------- 6) String Properties
-// Write a function that will show all the properties of a object are string
+// Write a function that will show all the properties of an object are string
 
 // const movie = {
 //     title: 'a',
