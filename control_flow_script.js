@@ -113,7 +113,7 @@ let role;
 
 // const colors = ['red', 'green', 'blue'];
 
-// for (let index in colors) //It can be also used in arrays
+// for (let index in colors) //It can also be used in arrays
 //     console.log(index, colors[index]);
 
 // ----------- For off loops (introduced in es6)
