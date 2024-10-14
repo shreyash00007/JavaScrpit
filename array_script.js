@@ -111,7 +111,7 @@ while (xnumber.length > 0) // not a reliable
 
 // const first = [1, 2, 3];
 // const second = [4, 5, 6];
-// const third = [{ vlaue: 10 }];
+// const third = [{ value: 10 }];
 
 // third[0].vlaue = 14;
 
