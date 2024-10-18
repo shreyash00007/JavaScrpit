@@ -125,8 +125,7 @@
 // console.log('Application Refused', applicationRefused);
 
 
-// ------------- Logical Operators with Non booleans ---------
-
+// ------------- Logical Operators with Non-booleans ----------
 // Falsy (false)
 // undefined
 // null
