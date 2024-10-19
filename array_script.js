@@ -122,7 +122,7 @@ while (xnumber.length > 0) // not a reliable
 // console.log(combined);
 // console.log(slice);
 
-// -------------- The Spread Operator
+// -------------- The Spread Operator -----------------------
 
 const first = [1, 2, 3];
 const second = [4, 5, 6];
