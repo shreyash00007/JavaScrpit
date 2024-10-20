@@ -54,7 +54,7 @@ function isLandScaped(width, height) {
 // Not divisible by 3 or 5 => input
 
 
-// --- my soluition
+// --------------------------- my soluition
 
 
 // function fizzBuzz(input) {
@@ -164,9 +164,9 @@ function showNumbers(limit) {
 // false
 // 0
 // NaN
-// this one is new for me so no solution from my side
+// this one is new for me so there is no solution from my side
 
-// m ----- solution
+// my solution -----------------------
 
 const array = [0, null, undefined, 1,  2, 3];
 
