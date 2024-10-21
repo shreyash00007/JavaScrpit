@@ -205,10 +205,7 @@ function num() {
 
 // num();
 
-
 // Avoid using the var keyword
-
-
 
 
 // -------------------------- The This keyword -----------------------------
@@ -273,5 +270,4 @@ function heyVideo() {
 // heyVideo.call({ name: 'shreyash' }, 1, 2);
 // heyVideo.apply({ name: 'shreyash' }, [1, 2]);
 // heyVideo.bind({ name: 'shreyash' })();
-
 // heyVideo();
