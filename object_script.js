@@ -2,6 +2,7 @@
 // Objects are a collection of key-value pairs
 // Object-Oriented Programming (OOP)
 // Object literal syntax V
+
 // const circleE = { 
 //     radius: 1,
 //     location: {
@@ -71,10 +72,9 @@ function createCircle(radius) {
 // console.log(circle,circle.draw());
 
 
-//  ------------ Objects are Dyanamic
+//  ------------ Objects are Dyanamic -----------------
 
-// eg
-
+// eg :-
 // const circle = {
 //     radius: 1
 // };
