@@ -1,4 +1,4 @@
-//------------------ Control flow JavaScript
+//------------------ Control flow JavaScript -------------------------
 
 // Hour Greeting
 // If the hour is between 6am and 12pm: Good morning!
