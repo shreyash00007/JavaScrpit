@@ -1,5 +1,7 @@
 // ----------------------- This is the basics of JavaScript --------------------
+
 // This a comment
+
 // console.log('Hello world shreyash');
 
 // ----------- Variables in JavaScript ----------
@@ -13,7 +15,7 @@ let name = 'shreyash';
 // Cannot start with  a number(1onje)
 // Cannot contain a space or hyphen (-)
 // They are Case-sensitive
-// They follow camel case 
+// They follow the camel case 
 // notation first letter small and other 
 // starting words in capital eg: - firstName
 
@@ -51,7 +53,7 @@ console.log(pi);
 
 let names = 'shreyash'; // String literal (a fancy way to say a string)
 names = 3; 
-let age = 22; // Number litral (decimal and floats comes it to number)
+let age = 22; // Number literal (decimal and floats comes it to number)
 let isApproved = false; // boolean literal (true or false)
 let nextName = undefined; // undefined is value
 let selectedColor = null; // null is a object 
