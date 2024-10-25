@@ -22,12 +22,14 @@ let name = 'shreyash';
 //let firtName = 'shreyash' , lastName = 'Dhanawade'; // is not a good pratice
 
 // Always declare a new variable at the new line
+
 let firtName = 'shreyash';
 let lastName = 'Dhanawade';
 
 console.log(firtName, lastName);
 
 // Let variable can be reassigned
+
 let interestRate = 0.4;
 interestRate = 1; 
 
@@ -74,7 +76,7 @@ console.log(typeof (isApproved));
 console.log(typeof (selectedColor));
 
 
-//  -------------- Reference Types
+//  -------------- Reference Types --------------
 
 // Object
 // Array
