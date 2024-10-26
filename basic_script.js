@@ -1,4 +1,4 @@
-// ----------------------- This is the basics of JavaScript --------------------
+// ----------------------- This is the basics of JavaScript ---------------------
 
 // This a comment
 
@@ -19,7 +19,7 @@ let name = 'shreyash';
 // notation first letter small and other 
 // starting words in capital eg: - firstName
 
-//let firtName = 'shreyash' , lastName = 'Dhanawade'; // is not a good pratice
+//let firstName = 'shreyash' , lastName = 'Dhanawade'; // is not a good pratice
 
 // Always declare a new variable at the new line
 
@@ -38,7 +38,8 @@ console.log(interestRate);
 // Const can't be reassigned
 
 const pi = 3.17;
-// pi = 4; // it will throw an error: Assignment to constant variable.
+// pi = 4; 
+// it will throw an error: Assignment to constant variable.
 console.log(pi);
 
 // Data Types in JavaScript
@@ -71,10 +72,9 @@ console.log(typeof (names));
 
 console.log(typeof (isApproved));
 
-// Null is a object in JavaScript
+// Null is an object in JavaScript
 
 console.log(typeof (selectedColor));
-
 
 //  -------------- Reference Types --------------
 
@@ -107,7 +107,7 @@ console.log(person);
 
 // --------------- Arrays
 
-let selectedColors = ['red', 'blue']; // array litral
+let selectedColors = ['red', 'blue']; // array literal
 
 selectedColors[2] = 'green'; // add items to array 
 
