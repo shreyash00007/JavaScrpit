@@ -1,8 +1,8 @@
 //------------------ Control flow JavaScript -------------------------
 
 // Hour Greeting
-// If the hour is between 6am and 12pm: Good morning!
-// If it is between 12pm and 6pm: Good afternoon!
+// If the hour is between 6 am and 12 pm: Good morning!
+// If it is between 12 pm and 6 pm: Good afternoon!
 // Otherwise: Good evening!!
 
 // ------------ If else
