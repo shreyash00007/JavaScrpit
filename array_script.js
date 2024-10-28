@@ -1,4 +1,4 @@
-// ------------------- Array in JavaScript ----------------------
+// ---------------------- Array in JavaScript --------------------------
 
 // Adding new elements
 // Finding elements
@@ -6,7 +6,7 @@
 // Splitting arrays
 // Combining arrays
 
-// -------------- Adding new element to Array -----------------------
+// ----------------- Adding new element to Array ------------------------
 
 const numbers = [3, 4];
 
@@ -23,7 +23,7 @@ numbers.unshift(1, 2);
 numbers.splice(3, 0, 'a', 'b');
 // console.log(numbers);
 
-// -------------- Finding Elements in array Primitives types -----------
+// -------------- Finding Elements in array Primitives types --------------
 
 const newNumbers = [1, 2, 3, 1, 4];
 
