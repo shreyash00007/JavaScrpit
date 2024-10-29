@@ -28,7 +28,7 @@ let lastName = 'Dhanawade';
 
 console.log(firtName, lastName);
 
-// Let variable can be reassigned
+// Let the variable can be reassigned
 
 let interestRate = 0.4;
 interestRate = 1; 
@@ -39,7 +39,7 @@ console.log(interestRate);
 
 const pi = 3.17;
 // pi = 4; 
-// it will throw an error: Assignment to constant variable.
+//It will throw an error: Assignment to constant variable.
 console.log(pi);
 
 // Data Types in JavaScript
