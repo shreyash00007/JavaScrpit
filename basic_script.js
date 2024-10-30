@@ -82,13 +82,13 @@ console.log(typeof (selectedColor));
 // Array
 // Function
 
-// what is object is like object in real life like a person who as name, age, addres, height, weight, country etc.
+// What is an object? It is like an object in real life, like a person who has a name, age, address, height, weight, country, etc.
 
 // ---------------- Objects in JavaScript
 
 // let name = 'shreyash';
 // let age = '22';
-// Now the above two are highly related so we can create a object of those
+// Now the above two are highly related so we can create an object of those
 
 let person = {
     name: 'shreyash',
