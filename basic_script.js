@@ -19,7 +19,8 @@ let name = 'shreyash';
 // notation first letter small and other 
 // starting words in capital eg: - firstName
 
-//let firstName = 'shreyash' , lastName = 'Dhanawade'; // is not a good pratice
+// let firstName = 'shreyash' , lastName = 'Dhanawade'; 
+// is not a good practice
 
 // Always declare a new variable at the new line
 
