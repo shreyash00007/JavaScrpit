@@ -100,7 +100,7 @@ let person = {
 
 person.name = 'Jhon'; // it is easy to use 
 
-// Bracket Notaion
+// Bracket Notation
 
 person['name'] = 'Marry'; // it is not easy to use 
 
@@ -119,7 +119,7 @@ console.log(selectedColors[0]);
 
 console.log(typeof (selectedColors));
 
-// So we can say that array is object in JavaScript
+// So we can say that an array is object in JavaScript
 
 // --------------Functions
 
