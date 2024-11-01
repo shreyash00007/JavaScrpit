@@ -83,7 +83,7 @@ console.log(typeof (selectedColor));
 // Array
 // Function
 
-// What is an object? It is like an object in real life, like a person who has a name, age, address, height, weight, country, etc.
+// What is an object? It is like an object in real life, like a person with a name, age, address, height, weight, country, etc.
 
 // ---------------- Objects in JavaScript
 
@@ -96,7 +96,7 @@ let person = {
     age: 22
 };
 
-// Dot Notation is used reassign the value in a object
+// Dot Notation is used to reassign the value in an object
 
 person.name = 'Jhon'; // it is easy to use 
 
