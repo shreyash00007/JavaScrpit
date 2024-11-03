@@ -77,7 +77,7 @@ console.log(typeof (isApproved));
 
 console.log(typeof (selectedColor));
 
-//  -------------- Reference Types --------------
+//  ------------------ Reference Types ------------------
 
 // Object
 // Array
@@ -148,7 +148,7 @@ console.log(number);
 
 console.log(square(2));
 
-// ---------------- ns stuff
+// ---------------- ns stuff ---------------
 
 var n = 2;
 function square(num) {
