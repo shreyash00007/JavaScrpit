@@ -69,7 +69,7 @@ function isLandScaped(width, height) {
 //     }
 // }
 
-// ---- M Solution
+// ------------------ M Solution
 
 // const output = fizzBuzz(false);
 // console.log(output);
@@ -151,7 +151,7 @@ function showNumbers(limit) {
         }
 }
 
-// ---------------- 5) contTruthy which takes and array and returns and tuthy values
+// ---------------- 5) contTruthy which takes an array and returns and truthy values
 // tursy and falsey elements
 // eg - const name = 'shreyash'; // is a truthy value
 // eg - const name = ''; // is a falsy value
