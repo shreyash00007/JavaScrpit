@@ -181,9 +181,9 @@
 // ----------------- Operators Precedence
 
 // let x = 2 + 3 * 4;  
-// here  multiplications have more precedence than addition
+//Here  multiplications have more precedence than addition
 // let x = (2 + 3) * 4; 
-// if you use brackets you can make that expression first to execute
+//If you use brackets you can make that expression first to execute
 
 // console.log(x);
 
