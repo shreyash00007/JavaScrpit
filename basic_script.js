@@ -68,7 +68,6 @@ console.log(typeof (names));
 
 //  JavaScript is a Dynamically typed language 
 //  where the Datatype of the variable can be declared at the runtime.
-
 // undefined as actually a value also a data type in JavaScript
 
 console.log(typeof (isApproved));
@@ -115,17 +114,17 @@ selectedColors[2] = 'green'; // add items to array
 console.log(selectedColors);
 console.log(selectedColors[0]);
 
-// The data type of array is object
+// The data type of array is an object
 
 console.log(typeof (selectedColors));
 
-// So we can say that an array is object in JavaScript
+// So we can say that an array is an object in JavaScript
 
 // --------------Functions
 
 // Function is a set of statements that performs a task and calculates the value
 
-// Perfoming a task 
+// Performing a task 
 
 function greet(yourName, endName) { // yourName is parameter
     console.log('hello ' + yourName + ' ' + endName);
