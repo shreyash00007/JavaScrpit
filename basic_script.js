@@ -120,7 +120,7 @@ console.log(typeof (selectedColors));
 
 // So we can say that an array is an object in JavaScript
 
-// --------------Functions
+// -------------- Functions
 
 // Function is a set of statements that performs a task and calculates the value
 
@@ -143,7 +143,7 @@ function square(number) {
 
 let number = square(4);
 console.log(number);
-// a better way to wirte this is
+// a better way to write this is
 
 console.log(square(2));
 
