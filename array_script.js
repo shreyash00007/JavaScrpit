@@ -107,7 +107,7 @@ while (xnumber.length > 0) // not a reliable
 // console.log(ynumber);
 
 
-// ------------- Combine and splice Array ---------------------
+// ------------------ Combine and splice Array -----------------------
 
 // const first = [1, 2, 3];
 // const second = [4, 5, 6];
@@ -122,7 +122,7 @@ while (xnumber.length > 0) // not a reliable
 // console.log(combined);
 // console.log(slice);
 
-// -------------- The Spread Operator -----------------------
+// ------------------ The Spread Operator -----------------------
 
 const first = [1, 2, 3];
 const second = [4, 5, 6];
@@ -135,7 +135,7 @@ const copy = [...combined];
 
 // console.log(copy);
 
-// ----------------- Iterating an Array -------------------------------
+// --------------------- Iterating an Array -------------------------------
 
 const bnumber = [1, 2, 3];
 
@@ -148,7 +148,7 @@ const bnumber = [1, 2, 3];
 //     console.log(number);
 // });
 
-// Optimize it using arrow function
+// Optimize it using the arrow function
 // bnumber.forEach((index,number) => console.log(index,number));
 
 // ----------------- Joining Arrays -------------------------
