@@ -5,7 +5,7 @@
 // If it is between 12 pm and 6 pm: Good afternoon!
 // Otherwise: Good evening!!
 
-// ------------ If else
+// ------------ If else ------------
 
 // if (condition) {
 //     statement
@@ -29,7 +29,7 @@
 // } else {
 //     console.log("Good evening");
 
-// ------------------- Switch Case statement
+// ------------------- Switch Case statement ------------------- 
 
 let role;
 
@@ -50,7 +50,7 @@ let role;
 // else if (role === 'moderator') console.log('Moderator');
 // else console.log('Unknown User');
 
-// -------------------- Loops
+// -------------------- Loops --------------------
 
 // Types of loops in Javascript
 
@@ -60,7 +60,7 @@ let role;
 // For...in
 // For...of
 
-// ----------- For loop
+// ----------- For loop -----------
 
 // for (let i = 1; i <= 5; i++){
 //     console.log('hello shreyash', i); // 5 times
