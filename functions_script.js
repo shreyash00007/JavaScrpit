@@ -1,11 +1,9 @@
 // ___________________________Functions in JavaScript____________________________
-
 // ------------------ Function Declaration ---------------------
 
 function walk() {
     console.log('walk');
 }
-
 // walk();
 
 // Anonymous Function Expressions
@@ -101,7 +99,6 @@ function interest(princilpal, rate = 3.5, years= 5) {
 }
 // console.log(interest(10000,5));
 
-
 // -------------------------- Getters and Setters ---------------------------
 
 // const person = {
@@ -118,15 +115,12 @@ function interest(princilpal, rate = 3.5, years= 5) {
 // };
 
 // console.log(`${person.firstName} ${person.lastName}`)  // old way
-
-
 // Getters => access properties
 // setters => change (mutate) them
 
 // person.fullName = 'pinki ponki';
 
 // console.log(person.fullName);
-
 
 // ----------------------- Try and Catch -----------------------------
 
@@ -154,6 +148,7 @@ function interest(princilpal, rate = 3.5, years= 5) {
 //     alert(e);
 // }
 // console.log(person.fullName);
+
 // ---------------------- Local vs Global Scope -------------------------
 
 function start(){
@@ -180,7 +175,6 @@ function stop() {
 
 const color = 'red'; // global scope
 // console.log(color);
-
 // stop();
 
 // --------------------------- Let vs Var ---------------------------
@@ -202,11 +196,9 @@ function num() {
     console.log(i); // i is declared as ver so it will not throw an error
     // This is the reason we should not use var 
 }
-
 // num();
 
 // Avoid using the var keyword
-
 
 // -------------------------- The This keyword -----------------------------
 
@@ -247,7 +239,7 @@ const bideo = {
 
 // bideo.showTags();
 
-// -------------------------- Changing this -------------------------
+// -------------------------- Changing this --------------------------
 
 const gideo = {
     title: 'a',
@@ -261,7 +253,6 @@ const gideo = {
 };
 
 // gideo.showTags();
-
 
 function heyVideo() {
     console.log(this);
