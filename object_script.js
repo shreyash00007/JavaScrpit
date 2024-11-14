@@ -24,7 +24,7 @@
 // ----------- Factory Function
 // Function and Method
 // A function doesn't need any object and is independent,
-// while the method is a function, which is linked with any object.
+// while the method is a function linked with any object.
 
 // Factory functions are the functions which produce Object's
 
@@ -66,7 +66,7 @@ function createCircle(radius) {
 // In the Factory function create an object and pass an argument
 // With the Factory function we simply call a function and return a new object
 
-// In the constructor we use " new " operator and instead of returning an object
+// In the constructor we use the " new " operator and instead of returning an object
 // We use this. keyword Also in naming convention we use the Pascal naming convention
 
 // console.log(circle,circle.draw());
