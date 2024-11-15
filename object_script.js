@@ -184,8 +184,8 @@ increase(obj);
 
 // if ('radius' in circle) console.log('yes');
 
-// ----------------Cloning an Object
-// we can also create copies of objects in JavaScript
+// ---------------- Cloning an Object
+//We can also create copies of objects in JavaScript
 
 // const circle = {
 //     radius: 1,
@@ -207,7 +207,7 @@ increase(obj);
 // console.log(another);
 
 // -------------- Garbage Collection in JavaScript
-//In level languages we need to allocate memory to o objects like c, C++
+//In level languages we need to allocate memory to objects like c, C++
 // In JavaScript we don't have this concept
 //We can easily create a new obj the memory is automatically allocated to the object
 // and also, deallocate it, In JavaScript we have a Garbage collector in JavaScript
@@ -219,7 +219,7 @@ increase(obj);
 // Math is a built-in object that has properties and methods
 // for mathematical constants and functions. Not a function object
 
-// -----Math random
+// ----- Math random
 // function getRandomArbitary(min, max) {
 //     return Math.random() * (max - min) + min;
 // }
@@ -269,7 +269,7 @@ increase(obj);
 //     'This is my \n' +
 //     '\'first \'message'; // old and ineffcient way
 
-// use this one instead called template litreal ``
+// use this one instead called template literal ``
 
 // const message =
 // `This is my
