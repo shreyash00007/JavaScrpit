@@ -185,7 +185,7 @@ increase(obj);
 // if ('radius' in circle) console.log('yes');
 
 // ---------------- Cloning an Object
-//We can also create copies of objects in JavaScript
+// We can also create copies of objects in JavaScript
 
 // const circle = {
 //     radius: 1,
@@ -275,7 +275,7 @@ increase(obj);
 // `This is my
 // 'first' message`;
 
-// // this good for email messages
+// // this is good for email messages
 // const name = 'harsh';
 // const another =
 // `Hi, ${ name }
