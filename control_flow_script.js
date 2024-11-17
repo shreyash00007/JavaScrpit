@@ -108,8 +108,9 @@ let role;
 //     age: 30
 // };
 
-// for (let key in person ) // For in loop is used to iterate properties of the object in Js
-//     console.log(key, person[key]);
+// For (let key in person ) 
+// For in loop is used to iterate properties of the object in Js
+// console.log(key, person[key]);
 
 // const colors = ['red', 'green', 'blue'];
 
