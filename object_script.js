@@ -1,4 +1,5 @@
 // -------------------- Introduction to Objects -----------------------
+
 // Objects are a collection of key-value pairs
 // Object-Oriented Programming (OOP)
 // Object literal syntax V
@@ -48,7 +49,7 @@ function createCircle(radius) {
 // Camel Notation : oneTwoThreeFour
 // Pascal Notation: OneTwoThreeFour
 
-// this is key word in JavaScript
+// this is keyword in JavaScript
 // which has reference to the object that is executing 
 // this piece of code
 
@@ -207,9 +208,9 @@ increase(obj);
 // console.log(another);
 
 // -------------- Garbage Collection in JavaScript
-//In level languages we need to allocate memory to objects like c, C++
+// In level languages we need to allocate memory to objects like c, C++
 // In JavaScript we don't have this concept
-//We can easily create a new obj the memory is automatically allocated to the object
+// We can easily create a new obj the memory is automatically allocated to the object
 // and also, deallocate it, In JavaScript we have a Garbage collector in JavaScript
 
 // let circle = {}
