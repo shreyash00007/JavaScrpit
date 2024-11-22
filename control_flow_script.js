@@ -124,7 +124,7 @@ let role;
 // for (let color of colors) // It is used to iterate over the properties of the array
 //     console.log(color)
 
-// -------------- Break and Continue ----------------------
+// ---------------------- Break and Continue ----------------------
 
 // let i = 0;
 // while (i <= 10) {
