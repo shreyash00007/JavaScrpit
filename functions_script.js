@@ -1,4 +1,4 @@
-// ___________________________Functions in JavaScript____________________________
+//--------------------- Functions in JavaScript ---------------------
 // ------------------ Function Declaration ---------------------
 
 function walk() {
