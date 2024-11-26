@@ -1,5 +1,5 @@
 // ---------------------------------------- JavaScript Exercise ------------------------------------------------
-// ----------------------- 1) Write a function that takes two numbers and returns
+// 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
 // --------- My Solution ---------
@@ -24,7 +24,7 @@ function max(a, b) {
     return (a > b) ? a : b;
 }
 
-// ------------------- 2) Write a function that will tell if an image is
+// 2) Write a function that will tell if an image is
 // Landscape of not
 
 function isLandScape(width, height) {
