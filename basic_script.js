@@ -41,6 +41,7 @@ console.log(interestRate);
 const pi = 3.17;
 // pi = 4; 
 //It will throw an error: Assignment to constant variable.
+
 console.log(pi);
 
 // Data Types in JavaScript
@@ -95,7 +96,7 @@ let person = {
     age: 22
 };
 
-// Dot Notation is used to reassign the value in an object
+// The Dot Notation is used to reassign the value in an object
 
 person.name = 'Jhon'; // it is easy to use 
 
