@@ -1,6 +1,6 @@
 // -------------------- Inheritance ---------------------
 
-// Inheritance of the core concept of opp that enables an object that takes on the properties and methods
+// Inheritance of the core concept of opp that enables an object to takes on the properties and methods
 // of another object and this makes it easy to reuse code in different parts of an application
 // In inheritance you can inherit functional properties in an object
 // It is mostly used in objects and classes
@@ -72,7 +72,7 @@ const circle = new Circle(11);
 // myObj.__proto__ (parent of myObj)
 // Constructor.prototype ()
 
-// New functional object is created 
+// A new functional object is created 
 
 function Pokemon(pika) {
     this.pika = pika;
@@ -98,7 +98,7 @@ function Dumb(people) {
     }
 }
 
-// Protype members
+// Prototype members
 Dumb.prototype.draw = function () {
     console.log("people are crazy");
 }
