@@ -1,5 +1,5 @@
 // ---------------------------- Object Oriented Programming --------------------------------
-//What is OOP?
+// What is OOP?
 // A programming paradigm centered around objects rather than functions.
 // It's a style of programming which centers around objects.
 // Languages -- C#, Java, Ruby, Python, & JavaScript are oops languages
@@ -18,7 +18,7 @@
 // ----------------- Objects -------------------
 
 // Basics of objects
-// An object in JavaScript is essential a collections of key-value pairs 
+// An object in JavaScript is essential a collection of key-value pairs 
 
 const cirlce = {
     radius: 1,   // example of key-value 
@@ -34,7 +34,7 @@ const cirlce = {
 // cirlce.draw();
 
 //------------- Factories ------------
-// Two types of object based function's in javaScript
+// Two types of object-based function's in javaScript
 // Factory Function
 // constructor Function
 // ---------------- Factory function ---------------
@@ -99,7 +99,7 @@ new Number(); // 1, 2, 3, ....
 
 // console.log(another);
 
-// ---------------------- Value vs Refernce Types in JavaScript
+// ---------------------- Value vs Reference Types in JavaScript
 
 //  --- Value types
 
