@@ -34,7 +34,7 @@ const cirlce = {
 // cirlce.draw();
 
 //------------- Factories ------------
-// Two types of object-based function's in javaScript
+// Two types of object-based functions in javaScript
 // Factory Function
 // constructor Function
 // ---------------- Factory function ---------------
@@ -78,7 +78,7 @@ new Number(); // 1, 2, 3, ....
 
 // ------------------ Functions are objects in javascript
 
-// in browser console
+// in the browser console
 
 // console.log(Circle.name);
 // console.log(Circle.length);
