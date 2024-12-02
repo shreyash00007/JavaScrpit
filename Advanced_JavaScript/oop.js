@@ -126,9 +126,9 @@ x.value = 20;
 // console.log(y);
 
 // Primitives are copied by their value
-// like you can see down there numbers initial value was 10
+// like you can see down their numbers, the initial value was 10
 // after the increase function we just 
-// used the value in from of varible.
+// used the value in form of varible.
 // and it got the output as 11
 
 let numberx = 10;
