@@ -1,5 +1,5 @@
 // ES6 Classes
-// ITs the modern version of JavaScript
+// It is the modern version of JavaScript
 
 //  --------------------- Classic way for constructor ---------------------
 
