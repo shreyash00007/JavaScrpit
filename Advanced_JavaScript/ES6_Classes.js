@@ -15,7 +15,7 @@
 // console.log(cir);
 
 
-// ----------------- new way of writing it ---------------
+// ----------------- New way of writing it ---------------
 
 // class Circle {
 //     constructor(radius) {
@@ -35,10 +35,10 @@
 // // function declaration
 // function sayHello() { }
 
-// // function expression
+// function expression
 // const sayGoodbye = function () { };
 // const number = 1;
-// // Function expression is not hoisted
+// Function expression is not hoisted
 
 // // Class Declartion
 // class Circle {
