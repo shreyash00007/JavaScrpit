@@ -1,4 +1,5 @@
 // ---------------------------- Object Oriented Programming --------------------------------
+
 // What is OOP?
 // A programming paradigm centered around objects rather than functions.
 // It's a style of programming which centers around objects.
@@ -33,10 +34,11 @@ const cirlce = {
 
 // cirlce.draw();
 
-//------------- Factories ------------
+// ------------- Factories ------------
 // Two types of object-based functions in javaScript
 // Factory Function
 // constructor Function
+
 // ---------------- Factory function ---------------
 
 function createCirle(radius) {
@@ -100,7 +102,6 @@ new Number(); // 1, 2, 3, ....
 // console.log(another);
 
 // ---------------------- Value vs Reference Types in JavaScript
-
 //  --- Value types
 
 // Number
@@ -127,7 +128,7 @@ x.value = 20;
 
 // Primitives are copied by their value
 // like you can see down their numbers, the initial value was 10
-// after the increase function we just 
+// After the increase function we just 
 // used the value in form of varible.
 // and it got the output as 11
 
@@ -140,7 +141,7 @@ function increase(numberx) {
 increase(numberx);
 // console.log(numberx);
 
-// Objects are copied by thier reference
+// Objects are copied by their reference
 
 let obj = { value: 10 };
 
