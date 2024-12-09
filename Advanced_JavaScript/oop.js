@@ -130,7 +130,7 @@ x.value = 20;
 // Primitives are copied by their value
 // like you can see down their numbers, the initial value was 10
 // After the increase function we just 
-// used the value in form of a variable.
+// used the value in the form of a variable.
 // and it got the output as 11
 
 let numberx = 10;
@@ -156,7 +156,7 @@ addUp(obj);
 
 // Adding or removing properties is very important for example
 // If you had any function where in you need to add or remove stuff or any imp data
-// this can help a lot
+// This can help a lot
 
 function Circlex(radius) {
     this.radius = radius;
