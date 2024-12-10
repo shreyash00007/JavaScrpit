@@ -155,7 +155,7 @@ addUp(obj);
 // --------------------------- Adding or Removing Properties
 
 // Adding or removing properties is very important for example
-// If you had any function where in you need to add or remove stuff or any imp data
+// If you had any function where you need to add or remove stuff or any imp data
 // This can help a lot
 
 function Circlex(radius) {
@@ -166,10 +166,10 @@ function Circlex(radius) {
 }
 
 // adding property
-// by using a new keyword you create an empty object 
+// By using a new keyword you create an empty object 
 // which you can add elements or remove from it
 // adding new data in an object is important you can use this type
-// to update of add data or function to a object
+// to update or add data or function to an object
 const circle = new Circle(10);
 
 circle.location = { s: 1 };
