@@ -87,8 +87,8 @@ new Number(); // 1, 2, 3, ....
 // console.log(Circle.length);
 // console.log(Circle.constructor);
 
-// const Circle1 = new Function('radius', `
-// this.radius = radius;
+// const Circle1 = new Function('radius', 
+// `this.radius = radius;
 //     this.draw = function () {
 //         console.log("draw");
 //     }`
