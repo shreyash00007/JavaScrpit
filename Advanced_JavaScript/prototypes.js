@@ -117,7 +117,7 @@ const c1 = new Dumb(1);
 // console.log(c1.draw);   
 // console.log(c1.toString);
 
-// Returning string with variabe 
+// Returning string with variable 
 Dumb.prototype.toString = function () {
     return 'People are Dumb' + this.people;
 }
@@ -151,7 +151,7 @@ Student.prototype.scale = function () {
 // -------------------- Avoid Extending the Build-in Objects -----------------
 
 // Always avoid extending build-in objects 
-// the prototype function 
+// The prototype function 
 Array.prototype.shuffle = function () {
 };
 
