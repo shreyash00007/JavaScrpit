@@ -151,7 +151,7 @@ function showNumbers(limit) {
         }
 }
 
-// ---------------- 5) contTruthy which takes an array and returns and truthy values
+// ---------------- 5) contTruthy which takes an array and returns truthy values
 // truthy and falsely elements
 // eg - const name = 'shreyash'; // is a truthy value
 // eg - const name = ''; // is a falsy value
@@ -164,7 +164,7 @@ function showNumbers(limit) {
 // false
 // 0
 // NaN
-// this one is new for me so there is no solution from my side
+// This one is new for me so there is no solution from my side
 
 // my solution -----------------------
 
