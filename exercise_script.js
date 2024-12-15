@@ -281,7 +281,7 @@ function showStars(rows) {
 // Prime numbers are whose factors are only 1 and itself
 
 // -------- imp always declare a variable name that has some
-//value or menaing for easy to understand and clean coding 
+// value or menaing for easy to understand and clean coding 
 
 // first solution
 // showPrime(20);
@@ -337,7 +337,7 @@ function showAddress(address) {
 
 // 2) ----------------- Factory and Constructor functions in objects
 // intialzied and adress object using first a factory function
-//  constructor function
+// constructor function
 
 
 // const address = {
@@ -608,7 +608,7 @@ const titles = movies
 // console.log(titles);
 
 
-// -------------------------- Functions ------------------------------
+// ----------------------------- Functions --------------------------------
 
 // Exercise 1 Sum of arguments
 
