@@ -59,7 +59,7 @@ function Stopwatch() {
 // problem 2
 
 // Create two objects the first one as HtmlElement and the second one as
-// HtmlSelectElement with drop down list
+// HtmlSelectElement with drop-down list
 
 
 // solution --------- 
