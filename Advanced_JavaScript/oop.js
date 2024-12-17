@@ -175,7 +175,7 @@ const circle = new Circle(10);
 circle.location = { s: 1 };
 
 // removing property
-// delete keyword to delete the data form the object
+// delete keyword to delete the data from the object
 // delete circle['location'];
 delete circle.location;
 
