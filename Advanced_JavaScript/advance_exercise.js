@@ -56,13 +56,13 @@ function Stopwatch() {
 };
     
 
-// problem 2
+// Problem 2
 
 // Create two objects the first one as HtmlElement and the second one as
 // HtmlSelectElement with drop-down list
 
 
-// solution --------- 
+// Solution --------- 
 
 function HtmlElement() {
     this.click = function () {
@@ -85,6 +85,7 @@ function HtmlSelectElement(items = []) {
 }
 
 //  baseHtmlSelectElement
+
 HtmlSelectElement.prototype = new HtmlElement();
 HtmlSelectElement.prototype.constructor = HtmlSelectElement; 
 
