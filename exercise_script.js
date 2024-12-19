@@ -106,7 +106,7 @@ function fizzBuzz(input) {
 //     }
 // }
 
-// m solution -----
+// M solution -----
 
 // checkSpeed(187);
 // function checkSpeed(speed) {
@@ -181,7 +181,7 @@ function countTruthy(array) {
 }
 
 // ---------------- 6) String Properties
-// Write a function that will show all the properties of an object are string
+// Write a function that will show all the properties of an object that is string
 
 // const movie = {
 //     title: 'a',
@@ -219,7 +219,7 @@ function sum(limit) {
 }
 
 // ----------------- 8) Grade
-// calculate of the grade of the student
+// Calculate of the grade of the student
 
 // --- IMP--- Single responsibility principle a 
 // functions are small and focus on one thing
@@ -280,7 +280,7 @@ function showStars(rows) {
 // 12 = 1, 12
 // Prime numbers are whose factors are only 1 and itself
 
-// -------- imp always declare a variable name that has some
+// -------- Imp always declare a variable name that has some
 // value or menaing for easy to understand and clean coding 
 
 // first solution
