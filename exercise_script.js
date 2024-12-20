@@ -181,7 +181,7 @@ function countTruthy(array) {
 }
 
 // ---------------- 6) String Properties
-// Write a function that will show all the properties of an object that is string
+// Write a function that will show all the properties of an object that is a string
 
 // const movie = {
 //     title: 'a',
@@ -250,8 +250,8 @@ function calculateAverage(array) {
     return sum / array.length;
 }
 
-// ------------------------9) showStars a very popular question in begineers
-//  here give input in a number and get output in stars
+// ------------------------9) showStars a very popular question in beginners
+// Here give input in a number and get output in stars
 // input :- 3
 // Ouptput :-
 // *
@@ -270,8 +270,8 @@ function showStars(rows) {
     }
 }
 
-// ------------------------10) showPrime wher you give a num and you will get prime numbers
-// There are two type of number here,
+// ------------------------10) showPrime where you give a num and you will get prime numbers
+// There are two types of number here,
 // Composite
 // 12 = 1, 2, 3, 4, 6, 12
 // Can be devided evenly by its factors
