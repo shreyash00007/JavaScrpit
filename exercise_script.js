@@ -271,16 +271,16 @@ function showStars(rows) {
 }
 
 // ------------------------10) showPrime where you give a num and you will get prime numbers
-// There are two types of number here,
+// There are two types of numbers here,
 // Composite
 // 12 = 1, 2, 3, 4, 6, 12
-// Can be devided evenly by its factors
-// where as prime numbers are
+// Can be divided evenly by its factors
+// whereas prime numbers are
 // 11 = 1, 11,
 // 12 = 1, 12
 // Prime numbers are whose factors are only 1 and itself
 
-// -------- Imp always declare a variable name that has some
+// -------- Imp always declares a variable name that has some
 // value or menaing for easy to understand and clean coding 
 
 // first solution
