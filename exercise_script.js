@@ -281,9 +281,9 @@ function showStars(rows) {
 // Prime numbers are whose factors are only 1 and itself
 
 // -------- Imp always declares a variable name that has some
-// value or menaing for easy to understand and clean coding 
+// value or meaning for easy to understand and clean coding 
 
-// first solution
+// First solution
 // showPrime(20);
 // function showPrime(limit) {
 //     for (let number = 2; number <= limit; number++){
