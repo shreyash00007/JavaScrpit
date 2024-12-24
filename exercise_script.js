@@ -125,6 +125,7 @@ function fizzBuzz(input) {
 // }
 
 // -------------- 5) Even and Odd numbers
+
 // It should take a parameter as a limit and show a number that is either even or odd
 
 // console.log(showNumbers(1));
@@ -253,7 +254,7 @@ function calculateAverage(array) {
 // ------------------------9) showStars a very popular question in beginners
 // Here give input in a number and get output in stars
 // input :- 3
-// Ouptput :-
+// Output :-
 // *
 // **
 // ***
