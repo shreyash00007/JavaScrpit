@@ -222,7 +222,7 @@ function sum(limit) {
 // ----------------- 8) Grade
 // Calculate of the grade of the student
 
-// --- IMP--- Single responsibility principle a 
+// --- IMP--- Single responsibility principle a
 // functions are small and focus on one thing
 const marks = [80, 80, 50];
 
@@ -337,12 +337,12 @@ function showAddress(address) {
 // showAddress(address);
 
 // 2) ----------------- Factory and Constructor functions in objects
-// intialzied and adress object using first a factory function
+// initialized and adress object using first a factory function
 // constructor function
 
 
 // const address = {
-//     street: 'Tailk road ',
+//     street: 'Tailk Road ',
 //     city: 'Pune',
 //     zipcode: '410000'
 // };
