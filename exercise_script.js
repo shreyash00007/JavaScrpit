@@ -301,7 +301,7 @@ function showStars(rows) {
 // }
 
 // Responsibility principle and clean code
-// second solution
+// Second solution
 // Nested loops are hard to understand
 
 // function showPrime(limit) {
@@ -325,7 +325,7 @@ function showStars(rows) {
 // showAddress(address)
 
 // const address = {
-//     street: 'Tailk road ',
+//     street: 'Tailk Road ',
 //     city: 'Pune',
 //     zipcode: '410000'
 // };
