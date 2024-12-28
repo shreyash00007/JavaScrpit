@@ -372,7 +372,7 @@ function showAddress(address) {
 // };
 
 // ---------------- Object equality
-// 3) Create to constructor functions and compare them
+// 3) Create constructor functions and compare them
 // they are same, equal or not
 
 let address1 = new Address('a', 'b', 'd');
