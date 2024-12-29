@@ -220,7 +220,7 @@ function sum(limit) {
 }
 
 // ----------------- 8) Grade
-// Calculate of the grade of the student
+// Calculate the grade of the student
 
 // --- IMP--- Single responsibility principle a
 // functions are small and focus on one thing
@@ -415,7 +415,7 @@ function areSame(address1, address2) {
 // isLive
 
 // let post = {
-//     title: 'How to be the best version of your self',
+//     title: 'How to be the best version of yourself',
 //     body: 'Lorem ipsum dolor sit amet consectetur.',
 //     author: 'fernandez',
 //     views: 12,
