@@ -417,7 +417,7 @@ function areSame(address1, address2) {
 // let post = {
 //     title: 'How to be the best version of yourself',
 //     body: 'Lorem ipsum dolor sit amet consectetur.',
-//     author: 'fernandez',
+//     author: 'Fernandez',
 //     views: 12,
 //     comment: [{ author: 'a', body: 'c' },
 //     { author: 'a', body: 'c' }],
@@ -430,7 +430,7 @@ function areSame(address1, address2) {
 // 5) constructor function post
 
 let postData = {
-    title: 'How to be the best version of your self',
+    title: 'How to be the best version of yourself',
     body: 'Lorem ipsum dolor sit amet consectetur.',
     author: 'fernandez',
     views: 12,
