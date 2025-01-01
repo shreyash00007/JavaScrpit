@@ -1,8 +1,9 @@
 // ---------------------------------------- JavaScript Exercise ------------------------------------------------
-// 1) Write a function that takes two numbers and returns
+// ---------------- 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
 // --------- My Solution ---------
+
 function maximum(a, b) {
     if (a > b) {
         console.log(a , 'is greater number');
@@ -24,7 +25,7 @@ function max(a, b) {
     return (a > b) ? a : b;
 }
 
-// 2) Write a function that will tell if an image is
+// ---------------- 2) Write a function that will tell if an image is
 // Landscape of not
 
 function isLandScape(width, height) {
@@ -91,7 +92,7 @@ function fizzBuzz(input) {
     return input;
 }
 
-// ---------- 4) CheckSpeed where the speed limit is 70kmph
+// ---------- 3) CheckSpeed where the speed limit is 70kmph
 // Speed Limit = 70
 // drive over 5km  -> 1 point
 // Use Math.floor function for calculation
@@ -152,7 +153,7 @@ function showNumbers(limit) {
         }
 }
 
-// ---------------- 5) contTruthy which takes an array and returns truthy values
+// ---------------- 4) contTruthy which takes an array and returns truthy values
 // truthy and falsely elements
 // eg - const name = 'shreyash'; // is a truthy value
 // eg - const name = ''; // is a falsy value
@@ -181,7 +182,7 @@ function countTruthy(array) {
         return count;
 }
 
-// ---------------- 6) String Properties
+// ---------------- 5) String Properties
 // Write a function that will show all the properties of an object that is a string
 
 // const movie = {
@@ -202,7 +203,7 @@ function countTruthy(array) {
 // }
 
 
-// ----------------- 7) Sum of multiple of 3 and 5
+// ----------------- 6) Sum of multiple of 3 and 5
 
 // console.log(sum(9));
 
@@ -219,7 +220,7 @@ function sum(limit) {
     return sum;
 }
 
-// ----------------- 8) Grade
+// ----------------- 7) Grade
 // Calculate the grade of the student
 
 // --- IMP--- Single responsibility principle a
@@ -251,7 +252,7 @@ function calculateAverage(array) {
     return sum / array.length;
 }
 
-// ------------------------9) showStars a very popular question in beginners
+// -------------------- 8) showStars a very popular question in beginners
 // Here give input in a number and get output in stars
 // input :- 3
 // Output :-
@@ -271,7 +272,7 @@ function showStars(rows) {
     }
 }
 
-// ------------------------10) showPrime where you give a num and you will get prime numbers
+// ---------------------- 9) showPrime where you give a num and you will get prime numbers
 // There are two types of numbers here,
 // Composite
 // 12 = 1, 2, 3, 4, 6, 12
