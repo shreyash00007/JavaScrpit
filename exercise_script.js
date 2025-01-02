@@ -326,7 +326,7 @@ function showStars(rows) {
 // showAddress(address)
 
 // const address = {
-//     street: 'Tailk Road ',
+//     street: 'Tialk Road ',
 //     city: 'Pune',
 //     zipcode: '410000'
 // };
@@ -343,7 +343,7 @@ function showAddress(address) {
 
 
 // const address = {
-//     street: 'Tailk Road ',
+//     street: 'Tialk Road ',
 //     city: 'Pune',
 //     zipcode: '410000'
 // };
