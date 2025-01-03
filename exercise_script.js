@@ -433,7 +433,7 @@ function areSame(address1, address2) {
 let postData = {
     title: 'How to be the best version of yourself',
     body: 'Lorem ipsum dolor sit amet consectetur.',
-    author: 'fernandez',
+    author: 'Fernandez',
     views: 12,
     comment: [{ author: 'a', body: 'c' },
     { author: 'a', body: 'c' }],
@@ -454,7 +454,7 @@ let post = new ConstructorPost('a','b','c');
 
 // ---------------------Price range object
 // 6) Create a Price range object which you generally see in a
-// ecommerce store
+// e-commerce store
 
 let priceRanges = [
     {lable: '$', tooltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10},
