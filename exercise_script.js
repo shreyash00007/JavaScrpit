@@ -548,7 +548,7 @@ function countOccurrences(arrary, searchElement) {
     return arrary.reduce((accumulator, current) => {
         const occurence = (current === searchElement) ? 1 : 0;
         console.log(accumulator, current, searchElement);
-        return accumulator + occurence;
+        return accumulator + occurrence;
     }, 0);
 }
 
@@ -661,7 +661,7 @@ circle.radius = 4; // can reconfigure the value
 
 //     return array.reduce((accumulator, current) => {
 //         const occurence = (current === searchElement) ? 1 : 0;
-//         return accumulator + occurence;
+//         return accumulator + occurrence;
 //     }, 0);
 // }
 
