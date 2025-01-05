@@ -535,7 +535,7 @@ function move(array, index, offset) {
     return output;
 }
 
-// Exercise 5 Count Ourrences
+// Exercise 5 Count Occurrence
 
 
 const cnumbers = [1, 2, 3, 4, 5, 6];
@@ -582,7 +582,7 @@ function getMax(array) {
 // Exercise no 7 Movies
 
 // All the Movies in 2018 with rating > 4
-// Sort them by thier rating 
+// Sort them by their rating 
 // Descending order 
 // Pick their title 
 
