@@ -544,8 +544,8 @@ const cnumbers = [1, 2, 3, 4, 5, 6];
 
 // console.log(count);
 
-function countOccurrences(arrary, searchElement) {
-    return arrary.reduce((accumulator, current) => {
+function countOccurrences(array, searchElement) {
+    return array.reduce((accumulator, current) => {
         const occurence = (current === searchElement) ? 1 : 0;
         console.log(accumulator, current, searchElement);
         return accumulator + occurrence;
