@@ -526,7 +526,7 @@ const moveData = move(mnumbers, 0, 0);
 function move(array, index, offset) {
     const position = index + offset;
     if (position >= array.length || position < 0) {
-        console.error('Invalid offest.');
+        console.error('Invalid offset.');
         return;
     }
     const output = [...array];
