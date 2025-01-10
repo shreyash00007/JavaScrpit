@@ -64,7 +64,7 @@ const material = coursesx.findIndex((material)=> material.name === 'b');
 // console.log(material);
 
 
-// --------------- Removing elements from an Array
+// --------------- Removing elements from an Array ---------------------
 
 const nextNumbers = [1, 2, 3, 4,5,6];
 
