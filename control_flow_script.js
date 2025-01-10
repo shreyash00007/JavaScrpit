@@ -60,7 +60,7 @@ let role;
 // For...in
 // For...of
 
-// ----------- For loop -----------
+// --------------- For loop -----------------
 
 // for (let i = 1; i <= 5; i++){
 //     console.log('hello shreyash', i); // 5 times
@@ -70,7 +70,7 @@ let role;
 //     if (i % 2 !== 0) console.log(i); // odd number
 // }
 
-// ------------ While loop
+// ------------ While loop -------------------
 
 // let i = 0;
 // while (i <= 5) {
@@ -78,7 +78,7 @@ let role;
 //     i++;
 // }
 
-// ------------ Do while loop
+// ------------ Do while loop -------------------
 
 // let i = 0;
 // do {
