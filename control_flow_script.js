@@ -101,7 +101,7 @@ let role;
 //     // x++;
 // } while (x < 5);
 
-// ---------- For in loops
+// ---------- For in loops ----------
 
 // const person = {
 //     name: 'Mosh',
@@ -117,7 +117,7 @@ let role;
 // for (let index in colors) //It can also be used in arrays
 //     console.log(index, colors[index]);
 
-// ----------- For off loops (introduced in es6)
+// ----------- For off loops (introduced in es6) ----------
 
 // const colors = ['red', 'green', 'blue'];
 
