@@ -4,6 +4,7 @@
 function walk() {
     console.log('walk');
 }
+
 // walk();
 
 // Anonymous Function Expressions
@@ -134,7 +135,7 @@ function interest(princilpal, rate = 3.5, years= 5) {
 //             throw new Error('value is not a string');
 //         const parts = value.split(' ');
 //         if (parts.length !== 2)
-//             throw new Error('Enter a first and lasntname');
+//             throw new Error('Enter a first and lastName);
 //         this.firstName = parts[0];
 //         this.lastName = parts[1];
 //     }
