@@ -38,10 +38,13 @@ let play = function boy() {
 
 //----------------------- Hoisting in JavaScript --------------------------
 
-// consolSe.log(x); // will throw error due to x is not defined 
+// consolSe.log(x);0 
+// will throw error due to x is not defined 
+
 let xw = 1;
 
-// cooks(); // will throw an error cooks is not defined
+// cooks(); 
+// will throw an error cooks is not defined
 
 const cooks = function cook() {
     console.log('cook');
