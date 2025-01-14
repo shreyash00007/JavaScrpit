@@ -126,7 +126,7 @@
 // console.log('Application Refused', applicationRefused);
 
 
-// ------------- Logical Operators with Non-booleans ----------
+// ------------- Logical Operators with Non-booleans -----------
 // Falsy (false)
 // undefined
 // null
@@ -179,7 +179,7 @@
 
 // console.log(message); // yes, but if we remove the read permission we get no
 
-// ----------------- Operators Precedence
+// ----------------- Operators Precedence -----------------
 
 // let x = 2 + 3 * 4;  
 // Here  multiplications have more precedence than addition
