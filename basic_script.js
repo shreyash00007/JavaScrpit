@@ -133,7 +133,7 @@ function greet(yourName, endName) { // yourName is parameter
 
 greet('harsh', 'dhanwade'); // harsh dhanawade is argument
 
-// -------------- Types of functions
+// -------------- Types of functions --------------
 
 // -------------- Calculating a value
 
@@ -148,7 +148,6 @@ console.log(number);
 console.log(square(2));
 
 // ---------------- ns stuff ---------------
-
 var n = 2;
 function square(num) {
     var ans = num * num;
