@@ -25,7 +25,7 @@
 // ----------- Factory Function
 // Function and Method
 // A function doesn't need any object and is independent,
-// while the method is a function linked with any object.
+// While the method is a function linked with any object.
 
 // Factory functions are the functions which produce Object's
 
