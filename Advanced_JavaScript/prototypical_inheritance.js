@@ -7,7 +7,9 @@ function Shape(color) {
 Shape.prototype.duplicate = function () {
     console.log('Duplicate');
 }
+
 // ------- Calling the Super Constructor -------------
+
 function Circle(radius, color) {
     // It will now work, You need to use the call function
     // Shape(color);
@@ -50,8 +52,7 @@ const sq = new Square(10);
 // console.log(c);
 // console.log(sq);
 
-// ------------------ Method Overriding ---------
-
+// ------------------ Method Overriding ------------------
 function extend(Child, Parent) {
     Child.prototype = Object.create(Parent.prototype);
     Child.prototype.constructor = Child;
