@@ -3,8 +3,8 @@
 //---------------------------- This file is for Advanced JS in OPPs ----------------------------------------------
 
 // ----------------- Exercise Stopwatch -------------------
-
-// --------------- Function Declaration ------------------
+// Create a stop watch using JavaScript Functions with Start time, End Time, Running and Duration
+// Function Declaration ------------------
 
 function Stopwatch() {
     let startTime, endTime, running, duration = 0;
