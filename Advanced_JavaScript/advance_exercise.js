@@ -3,7 +3,10 @@
 //---------------------------- This file is for Advanced JS in OPPs ----------------------------------------------
 
 // ----------------- Exercise Stopwatch -------------------
+
+// Problem 1
 // Create a stop watch using JavaScript Functions with Start time, End Time, Running and Duration
+
 // Function Declaration ------------------
 
 function Stopwatch() {
@@ -94,6 +97,9 @@ HtmlSelectElement.prototype.constructor = HtmlSelectElement;
 
 
 // Polymorphism Inheritance
+
+
+// Problem 3
 
 // Create an HTML Image element that inherits from HtmlElement so it can click focused
 // but it also, has its own render method
