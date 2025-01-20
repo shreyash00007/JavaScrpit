@@ -112,7 +112,7 @@
 
 // Declaring the new method into the c variable so we can access the objects
 // const c = new Circle(1);
-// // it was the old way to access but not reliable
+// It was the old way to access but not reliable
 // console.log(c._radius);
 
 // const key = Object.getOwnPropertySymbols(c)[0];
