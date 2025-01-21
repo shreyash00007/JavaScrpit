@@ -1,7 +1,9 @@
 // Implementation Detail
+
 // const _radius = new WeakMap();
 
-// // Public Interface
+// Public Interface
+
 // class Circle{
 //     constructor(radius) {
 //         _radius.set(this, radius);
@@ -14,6 +16,7 @@
 // module.exports = Circle;
 
 // Implementation Detail
+
 const _radius = new WeakMap();
 
 // Public Interface
