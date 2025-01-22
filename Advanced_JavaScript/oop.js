@@ -34,7 +34,7 @@ const cirlce = {
 
 // cirlce.draw();
 
-// ------------- Factories ------------
+// ------------------- Factories -------------------
 
 // Two types of object-based functions in javaScript
 // Factory Function
@@ -70,7 +70,7 @@ function Circle(radius) {
 // const another = new Circle(1);
 
 
-// ---------- cosntructor Property -------------
+// ------------- cosntructor Property ----------------
 
 // let x = {};
 // console.log(x);
@@ -103,7 +103,7 @@ new Number(); // 1, 2, 3, ....
 // console.log(another);
 
 // ---------------------- Value vs Reference Types in JavaScript
-//  --- Value types
+// Value types
 
 // Number
 // String
@@ -112,7 +112,7 @@ new Number(); // 1, 2, 3, ....
 // undefined
 // null
 
-// ---- Reference Types
+// Reference Types
 
 // Object
 // Function
