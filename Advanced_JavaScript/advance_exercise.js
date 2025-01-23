@@ -5,7 +5,7 @@
 // ----------------- Exercise Stopwatch -------------------
 
 // Problem 1
-// Create a stop watch using JavaScript Functions with Start time, End Time, Running and Duration
+// Create a stopwatch using JavaScript Functions with Start time, End Time, Running, and Duration
 
 // Function Declaration ------------------
 
@@ -26,8 +26,10 @@ function Stopwatch() {
         get: function () { return running; }  
     });
 }
+
 // ------- classes -------
 // ------------ Start Time Function ---------------
+
     Stopwatch.prototype.start = function () {
         if (this.running)
             throw new Error('Stopwatch has already started.');
@@ -57,7 +59,6 @@ function Stopwatch() {
         duration = 0;
         
 };
-    
 
 // Problem 2
 
