@@ -135,7 +135,7 @@ function interest(princilpal, rate = 3.5, years= 5) {
 //     lastName: 'Dhanawade',
 //     set fullName(value) {
 //         if (typeof value !== 'string')
-//             throw new Error('value is not a string');
+//             throw new Error('value is not a string);
 //         const parts = value.split(' ');
 //         if (parts.length !== 2)
 //             throw new Error('Enter a first and lastName);
