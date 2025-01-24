@@ -7,7 +7,6 @@
 // Problem 1
 
 // Create a stopwatch using JavaScript Functions with Start time, End Time, Running, and Duration
-
 // Function Declaration ------------------
 
 function Stopwatch() {
