@@ -5,6 +5,7 @@
 // ----------------- Exercise Stopwatch -------------------
 
 // Problem 1
+
 // Create a stopwatch using JavaScript Functions with Start time, End Time, Running, and Duration
 
 // Function Declaration ------------------
@@ -174,7 +175,7 @@ class Stack{
 
         if (items.length === 0)
             throw new Error('Stack is empty.');
-        return itmes.pop();
+        return items.pop();
     }
     peek() {
         const items = _items.get(this);
