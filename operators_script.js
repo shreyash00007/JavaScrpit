@@ -7,7 +7,8 @@
 
 // Types of operators in JavaScript
 
-// 1) Arithmetic
+// Arithmetic
+
 // Assignment
 // Comparison
 // Logical
