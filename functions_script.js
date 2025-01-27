@@ -34,6 +34,7 @@ let play = function boy() {
 //         },0)
 //     }
 // }
+
 // obj.print();
 
 //----------------------- Hoisting in JavaScript --------------------------
@@ -51,6 +52,7 @@ const cooks = function cook() {
 }
 
 // cat(); // it will work
+
 // Hosting is a process of moving function declaration to the top of the file 
 // Which happens automatically in javascript
 
@@ -261,7 +263,6 @@ const gideo = {
 function heyVideo() {
     console.log(this);
 }
-
 // heyVideo.call({ name: 'shreyash' }, 1, 2);
 // heyVideo.apply({ name: 'shreyash' }, [1, 2]);
 // heyVideo.bind({ name: 'shreyash' })();
