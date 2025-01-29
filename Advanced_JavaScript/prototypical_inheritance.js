@@ -29,7 +29,7 @@ Circle.prototype.draw = function () {
     console.log('draw');
 }
 
-// ---------------- Intermediate Function Inheritance ---------
+// ---------------- Intermediate Function Inheritance ---------------
 
 function extend(Child, Parent) {
     Child.prototype = Object.create(Parent.prototype);
@@ -95,6 +95,7 @@ const shapes = [
 
 // for (let shape of shapes)
     // shape.duplicate();
+
 // let's complete it
 
 // -------------------------- When to use Inheritance ------------------------
@@ -126,4 +127,3 @@ function Person() {
 const person = Object.assign({}, canEat, canWalk);
 
 // console.log(person);
-
