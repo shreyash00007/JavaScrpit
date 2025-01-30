@@ -42,8 +42,10 @@ function isLandScape(width, height) {
 // M Solution
 
 function isLandScaped(width, height) {
-    // return (width > height) ? true : false; // it not optimal 
-    return (width > height); // same as above it will return a boolean value because it is using comparison operators 
+    // return (width > height) ? true : false; 
+    // it not optimal 
+    return (width > height); 
+    // same as above it will return a boolean value because it is using comparison operators 
 }
 
 // console.log(isLandScaped(800, 600));
@@ -154,7 +156,7 @@ function showNumbers(limit) {
 }
 
 // ---------------- 4) contTruthy which takes an array and returns truthy values
-// truthy and falsely elements
+// truthy (truth) and falsely (false) elements
 // eg - const name = 'shreyash'; // is a truthy value
 // eg - const name = ''; // is a falsy value
 
