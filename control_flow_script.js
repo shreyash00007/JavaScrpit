@@ -5,7 +5,7 @@
 // If it is between 12 pm and 6 pm: Good afternoon!
 // Otherwise: Good evening!!
 
-// ------------ If else ------------
+// ----------------- If else -------------------
 
 // if (condition) {
 //     statement
