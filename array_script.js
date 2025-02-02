@@ -6,7 +6,7 @@
 // Splitting arrays
 // Combining arrays
 
-// ----------------- Adding new element to Array ------------------------
+// ----------------- Adding a new element to Array ------------------------
 
 const numbers = [3, 4];
 
@@ -216,7 +216,7 @@ const allOnePositive = tnumbers.some(function (vlaue) {
 // console.log(allPositive);
 // console.log(allOnePositive);
 
-// ------------------- Filtering an Array -----------------------------
+// --------------------------- Filtering an Array ---------------------------------
 
 const fnumbers = [1, -1, 2, 3];
 
@@ -276,7 +276,6 @@ console.log(sum);
 // const rum = rnumbers.reduce((accumulator, currentValue) => {
 //     return accumulator + currentValue; 
 // }, 0);
-
 
 const rum = rnumbers.reduce(
     (accumulator, currentValue) => accumulator + currentValue 
