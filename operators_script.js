@@ -50,8 +50,10 @@
 // but If we want to add different number
 
 // x = x + 3;
-// x += 3; // a better way to write
-// x *= 4; // we can use all of the above arithmetic operators in assignment operators
+// x += 3; 
+// a better way to write
+// x *= 4; 
+// We can use all of the above arithmetic operators in assignment operators
 // console.log(x);
 
 // -------------------- Comparison Operators ------------------
