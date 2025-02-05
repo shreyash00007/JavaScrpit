@@ -25,7 +25,7 @@ function max(a, b) {
     return (a > b) ? a : b;
 }
 
-// ---------------- 2) Write a function that will tell if an image is
+// 2) Write a function that will tell if an image is
 // Landscape of not
 
 function isLandScape(width, height) {
