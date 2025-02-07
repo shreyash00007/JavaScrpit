@@ -94,7 +94,7 @@ function fizzBuzz(input) {
     return input;
 }
 
-// ---------- 3) CheckSpeed where the speed limit is 70kmph
+// 3) CheckSpeed where the speed limit is 70kmph
 // Speed Limit = 70
 // drive over 5km  -> 1 point
 // Use Math.floor function for calculation
@@ -127,7 +127,7 @@ function fizzBuzz(input) {
 //             console.log('Points', points);
 // }
 
-// -------------- 5) Even and Odd numbers
+// -------------- 4) Even and Odd numbers
 
 // It should take a parameter as a limit and show a number that is either even or odd
 
@@ -155,7 +155,7 @@ function showNumbers(limit) {
         }
 }
 
-// 4) contTruthy which takes an array and returns truthy values
+// 5) contTruthy which takes an array and returns truthy values
 // truthy (truth) and falsely (false) elements
 // eg - const name = 'shreyash'; // is a truthy value
 // eg - const name = ''; // is a falsy value
