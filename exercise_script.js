@@ -127,7 +127,7 @@ function fizzBuzz(input) {
 //             console.log('Points', points);
 // }
 
-// -------------- 4) Even and Odd numbers
+// 4) Even and Odd numbers
 
 // It should take a parameter as a limit and show a number that is either even or odd
 
