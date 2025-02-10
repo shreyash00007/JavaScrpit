@@ -184,7 +184,7 @@ function countTruthy(array) {
         return count;
 }
 
-// 5) String Properties
+// 6) String Properties
 // Write a function that will show all the properties of an object that is a string
 
 // const movie = {
@@ -205,7 +205,7 @@ function countTruthy(array) {
 // }
 
 
-// ----------------- 6) Sum of multiple of 3 and 5
+// - 6) Sum of multiple of 3 and 5
 
 // console.log(sum(9));
 
