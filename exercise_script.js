@@ -205,7 +205,7 @@ function countTruthy(array) {
 // }
 
 
-// - 6) Sum of multiple of 3 and 5
+// 7) Sum of multiple of 3 and 5
 
 // console.log(sum(9));
 
@@ -222,7 +222,7 @@ function sum(limit) {
     return sum;
 }
 
-// ----------------- 7) Grade
+// ----------------- 8) Grade
 // Calculate the grade of the student
 
 // --- IMP--- Single responsibility principle a
