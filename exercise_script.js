@@ -222,7 +222,7 @@ function sum(limit) {
     return sum;
 }
 
-// ----------------- 8) Grade
+// 8) Grade
 // Calculate the grade of the student
 
 // --- IMP--- Single responsibility principle a
@@ -254,7 +254,7 @@ function calculateAverage(array) {
     return sum / array.length;
 }
 
-// -------------------- 8) showStars a very popular question in beginners
+// -------------------- 9) showStars a very popular question in beginners
 // Here give input in a number and get output in stars
 // input :- 3
 // Output :-
