@@ -3,7 +3,6 @@
 // This a comment
 
 // console.log('Hello world shreyash');
-// tji
 // ----------- Variables in JavaScript ----------
 
 let name = 'shreyash'; 
