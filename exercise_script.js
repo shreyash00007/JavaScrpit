@@ -254,7 +254,7 @@ function calculateAverage(array) {
     return sum / array.length;
 }
 
-// -------------------- 9) showStars a very popular question in beginners
+// 9) showStars a very popular question in beginners
 // Here give input in a number and get output in stars
 // input :- 3
 // Output :-
@@ -274,7 +274,7 @@ function showStars(rows) {
     }
 }
 
-// ---------------------- 9) showPrime where you give a number and you will get prime numbers
+// ---------------------- 10) showPrime where you give a number and you will get prime numbers
 // There are two types of numbers here,
 // Composite
 // 12 = 1, 2, 3, 4, 6, 12
