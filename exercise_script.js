@@ -274,7 +274,7 @@ function showStars(rows) {
     }
 }
 
-// ---------------------- 10) showPrime where you give a number and you will get prime numbers
+//10) showPrime where you give a number and you will get prime numbers
 // There are two types of numbers here,
 // Composite
 // 12 = 1, 2, 3, 4, 6, 12
