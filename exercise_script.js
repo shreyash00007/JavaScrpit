@@ -274,7 +274,7 @@ function showStars(rows) {
     }
 }
 
-//10) showPrime where you give a number and you will get prime numbers
+// 10) showPrime where you give a number and you will get prime numbers
 // There are two types of numbers here,
 // Composite
 // 12 = 1, 2, 3, 4, 6, 12
@@ -320,7 +320,7 @@ function showStars(rows) {
 // }
 
 // -------------------- Object exercise -----------------------
-// ----------- address object
+// Address object
 // 1) Problem statement --- show address from a object
 // Street
 // City
@@ -668,8 +668,6 @@ circle.radius = 4; // can reconfigure the value
 // }
 
 // ------------------------ Fundamentals of JavaScript End ---------------------------------
-
-//
 
 // const array = [10, 10, 20, 20, 30];
 
