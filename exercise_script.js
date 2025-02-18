@@ -339,7 +339,7 @@ function showAddress(address) {
 }
 // showAddress(address);
 
-// 2) ----------------- Factory and Constructor functions in objects
+// 2) Factory and Constructor functions in objects
 // Initialized and addressed object using first a factory function
 // constructor function
 
