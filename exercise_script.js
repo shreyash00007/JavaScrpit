@@ -485,7 +485,7 @@ function arrayFromRange(min, max) {
     return output;
 }
 
-// Exeercise 2 Includes
+// Exercise 2 Includes
 
 const inumbers = [1, 2, 3, 4, 5, 6];
 
@@ -500,7 +500,6 @@ function includes(array, searchElement) {
 }
 
 // Exercise 3 Except
-
 // Create a function that except a value from an array
 
 const enumbers = [1, 2, 3, 4, 5];
@@ -579,7 +578,6 @@ function getMax(array) {
 
    return array.reduce((a, b) => (a > b)? a: b);
 }
-
 
 // Exercise no 7 Movies
 
