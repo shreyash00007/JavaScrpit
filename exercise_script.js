@@ -374,7 +374,7 @@ function showAddress(address) {
 //         this.zipcode = zipcode
 // };
 
-// ---------------- Object equality
+// ---------------- Object equality ----------------
 // 3) Create constructor functions and compare them
 // they are same, equal or not
 
