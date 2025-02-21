@@ -632,7 +632,7 @@ function sumAdd(...items) {
     return items.reduce((a, b) => a + b);
 }
 
-// Exercise 2 circle object
+// ---- Exercise 2 circle object
 
 const circle = {
     radius: 2,
