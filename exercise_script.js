@@ -57,7 +57,7 @@ function isLandScaped(width, height) {
 // Not divisible by 3 or 5 => input
 
 
-// --------------------------- my soluition
+// ------------------------- my soluition
 
 
 // function fizzBuzz(input) {
@@ -284,7 +284,7 @@ function showStars(rows) {
 // 12 = 1, 12
 // Prime numbers are whose factors are only 1 and itself
 
-// -------- Imp always declares a variable name that has some
+// ----------------- Imp always declares a variable name that has some
 // value or meaning for easy-to-understand and clean coding 
 
 // First solution
@@ -319,7 +319,7 @@ function showStars(rows) {
 //     return true;
 // }
 
-// -------------------- Object exercise -----------------------
+// ---------------------- Object exercise -----------------------
 // Address object
 // 1) Problem statement --- show address from a object
 // Street
