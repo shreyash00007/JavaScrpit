@@ -16,7 +16,7 @@ function maximum(a, b) {
 
 // maximum(1, 'f');
 
-// M solution -----
+// ---------------------- M solution 
 
 let number = max(3, 12);
 // console.log(number);
