@@ -37,7 +37,7 @@ let play = function boy() {
 
 // obj.print();
 
-//----------------------- Hoisting in JavaScript --------------------------
+//------------------------- Hoisting in JavaScript -----------------------------
 
 // consolSe.log(x);0 
 // will throw error due to x is not defined 
@@ -60,7 +60,7 @@ function cat() {
     console.log('cat');
 }
 
-// --------------- Arguments -------------------
+// ------------------ Arguments -----------------------
 
 function sum(a, b) {
     console.log(arguments); // will give of object arrcuments
@@ -82,7 +82,7 @@ function adds() {
 // console.log(adds(1, 2, 3, 4, 5, 6, 7));
 
 
-// ------------------- The Rest Operator ------------------
+// --------------------- The Rest Operator ----------------------
 
 // function rest(...args) {
 //     console.log(args);
@@ -96,7 +96,7 @@ function rest(discount, ...prices) {
 
 // console.log(rest(0.1, 20, 30));
 
-// ----------------- Default Parameters ---------------------
+// ------------------- Default Parameters -----------------------
 
 function interest(princilpal, rate = 3.5, years= 5) {
     // rate = rate || 3.5;
@@ -130,7 +130,7 @@ function interest(princilpal, rate = 3.5, years= 5) {
 
 // ----------------------- Try and Catch -----------------------------
 
-// --------------- Error handling in JavaScript ---------------
+// ------------------- Error handling in JavaScript -------------------
 
 // const person = {
 //     firstName: 'shreyash',
@@ -155,7 +155,7 @@ function interest(princilpal, rate = 3.5, years= 5) {
 // }
 // console.log(person.fullName);
 
-// ---------------------- Local vs Global Scope -------------------------
+// ------------------------ Local vs Global Scope ---------------------------
 
 function start(){
     const message = 'hi';
@@ -183,7 +183,7 @@ const color = 'red'; // global scope
 // console.log(color);
 // stop();
 
-// --------------------------- Let vs Var ---------------------------
+// ---------------------------- Let vs Var ----------------------------
 
 let x = 0;
 var y = 0;
