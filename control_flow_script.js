@@ -60,8 +60,7 @@ let role;
 // For...in
 // For...of
 
-// --------------- For loop -----------------
-
+// ------------------ For loop -------------------
 // for (let i = 1; i <= 5; i++){
 //     console.log('hello shreyash', i); // 5 times
 // }
@@ -78,7 +77,7 @@ let role;
 //     i++;
 // }
 
-// ------------ Do while loop -------------------
+// -------------- Do while loop -------------------
 
 // let i = 0;
 // do {
@@ -101,7 +100,7 @@ let role;
 //     // x++;
 // } while (x < 5);
 
-// ---------- For in loops ----------
+// ------------ For in loops -------------
 
 // const person = {
 //     name: 'Mosh',
