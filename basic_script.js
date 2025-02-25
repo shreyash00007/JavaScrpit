@@ -39,7 +39,7 @@ console.log(interestRate);
 
 const pi = 3.17;
 // pi = 4; 
-//It will throw an error: Assignment to constant variable.
+// It will throw an error: Assignment to constant variable.
 
 console.log(pi);
 
@@ -99,7 +99,7 @@ let person = {
 
 person.name = 'Jhon'; // it is easy to use 
 
-// Bracket Notation
+//-------- Bracket Notation ----------
 
 person['name'] = 'Marry'; // it is not easy to use 
 
