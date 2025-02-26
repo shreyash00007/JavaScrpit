@@ -37,7 +37,7 @@ let play = function boy() {
 
 // obj.print();
 
-//------------------------- Hoisting in JavaScript -----------------------------
+//----------------------- Hoisting in JavaScript ---------------------------
 
 // consolSe.log(x);0 
 // will throw error due to x is not defined 
@@ -96,7 +96,7 @@ function rest(discount, ...prices) {
 
 // console.log(rest(0.1, 20, 30));
 
-// ------------------- Default Parameters -----------------------
+// ------------------------- Default Parameters ---------------------------
 
 function interest(princilpal, rate = 3.5, years= 5) {
     // rate = rate || 3.5;
