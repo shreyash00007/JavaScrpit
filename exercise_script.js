@@ -109,7 +109,7 @@ function fizzBuzz(input) {
 //     }
 // }
 
-// ------------- M solution
+// ---------------------- M solution
 
 // checkSpeed(187);
 // function checkSpeed(speed) {
@@ -142,7 +142,7 @@ function fizzBuzz(input) {
 //         return 'Odd'
 // }
 
-// M Solution
+// ------------------------ M Solution
 
 // showNumbers(19);
 
