@@ -37,7 +37,7 @@ let play = function boy() {
 
 // obj.print();
 
-//----------------------- Hoisting in JavaScript ---------------------------
+//------------------------- Hoisting in JavaScript ---------------------------
 
 // consolSe.log(x);0 
 // will throw error due to x is not defined 
@@ -60,7 +60,7 @@ function cat() {
     console.log('cat');
 }
 
-// ------------------ Arguments -----------------------
+// -------------------- Arguments -----------------------
 
 function sum(a, b) {
     console.log(arguments); // will give of object arrcuments
@@ -105,7 +105,7 @@ function interest(princilpal, rate = 3.5, years= 5) {
 }
 // console.log(interest(10000,5));
 
-// -------------------------- Getters and Setters ---------------------------
+// ------------------------- Getters and Setters --------------------------
 
 // const person = {
 //     firstName: 'shreyash',
