@@ -45,8 +45,8 @@ function isLandScaped(width, height) {
     // return (width > height) ? true : false; 
     // it not optimal 
     return (width > height); 
-    // same as above it will return a boolean value because it is using comparison operators 
 }
+// same as above it will return a boolean value because it is using comparison operators 
 
 // console.log(isLandScaped(800, 600));
 
