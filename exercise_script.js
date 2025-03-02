@@ -2,7 +2,7 @@
 // 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
-// --------- My Solution ---------
+// ----------- My Solution -----------
 
 function maximum(a, b) {
     if (a > b) {
