@@ -39,7 +39,7 @@ function isLandScape(width, height) {
 }
 // isLandScape(1, 12);
 
-// M Solution
+// ------------------ M Solution
 
 function isLandScaped(width, height) {
     // return (width > height) ? true : false; 
