@@ -16,7 +16,7 @@ function maximum(a, b) {
 
 // maximum(1, 'f');
 
-// ---------------------- M solution 
+// --------------------- M solution 
 
 let number = max(3, 12);
 // console.log(number);
@@ -57,7 +57,7 @@ function isLandScaped(width, height) {
 // Not divisible by 3 or 5 => input
 
 
-// ------------------------- my soluition
+// --------------- My soluition ---------------
 
 
 // function fizzBuzz(input) {
