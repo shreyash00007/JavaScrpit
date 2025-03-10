@@ -29,7 +29,7 @@
 // } else {
 //     console.log("Good evening");
 
-// ------------------- Switch Case statement ------------------- 
+// ----------------- Switch Case statement ----------------- 
 
 let role;
 
@@ -50,7 +50,7 @@ let role;
 // else if (role === 'moderator') console.log('Moderator');
 // else console.log('Unknown User');
 
-// -------------------- Loops --------------------
+// -------------------------- Loops -------------------------------
 
 // Types of loops in Javascript
 
