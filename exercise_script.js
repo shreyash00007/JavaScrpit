@@ -170,7 +170,7 @@ function showNumbers(limit) {
 // NaN
 // This one is new for me so there is no solution from my side
 
-// ----------------- my solution ---------------------
+// ------------------- my solution ---------------------
 
 const array = [0, null, undefined, 1,  2, 3];
 
