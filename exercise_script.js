@@ -133,7 +133,7 @@ function fizzBuzz(input) {
 
 // console.log(showNumbers(1));
 
-// --------------- My solution -------------
+// ----------------- My solution ------------------
 
 // function showNumbers(limit) {
 //     if (limit % 2 === 0)
