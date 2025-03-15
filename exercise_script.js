@@ -263,7 +263,7 @@ function calculateAverage(array) {
 // ***
 
 // showStars(5);
-
+// ----------------- M Solution
 function showStars(rows) {
     for (let row = 1; row <= rows; row++){
         let pattern = '';
