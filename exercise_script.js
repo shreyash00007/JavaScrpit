@@ -16,7 +16,7 @@ function maximum(a, b) {
 
 // maximum(1, 'f');
 
-// --------------------- M solution 
+// -------------------- M solution 
 
 let number = max(3, 12);
 // console.log(number);
@@ -429,7 +429,7 @@ function areSame(address1, address2) {
 
 // console.log(post);
 
-// --------------- Constructor function
+// --------------- Constructor function -------------------
 // 5) constructor function post
 
 let postData = {
