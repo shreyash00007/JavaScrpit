@@ -37,9 +37,9 @@ let play = function boy() {
 
 // obj.print();
 
-//------------------------- Hoisting in JavaScript ---------------------------
+//-------------------------- Hoisting in JavaScript ----------------------------
 
-// consolSe.log(x);0 
+// console.log(x);0 
 // will throw error due to x is not defined 
 
 let xw = 1;
@@ -85,8 +85,7 @@ function adds() {
 // --------------------- The Rest Operator ----------------------
 
 // function rest(...args) {
-//     console.log(args);
-//}
+//     console.log(args); }
 
 function rest(discount, ...prices) {
     
