@@ -2,7 +2,7 @@
 // 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
-// ---------------- My Solution -----------------
+// ------------------ My Solution -------------------
 
 function maximum(a, b) {
     if (a > b) {
@@ -133,7 +133,7 @@ function fizzBuzz(input) {
 
 // console.log(showNumbers(1));
 
-// ------------------ My solution -------------------
+// ------------------- My solution --------------------
 
 // function showNumbers(limit) {
 //     if (limit % 2 === 0)
