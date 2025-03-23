@@ -57,7 +57,7 @@ function isLandScaped(width, height) {
 // Not divisible by 3 or 5 => input
 
 
-// ------------------ My soluition ------------------
+// ------------------- My soluition -------------------
 
 
 // function fizzBuzz(input) {
@@ -109,7 +109,7 @@ function fizzBuzz(input) {
 //     }
 // }
 
-// ---------------------- M solution
+// ----------------------- M solution
 
 // checkSpeed(187);
 // function checkSpeed(speed) {
