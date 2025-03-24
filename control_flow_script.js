@@ -29,7 +29,7 @@
 // } else {
 //     console.log("Good evening");
 
-// ----------------- Switch Case statement ----------------- 
+// ------------------- Switch Case statement ------------------- 
 
 let role;
 
@@ -77,7 +77,7 @@ let role;
 //     i++;
 // }
 
-// -------------- Do while loop -------------------
+// ---------------- Do while loop ---------------------
 
 // let i = 0;
 // do {
