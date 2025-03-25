@@ -2,7 +2,7 @@
 // 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
-// ------------------- My Solution --------------------
+// -------------------- My Solution ----------------------
 
 function maximum(a, b) {
     if (a > b) {
@@ -57,7 +57,7 @@ function isLandScaped(width, height) {
 // Not divisible by 3 or 5 => input
 
 
-// ------------------- My soluition -------------------
+// -------------------- My soluition --------------------
 
 
 // function fizzBuzz(input) {
@@ -168,9 +168,9 @@ function showNumbers(limit) {
 // false
 // 0
 // NaN
-// This one is new for me so there is no solution from my side
+// This one is new for me, so there is no solution from my side
 
-// ------------------- my solution ---------------------
+// ------------------- My solution ----------------------
 
 const array = [0, null, undefined, 1,  2, 3];
 
