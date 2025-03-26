@@ -2,8 +2,7 @@
 // 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
-// -------------------- My Solution ----------------------
-
+// ---------------------- My Solution -----------------------
 function maximum(a, b) {
     if (a > b) {
         console.log(a , 'is greater number');
@@ -39,7 +38,7 @@ function isLandScape(width, height) {
 }
 // isLandScape(1, 12);
 
-// ------------------ M Solution
+// ------------------- M Solution
 
 function isLandScaped(width, height) {
     // return (width > height) ? true : false; 
@@ -57,7 +56,7 @@ function isLandScaped(width, height) {
 // Not divisible by 3 or 5 => input
 
 
-// -------------------- My soluition --------------------
+// --------------------- My soluition ---------------------
 
 
 // function fizzBuzz(input) {
@@ -94,7 +93,7 @@ function fizzBuzz(input) {
     return input;
 }
 
-// 3) CheckSpeed where the speed limit is 70kmph
+// 3) CheckSpeed where the speed limit is 70 kmph
 // Speed Limit = 70
 // drive over 5km  -> 1 point
 // Use Math.floor function for calculation
