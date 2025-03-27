@@ -1,4 +1,4 @@
-// ---------------------------------------------- JavaScript Exercise ------------------------------------------------------
+// ------------------------------------------------ JavaScript Exercise ------------------------------------------------------
 // 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
@@ -154,7 +154,7 @@ function showNumbers(limit) {
         }
 }
 
-// 5) contTruthy which takes an array and returns truthy values
+// 5) contTruthy, which takes an array and returns truthy values
 // truthy (truth) and falsely (false) elements
 // eg - const name = 'shreyash'; // is a truthy value
 // eg - const name = ''; // is a falsy value
@@ -204,7 +204,7 @@ function countTruthy(array) {
 // }
 
 
-// 7) Sum of multiple of 3 and 5
+// 7) Sum of multiples of 3 and 5
 
 // console.log(sum(9));
 
