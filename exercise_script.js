@@ -2,7 +2,7 @@
 // 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
-// ---------------------- My Solution -----------------------
+// ----------------------- My Solution ------------------------
 function maximum(a, b) {
     if (a > b) {
         console.log(a , 'is greater number');
@@ -281,7 +281,7 @@ function showStars(rows) {
 // whereas prime numbers are
 // 11 = 1, 11,
 // 12 = 1, 12
-// Prime numbers are whose factors are only 1 and itself
+// Prime numbers are those whose factors are only 1 and itself
 
 // ----------------- Imp always declares a variable name that has some
 // value or meaning for easy-to-understand and clean coding 
