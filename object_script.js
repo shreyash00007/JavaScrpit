@@ -1,4 +1,4 @@
-// -------------------- Introduction to Objects -----------------------
+// --------------------- Introduction to Objects -------------------------
 
 // Objects are a collection of key-value pairs
 // Object-Oriented Programming (OOP)
@@ -27,7 +27,7 @@
 // A function doesn't need any object and is independent,
 // While the method is a function linked with any object.
 
-// Factory functions are the functions which produce Object's
+// Factory functions are the functions that produce Object's
 
 function createCircle(radius) {
     return {
@@ -68,7 +68,7 @@ function createCircle(radius) {
 // With the Factory function we simply call a function and return a new object
 
 // In the constructor we use the " new " operator and instead of returning an object
-// We use this. keyword Also in naming convention we use the Pascal naming convention
+// We use this. keyword Also in naming convention, we use the Pascal naming convention
 
 // console.log(circle,circle.draw());
 
