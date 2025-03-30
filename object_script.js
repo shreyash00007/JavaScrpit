@@ -49,7 +49,7 @@ function createCircle(radius) {
 // Camel Notation : oneTwoThreeFour
 // Pascal Notation: OneTwoThreeFour
 
-// this is keyword in JavaScript
+// this is a keyword in JavaScript
 // which has reference to the object that is executing 
 // this piece of code
 
@@ -64,11 +64,11 @@ function createCircle(radius) {
 // const x = {}; empty object
 
 // Difference between Factory function and Constructor function
-// In the Factory function create an object and pass an argument
-// With the Factory function we simply call a function and return a new object
+// In the Factory function, create an object and pass an argument
+// With the Factory function, we simply call a function and return a new object
 
-// In the constructor we use the " new " operator and instead of returning an object
-// We use this. keyword Also in naming convention, we use the Pascal naming convention
+// In the constructor, we use the " new " operator and instead of returning an object
+// We use this. keyword Also, in naming convention, we use the Pascal naming convention
 
 // console.log(circle,circle.draw());
 
