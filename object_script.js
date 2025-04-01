@@ -100,7 +100,7 @@ function createCircle(radius) {
 // console.log(x);
 
 // ------------ Functions are Objects in JavaScript
-// Functions can used as objects in Js
+// Functions can be used as objects in JS
 
 function Circle(radius) {
     this.radius = radius;
@@ -164,7 +164,7 @@ function increase(obj) {
 increase(obj);
 // console.log(obj);
 
-// ------------- Enumerating Properties of a Object
+// ------------- Enumerating Properties of an Object
 // Properties of objects
 
 // const circle = {
@@ -208,7 +208,7 @@ increase(obj);
 // console.log(another);
 
 // -------------- Garbage Collection in JavaScript
-// In level languages we need to allocate memory to objects like c, C++
+// In level languages we need to allocate memory to objects like C, C++
 // In JavaScript we don't have this concept
 // We can easily create a new obj the memory is automatically allocated to the object
 // and also, deallocate it, In JavaScript we have a Garbage collector in JavaScript
