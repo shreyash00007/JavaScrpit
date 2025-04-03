@@ -45,7 +45,7 @@ function createCircle(radius) {
 // console.log(circle2, circle2.draw())
 
 
-// ------------ Constructor Function
+// --------------- Constructor Function
 // Camel Notation : oneTwoThreeFour
 // Pascal Notation: OneTwoThreeFour
 
@@ -73,7 +73,7 @@ function createCircle(radius) {
 // console.log(circle,circle.draw());
 
 
-//  ------------ Objects are Dyanamic -----------------
+//  ----------------- Objects are Dyanamic -----------------
 
 // eg :-
 // const circle = {
