@@ -210,7 +210,7 @@ increase(obj);
 // -------------- Garbage Collection in JavaScript
 // In level languages, we need to allocate memory to objects like C, C++
 // In JavaScript, we don't have this concept
-// We can easily create a new object the memory is automatically allocated to the object
+// We can easily create a new object, and the memory is automatically allocated to the object
 // and also, deallocate it. In JavaScript, we have a Garbage collector in JavaScript
 
 // let circle = {}
