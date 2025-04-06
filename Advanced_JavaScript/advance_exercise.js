@@ -62,7 +62,7 @@ function Stopwatch() {
 
 // Problem 2
 
-// Create two objects the first one as HtmlElement and the second one as
+// Create two objects, the first one as HtmlElement and the second one as
 // HtmlSelectElement with drop-down list
 
 
@@ -102,8 +102,8 @@ HtmlSelectElement.prototype.constructor = HtmlSelectElement;
 
 // Problem 3
 
-// Create an HTML Image element that inherits from HtmlElement so it can click focused
-// but it also, has its own render method
+// Create an HTML Image element that inherits from HtmlElement so it can click when focused
+// but it also has its own render method
 
 
 function HtmlSelectElement(items =[]) {
