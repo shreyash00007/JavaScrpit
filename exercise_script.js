@@ -224,7 +224,8 @@ function sum(limit) {
 // 8) Grade
 // Calculate the grade of the student
 
-// ------ IMP----- Single responsibility principle a
+// ------ IMP----- 
+// Single responsibility principle a
 // functions are small and focus on one thing
 const marks = [80, 80, 50];
 
