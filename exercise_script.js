@@ -2,7 +2,7 @@
 // 1) Write a function that takes two numbers and returns
 // the maximum of the two.
 
-// ----------------------- My Solution ------------------------
+// ----------------------- My Solution --------------------------
 function maximum(a, b) {
     if (a > b) {
         console.log(a , 'is greater number');
@@ -132,7 +132,7 @@ function fizzBuzz(input) {
 
 // console.log(showNumbers(1));
 
-// ------------------- My solution --------------------
+// ------------------- My solution -----------------------
 
 // function showNumbers(limit) {
 //     if (limit % 2 === 0)
@@ -224,7 +224,7 @@ function sum(limit) {
 // 8) Grade
 // Calculate the grade of the student
 
-// ------ IMP----- 
+// -------- IMP -------
 // Single responsibility principle a
 // functions are small and focus on one thing
 const marks = [80, 80, 50];
@@ -340,7 +340,7 @@ function showAddress(address) {
 // showAddress(address);
 
 // 2) Factory and Constructor functions in objects
-// Initialized and addressed object using first a factory function
+// Initialized and addressed the object using first a factory function
 // constructor function
 
 
