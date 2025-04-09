@@ -13,7 +13,7 @@ Shape.prototype.duplicate = function () {
 function Circle(radius, color) {
     // It will now work, You need to use the call function
     // Shape(color);
-    // Using constructor call 
+    // Using a constructor call 
     Shape.call(this, color);
     this.radius = radius;
 }
@@ -52,7 +52,7 @@ const sq = new Square(10);
 // console.log(c);
 // console.log(sq);
 
-// ------------------ Method Overriding ------------------
+// ------------------ Method Overriding --------------------
 function extend(Child, Parent) {
     Child.prototype = Object.create(Parent.prototype);
     Child.prototype.constructor = Child;
