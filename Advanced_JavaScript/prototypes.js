@@ -1,8 +1,8 @@
 // -------------------- Inheritance ---------------------
 
-// Inheritance of the core concept of opp that enables an object to takes on the properties and methods
-// of another object and this makes it easy to reuse code in different parts of an application
-// In inheritance you can inherit functional properties in an object
+// Inheritance of the core concept of OPP that enables an object to take on the properties and methods
+// of another object, and this makes it easy to reuse code in different parts of an application
+// In inheritance, you can inherit functional properties in an object
 // It is mostly used in objects and classes
 // It is also one of the most important pillars of Object-oriented programming
 
@@ -148,7 +148,7 @@ Student.prototype.scale = function () {
 
 // console.log(s1.hasOwnProperty('learn'));
 
-// -------------------- Avoid Extending the Build-in Objects -----------------
+// -------------------- Avoid Extending the Built-in Objects -----------------
 
 // Always avoid extending build-in objects 
 // The prototype function 
