@@ -2,10 +2,10 @@
 
 // What is OOP?
 // A programming paradigm centered around objects rather than functions.
-// It's a style of programming which centers around objects.
+// It's a style of programming that centers around objects.
 // Languages -- C#, Java, Ruby, Python, & JavaScript are oops languages
-// Before oops we had procedural programming that divided a program into functions
-// but as the programs grow ups choose and create spaghetti code interdependencies
+// Before oops, we had procedural programming that divided a program into functions
+// but as the programs grow, ups choose and create spaghetti code interdependencies
 
 
 // ------------ Four pillars of oops ------------------
@@ -19,7 +19,7 @@
 // ----------------- Objects -------------------
 
 // Basics of objects
-// An object in JavaScript is essential a collection of key-value pairs 
+// An object in JavaScript is essentially a collection of key-value pairs 
 
 const cirlce = {
     radius: 1,   // example of key-value 
@@ -36,7 +36,7 @@ const cirlce = {
 
 // ------------------- Factories -------------------
 
-// Two types of object-based functions in javaScript
+// Two types of object-based functions in JavaScript
 // Factory Function
 // constructor Function
 
