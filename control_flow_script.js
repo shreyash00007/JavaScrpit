@@ -52,7 +52,7 @@ let role;
 
 // -------------------------- Loops -------------------------------
 
-// Types of loops in Javascript
+// Types of loops in JavaScript
 
 // For
 // While
@@ -108,7 +108,7 @@ let role;
 // };
 
 // For (let key in person ) 
-// For in loop is used to iterate properties of the object in Js
+// For in loop is used to iterate properties of the object in JS
 // console.log(key, person[key]);
 
 // const colors = ['red', 'green', 'blue'];
