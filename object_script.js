@@ -60,7 +60,8 @@ function createCircle(radius) {
 //     }
 // }
 
-// const circle = new Circle(1); // the new keyword creates a empty object
+// const circle = new Circle(1); 
+// The new keyword creates an empty object
 // const x = {}; empty object
 
 // Difference between Factory function and Constructor function
