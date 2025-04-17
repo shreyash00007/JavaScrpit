@@ -57,7 +57,7 @@ const circles = createCirle(1);
 
 // ---------------- Constructor Function -------------------
 
-// this keyword is the to set properties of the object
+// this keyword is used to set properties of the object
 
 function Circle(radius) {
     // console.log('this', this)
@@ -79,7 +79,7 @@ new String(); // '',"",``
 new Boolean(); // true, false
 new Number(); // 1, 2, 3, ....
 
-// ------------------ Functions are objects in javascript
+// ------------------ Functions are objects in JavaScript
 
 // in the browser console
 
