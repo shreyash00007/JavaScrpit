@@ -47,7 +47,7 @@
 // x = x + 1;
 // console.log(x);
 
-// but If we want to add different number
+// but if we want to add a different number
 
 // x = x + 3;
 // x += 3; 
@@ -180,12 +180,12 @@
 // let message =
 //     (myPermisson & readPermission) ? 'yes' : 'no';
 
-// console.log(message); // yes, but if we remove the read permission we get no
+// console.log(message); // yes, but if we remove the read permission, we get no
 
 // ----------------- Operators Precedence -----------------
 
 // let x = 2 + 3 * 4;  
-// Here  multiplications have more precedence than addition
+// Here,  multiplications have more precedence than addition
 // let x = (2 + 3) * 4; 
 // If you use brackets you can make that expression first to execute
 
