@@ -36,7 +36,7 @@
 // --------- Decrement operator (--) by -1
 
 // console.log(y--);
-// console.log(--y); //If we apply the operator first it will show the value: eg 20 - 1 = 19
+// console.log(--y); //If we apply the operator first, it will show the value: eg, 20 - 1 = 19
 // console.log(y);
 
 // ------------------- Assignment Operators ---------------------------------
@@ -87,7 +87,7 @@
 
 // If a customer has more than 100 points,
 // They are 'gold' customer, otherwise,
-// They are 'silver' customer.
+// They are a 'silver' customer.
 
 // let points = 90;
 
@@ -187,7 +187,7 @@
 // let x = 2 + 3 * 4;  
 // Here,  multiplications have more precedence than addition
 // let x = (2 + 3) * 4; 
-// If you use brackets you can make that expression first to execute
+// If you use brackets, you can make that expression first to execute
 
 // console.log(x);
 
@@ -198,7 +198,7 @@ let b = 'blue';
 
 // let c = a;  // my solution
 // a = b;
-// c = b; // mistake assigned c to b it should be b to c
+// c = b; // mistake assigned c to b, it should be b to c
 
 let c = a;  // my solution
 a = b;
