@@ -1,9 +1,9 @@
 //  -------------------------------  Operators in JavaScript ------------------------------------------ 
 
-// In JavaScript we have different kinds of operators,
+// In JavaScript, we have different kinds of operators,
 // Operators are used to assign values, compare values, and perform arithmetic operations...
 // We use operators along with our variables and constants to create expressions
-// And with these expressions we can implement logic and algorithms
+// And with these expressions, we can implement logic and algorithms
 
 // Types of operators in JavaScript
 
@@ -180,7 +180,8 @@
 // let message =
 //     (myPermisson & readPermission) ? 'yes' : 'no';
 
-// console.log(message); // yes, but if we remove the read permission, we get no
+// console.log(message); 
+// yes, but if we remove the read permission, we get no
 
 // ----------------- Operators Precedence -----------------
 
