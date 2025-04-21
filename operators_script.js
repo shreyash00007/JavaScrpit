@@ -1,7 +1,7 @@
 //  -------------------------------  Operators in JavaScript ------------------------------------------ 
 
 // In JavaScript, we have different kinds of operators,
-// Operators are used to assign values, compare values, and perform arithmetic operations...
+// Operators are used to assign values, compare values, and perform arithmetic operations
 // We use operators along with our variables and constants to create expressions
 // And with these expressions, we can implement logic and algorithms
 
