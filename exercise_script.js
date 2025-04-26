@@ -283,7 +283,7 @@ function showStars(rows) {
 // whereas prime numbers are
 // 11 = 1, 11,
 // 12 = 1, 12
-// Prime numbers are those whose factors are only 1 and itself
+// Prime numbers are those whose factors are only 1 and itself and themselves
 
 // ----------------- Imp always declares a variable name that has some
 // value or meaning for easy-to-understand and clean coding 
@@ -410,7 +410,7 @@ function areSame(address1, address2) {
 // console.log(areSame(address1, address2));
 
 // -------------- Blog Post
-// 4) Create a BLoh Post object
+// 4) Create a Blog Post object
 // title
 // body
 // author
