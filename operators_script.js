@@ -8,7 +8,6 @@
 // Types of operators in JavaScript
 
 // Arithmetic
-
 // Assignment
 // Comparison
 // Logical
@@ -16,7 +15,7 @@
 
 // --------------------------- Artihmetic Operators ---------------------------------
 
-// Arithmetic operators are used for calculations as we do in Mathematics
+// Arithmetic operators are used for calculations, as we do in Mathematics
 
 // let x = 10;
 // let y = 20;
