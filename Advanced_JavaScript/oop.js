@@ -3,7 +3,7 @@
 // What is OOP?
 // A programming paradigm centered around objects rather than functions.
 // It's a style of programming that centers around objects.
-// Languages -- C#, Java, Ruby, Python, & JavaScript are oops languages
+// Languages like -- C#, Java, Ruby, Python, & JavaScript are oops languages
 // Before oops, we had procedural programming that divided a program into functions
 // but as the programs grow, ups choose and create spaghetti code interdependencies
 
@@ -129,7 +129,7 @@ x.value = 20;
 
 // Primitives are copied by their value
 // like you can see down their numbers, the initial value was 10
-// After the increase function we just 
+// After the increase function, we just 
 // used the value in the form of a variable.
 // and it got the output as 11
 
@@ -154,7 +154,7 @@ addUp(obj);
 
 // --------------------------- Adding or Removing Properties
 
-// Adding or removing properties is very important for example
+// Adding or removing properties is very important, for example
 // If you had any function where you need to add or remove stuff or any imp data
 // This can help a lot
 
@@ -168,7 +168,7 @@ function Circlex(radius) {
 // adding property
 // By using a new keyword you create an empty object 
 // which you can add elements or remove from it
-// adding new data in an object is important you can use this type
+// adding new data in an object is important, you can use this type
 // to update or add data or function to an object
 const circle = new Circle(10);
 
