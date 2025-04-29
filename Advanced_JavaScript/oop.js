@@ -166,10 +166,10 @@ function Circlex(radius) {
 }
 
 // adding property
-// By using a new keyword you create an empty object 
-// which you can add elements or remove from it
+// By using a new keyword, you create an empty object 
+// which you can add elements to or remove from it
 // adding new data in an object is important, you can use this type
-// to update or add data or function to an object
+// to update or add data or a function to an object
 const circle = new Circle(10);
 
 circle.location = { s: 1 };
@@ -239,7 +239,6 @@ function Dosa(tava) {
         let x, y;
         console.log("Masale Darrr..");
     };
-
 }
 
 const dosa = new Dosa(50);
@@ -266,4 +265,3 @@ function Doit(task) {
 
 const doit = new Doit(100);
 // doit.point();
-
