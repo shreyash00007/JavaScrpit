@@ -165,7 +165,7 @@ function Circlex(radius) {
     }
 }
 
-// adding property
+// Adding property
 // By using a new keyword, you create an empty object 
 // which you can add elements to or remove from it
 // adding new data in an object is important, you can use this type
@@ -174,7 +174,7 @@ const circle = new Circle(10);
 
 circle.location = { s: 1 };
 
-// removing property
+// Removing property
 // delete keyword to delete the data from the object
 // delete circle['location'];
 delete circle.location;
