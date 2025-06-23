@@ -1,6 +1,6 @@
-# JavaScrpit
+# JavaScript
 
-Fundamentals of JavaScirpt -
+Fundamentals of JavaScript -
 
 [Basic Syantx](./basic_script.js)
 
@@ -16,7 +16,7 @@ Fundamentals of JavaScirpt -
 
 [Functions Js](./functions_script.js)
 
-Advance JavaScript -
+Advanced JavaScript -
 
 [OOP JS](./Advanced_JavaScript/oop.js)
 
@@ -25,3 +25,5 @@ Advance JavaScript -
 [ES6 Classes](./Advanced_JavaScript/ES6_Classes.js)
 
 [Tooling](./Advanced_JavaScript/tooling.js)
+
+[Prototypical Inheritance](./Advanced_JavaScript/prototypical_inheritance.js)
